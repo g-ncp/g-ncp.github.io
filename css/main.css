@@ -1893,7 +1893,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49e585;
+  background: #ac7e38;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2681,7 +2681,7 @@ hr {
   background: url("https://user-images.githubusercontent.com/49864898/78431472-bbc3aa80-76a7-11ea-8334-f2ed59130d0e.png");
 }
 .header-inner {
-  padding: 25px 0 20px;
+  padding: 250px 0 200px;
 }
 .header-inner:before,
 .header-inner:after {
