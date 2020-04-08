@@ -1,110 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>robomaster备赛准备（持续更新）</title>
-    <url>/2020/04/08/beisai/</url>
-    <content><![CDATA[<blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周 </span><br></pre></td></tr></table></figure>
-</blockquote>
-<h1 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h1><h2 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h2><h2 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h2><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
-<h2 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h2><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
-<p> 3/22 ——昨天已经有人把图片发给我了，完成的不错</p>
-<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续做（最好3/29号前完成，完成后给我拍张照片就行）。</p>
-<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。</p>
-<p>​    </p>
-<h1 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h1><h2 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h2><h2 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h2><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
-<h2 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h2><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
-<h1 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h1><h2 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h2><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
-<h2 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h2><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
-<h1 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h1><h2 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h2><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
-<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
-<p><img src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
-<h2 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h2><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
-<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
-<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
-<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
-<blockquote>
-<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">组别/成员</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">电控</td>
-<td>陈峻琦</td>
-<td>刘宏源</td>
-<td>杨中凯</td>
-<td>宋博</td>
-<td>何明亮</td>
-<td>张炎</td>
-<td>胡展滔</td>
-<td>赵豪杰</td>
-<td>任一飞</td>
-<td>9人</td>
-</tr>
-<tr>
-<td align="center">机械</td>
-<td>杨毅</td>
-<td>蒋庚珊</td>
-<td>臧奕博</td>
-<td>赵彦博</td>
-<td>魏世娜</td>
-<td>刘友睿</td>
-<td>佟昕鹏</td>
-<td>郭润桐</td>
-<td></td>
-<td>8人</td>
-</tr>
-<tr>
-<td align="center">宣传</td>
-<td>王成玉</td>
-<td>郭蕊琪</td>
-<td>植永海</td>
-<td>孙洋</td>
-<td>马雪琪</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>5人</td>
-</tr>
-<tr>
-<td align="center">视觉</td>
-<td>杨思远</td>
-<td>陈贤卓</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>2人</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>战队规划</category>
-      </categories>
-      <tags>
-        <tag>准备RM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>git加hexo博客</title>
     <url>/2020/04/08/boke/</url>
     <content><![CDATA[<h2 id="搭建自己的博客（一）"><a href="#搭建自己的博客（一）" class="headerlink" title="搭建自己的博客（一）"></a>搭建自己的博客（一）</h2><h3 id="前序："><a href="#前序：" class="headerlink" title="前序："></a><strong>前序：</strong></h3><p>折腾了几天，搞出了<strong>git</strong>加<strong>hexo</strong>的博客（带有评论功能），再次记录一下此次搭建的过程。先看看成品：</p>
@@ -173,6 +69,114 @@
       </categories>
       <tags>
         <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>robomaster备赛准备（持续更新）</title>
+    <url>/2020/04/08/beisai/</url>
+    <content><![CDATA[<blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周 </span><br></pre></td></tr></table></figure>
+</blockquote>
+<h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
+<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a></p>
+<h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
+<h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
+<p> 3/22 ——昨天已经有人把图片发给我了，完成的不错</p>
+<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续做（最好3/29号前完成，完成后给我拍张照片就行）。</p>
+<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
+<h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
+<h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
+<h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
+<h2 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h2><h3 id="第三周：-2"><a href="#第三周：-2" class="headerlink" title="第三周："></a>第三周：</h3><p>本周电控组任务按键实验</p>
+<h3 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h3><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
+<h3 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h3><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
+<h2 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h2><h3 id="第三周：-3"><a href="#第三周：-3" class="headerlink" title="第三周："></a>第三周：</h3><p>宣传：   继续推别的组    推自己组学习心得也行。    ps自学，不要求发图片了。（不同操作适用于不同图片，强制收图片意义不大。）    </p>
+<h3 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h3><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
+<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
+<p><img src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
+<p><img src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
+<h3 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h3><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
+<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
+<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
+<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
+<blockquote>
+<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">组别/成员</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">电控</td>
+<td>陈峻琦</td>
+<td>刘宏源</td>
+<td>杨中凯</td>
+<td>宋博</td>
+<td>何明亮</td>
+<td>张炎</td>
+<td>胡展滔</td>
+<td>赵豪杰</td>
+<td>任一飞</td>
+<td>9人</td>
+</tr>
+<tr>
+<td align="center">机械</td>
+<td>杨毅</td>
+<td>蒋庚珊</td>
+<td>臧奕博</td>
+<td>魏世娜</td>
+<td>刘友睿</td>
+<td>郭润桐</td>
+<td>佟昕鹏</td>
+<td></td>
+<td></td>
+<td>7人</td>
+</tr>
+<tr>
+<td align="center">宣传</td>
+<td>王成玉</td>
+<td>郭蕊琪</td>
+<td>植永海</td>
+<td>孙洋</td>
+<td>马雪琪</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>5人</td>
+</tr>
+<tr>
+<td align="center">视觉</td>
+<td>杨思远</td>
+<td>陈贤卓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2人</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>战队规划</category>
+      </categories>
+      <tags>
+        <tag>准备RM</tag>
       </tags>
   </entry>
   <entry>
