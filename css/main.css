@@ -1194,7 +1194,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #d60e32;
+  background: #5d5708;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2186,8 +2186,8 @@ body {
   background: url("https://user-images.githubusercontent.com/49864898/78777126-93032400-79cb-11ea-8d60-9f548c0d095c.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 100% 100%;
-  opacity: 0.9;
+  background-position: 50% 50%;
+  opacity: 0.7;
 }
 .header {
   margin: 0 auto;
