@@ -1219,7 +1219,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6c59ff;
+  background: #ffffec;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2243,7 +2243,7 @@ ul.breadcrumb li + li:last-child {
   color: var(--link-hover-color) !important;
 }
 body {
-  background: url("https://source.unsplash.com/random/1600x900");
+  background: url("https://api.ixiaowai.cn/mcapi/mcapi.php");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
