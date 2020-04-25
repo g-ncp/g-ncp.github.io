@@ -1219,7 +1219,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #fff929;
+  background: #6c59ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2243,7 +2243,7 @@ ul.breadcrumb li + li:last-child {
   color: var(--link-hover-color) !important;
 }
 body {
-  background: url("https://user-images.githubusercontent.com/49864898/78777126-93032400-79cb-11ea-8d60-9f548c0d095c.jpg");
+  background: url("https://source.unsplash.com/random/1600x900");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
