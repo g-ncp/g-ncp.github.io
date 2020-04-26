@@ -8,11 +8,11 @@
 <h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>使用 solidworks画出一个三棱锥 并用<strong>Cura</strong> 将其转化为 打印机识别文件。</p>
 <p>长期任务：  <a href="https://bbs.robomaster.com/forum.php?mod=viewthread&tid=6979&extra=page%3D1" target="_blank" rel="noopener">开源汇总</a>    下载任意一类（除空中机器人）机械结构图纸，加以研究。</p>
 <h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
-<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a></p>
+<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a>          <a id="more"></a></p>
 <h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
 <h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
 <p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续。</p>
-<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  <a id="more"></a></p>
+<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
 <h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
 <h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
 <h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
@@ -115,7 +115,7 @@
     <url>/2020/04/08/boke/</url>
     <content><![CDATA[<h2 id="搭建自己的博客（一）"><a href="#搭建自己的博客（一）" class="headerlink" title="搭建自己的博客（一）"></a>搭建自己的博客（一）</h2><h3 id="前序："><a href="#前序：" class="headerlink" title="前序："></a><strong>前序：</strong></h3><p>折腾了几天，搞出了<strong>git</strong>加<strong>hexo</strong>的博客（带有评论功能），再次记录一下此次搭建的过程。先看看成品：</p>
 <p><a href="https://g-ncp.github.io">https://g-ncp.github.io</a>   （简约风）  推送一篇特制博文配合微信公众号的原文链接使用，可替代微信公众号留言功能，因为我们知道现在注册的公众号都没有留言功能。 （Windows10）  </p>
-<p><strong>工具：</strong>电脑   手机</p>
+<p><strong>工具：</strong>电脑   手机   <a id="more"></a></p>
 <p>既然是<strong>git</strong>加<strong>hexo</strong>,那么就先来看看<strong>git</strong>和<strong>hexo</strong>是什么。</p>
 <blockquote>
 <p>Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds(一个人)为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
@@ -123,8 +123,6 @@
 </blockquote>
 <p><a href="https://www.typora.io/#windows" target="_blank" rel="noopener">https://www.typora.io/#windows</a>  ←—— 这是我用的md编辑器（我直接贴的Windows下载界面），配合博客编辑使用，也可以自行下载。</p>
 <p>还有不推荐把软件都装在C盘，也不是太占C盘，就是如果需要重装系统的话，没有用注册表的话，到时候方便些，软件不用重新下载。</p>
-<a id="more"></a>
-
 <h3 id="安装git-："><a href="#安装git-：" class="headerlink" title="安装git ："></a>安装git ：</h3><p>首先在电脑上安装git，这里给出官方下载链接,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>      注意与自己的操作系统匹配。 </p>
 <p><img src="https://user-images.githubusercontent.com/49864898/75775522-1d34e880-5d8d-11ea-9df5-486466e84b0f.png" alt=""></p>
 <p> 双击安装包</p>
@@ -185,13 +183,13 @@
   </entry>
   <entry>
     <title>matlab</title>
-    <url>/2020/04/24/matlab/</url>
-    <content><![CDATA[<h2 id="matlab笔记"><a href="#matlab笔记" class="headerlink" title="matlab笔记"></a><strong>matlab笔记</strong></h2><h3 id="matlab的数据操作——变量和语句"><a href="#matlab的数据操作——变量和语句" class="headerlink" title="matlab的数据操作——变量和语句"></a>matlab的数据操作——变量和语句</h3><p>1、变量命名</p>
+    <url>/2020/04/26/matlab/</url>
+    <content><![CDATA[<h1 id="matlab笔记"><a href="#matlab笔记" class="headerlink" title="matlab笔记"></a><strong>matlab笔记</strong></h1><h3 id="matlab的数据操作——变量和语句"><a href="#matlab的数据操作——变量和语句" class="headerlink" title="matlab的数据操作——变量和语句"></a>matlab的数据操作——变量和语句</h3><p>1、变量命名</p>
 <p>字母开头，包括字母、数字、下划线，区分大小写</p>
 <p>不声明，不定义，拿来即用。</p>
 <p>2、语句</p>
 <p>回车则表示一句结束，末尾无分号，则输出该句执行的结果，有分号只执行不输出。</p>
-<p>注释以%开头表示</p>
+<p>注释以%开头表示       <a id="more"></a></p>
 <p>一行写不开，用……（英文输入法）续写，否则默认这一句已经完毕。</p>
 <p>3、赋值</p>
 <p>变量=表达式</p>
@@ -215,5 +213,22 @@
 
 <p>输出= 函数（输入变量）</p>
 ]]></content>
+      <categories>
+        <category>matlab</category>
+      </categories>
+      <tags>
+        <tag>matlab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线性规划</title>
+    <url>/2020/04/26/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>建模教材</category>
+      </categories>
+      <tags>
+        <tag>matlab</tag>
+      </tags>
   </entry>
 </search>
