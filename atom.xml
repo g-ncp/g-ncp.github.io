@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://g-ncp.github.io/"/>
-  <updated>2020-04-26T07:37:56.260Z</updated>
+  <updated>2020-04-27T07:29:04.899Z</updated>
   <id>https://g-ncp.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown使用</title>
+    <link href="https://g-ncp.github.io/2020/04/27/markdown/"/>
+    <id>https://g-ncp.github.io/2020/04/27/markdown/</id>
+    <published>2020-04-27T07:23:23.000Z</published>
+    <updated>2020-04-27T07:29:04.899Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/jyfu2_12/article/details/79207643?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6" target="_blank" rel="noopener">markdown数学公式</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/jyfu2_12/article/details/79207643?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFrom
+      
+    
+    </summary>
+    
+    
+      <category term="markdown" scheme="https://g-ncp.github.io/categories/markdown/"/>
+    
+    
+      <category term="markdown" scheme="https://g-ncp.github.io/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>matlab</title>
