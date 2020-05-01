@@ -233,7 +233,7 @@
       </tags>
   </entry>
   <entry>
-    <title>xiaochengxu</title>
+    <title>微信小程序开发</title>
     <url>/2020/04/30/xiaochengxu/</url>
     <content><![CDATA[<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="应用程序结构"><a href="#应用程序结构" class="headerlink" title="应用程序结构"></a>应用程序结构</h2><p>APP-→{page 1-→{组件 1……内置组件</p>
 <p>​            {page         {组件……自定义组件</p>
