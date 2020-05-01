@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>markdown使用</title>
-    <url>/2020/04/27/markdown/</url>
-    <content><![CDATA[<p><a href="https://blog.csdn.net/jyfu2_12/article/details/79207643?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6" target="_blank" rel="noopener">markdown数学公式</a></p>
-]]></content>
-      <categories>
-        <category>markdown</category>
-      </categories>
-      <tags>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>xiaochengxu</title>
-    <url>/2020/04/30/xiaochengxu/</url>
-    <content><![CDATA[<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="应用程序结构"><a href="#应用程序结构" class="headerlink" title="应用程序结构"></a>应用程序结构</h2><p>APP-→{page 1-→{组件 1……内置组件</p>
-<p>​            {page         {组件……自定义组件</p>
-<p>文件结构 {APP  { app.js  实例代码    全局相关内容</p>
-<pre><code>{app.json   全局的配置
-
-{app.wxss 全局的一些样式配置</code></pre><p>​                {page {page.js   c创建页面实例代码</p>
-<p>​                           {page.json   业务的单独配置 </p>
-<p>​                            {page.wxml   页面的wxml配置</p>
-<p>​                            {page.wxss  页面的样式配置     我理解为solid works的渲染</p>
-<p>新建page页面 排列以建立顺序排列  ，第一个建立的优先显示  ，之后的页面可以被其索引，</p>
-<p>初体验： 小程序的数据绑定        .wxml  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt; 内容 &lt;&#x2F;view&gt;    or   &lt;view&gt;年龄&#123;&#123;age&#125;&#125;&lt;view&gt;   &#x2F;&#x2F;抽取 .js的内容</span><br></pre></td></tr></table></figure>
-
-<p>​         .js  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">page(&#123;</span><br><span class="line">date: &#123;</span><br><span class="line">age: 18</span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<p>​                小程序展示列表  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view wx:for&#x3D;&quot;&#123;&#123;数组名&#125;&#125;&quot;&gt;&#123;&#123;item&#125;&#125;&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure>
-
-<p>​                时间监听</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt;当前计数：&#123;&#123;&#125;&#125;&lt;&#x2F;view&gt;</span><br><span class="line"></span><br><span class="line">&lt;button&gt;&lt;&#x2F;button&gt;         &#x2F;&#x2F;这里偶然发现一个东西，md语法里   &lt;button&gt;按钮名称自定义&lt;&#x2F;button&gt;会生                           &#x2F;&#x2F;成一个按钮，当然在小程序里也会生成一个按钮</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p> 这里实现了之前我一直想在博客里实现的功能，即在博客里点击一个按钮，可以下载东西 （就是模仿一些网盘会有那个下载的按钮） </p>
-<p>eg:点击访问我的博客  <strong><a href="https://g-ncp.github.io"><button>秦岭以北</button></a></strong>  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   注：  **** 加粗</span><br><span class="line">							                        	[]() 添加链接</span><br><span class="line">							                  &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>小程序开发</category>
-      </categories>
-      <tags>
-        <tag>微信小程序</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>robomaster备赛准备（停止更新）</title>
     <url>/2020/04/08/beisai/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
@@ -233,6 +182,18 @@
       </tags>
   </entry>
   <entry>
+    <title>markdown使用</title>
+    <url>/2020/04/27/markdown/</url>
+    <content><![CDATA[<p><a href="https://blog.csdn.net/jyfu2_12/article/details/79207643?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6" target="_blank" rel="noopener">markdown数学公式</a></p>
+]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>matlab</title>
     <url>/2020/04/26/matlab/</url>
     <content><![CDATA[<h1 id="matlab笔记"><a href="#matlab笔记" class="headerlink" title="matlab笔记"></a><strong>matlab笔记</strong></h1><h3 id="matlab的数据操作——变量和语句"><a href="#matlab的数据操作——变量和语句" class="headerlink" title="matlab的数据操作——变量和语句"></a>matlab的数据操作——变量和语句</h3><p>1、变量命名</p>
@@ -269,6 +230,45 @@
       </categories>
       <tags>
         <tag>matlab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>xiaochengxu</title>
+    <url>/2020/04/30/xiaochengxu/</url>
+    <content><![CDATA[<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="应用程序结构"><a href="#应用程序结构" class="headerlink" title="应用程序结构"></a>应用程序结构</h2><p>APP-→{page 1-→{组件 1……内置组件</p>
+<p>​            {page         {组件……自定义组件</p>
+<p>文件结构 {APP  { app.js  实例代码    全局相关内容</p>
+<pre><code>{app.json   全局的配置
+
+{app.wxss 全局的一些样式配置</code></pre><p>​                {page {page.js   c创建页面实例代码</p>
+<p>​                           {page.json   业务的单独配置 </p>
+<p>​                            {page.wxml   页面的wxml配置</p>
+<p>​                            {page.wxss  页面的样式配置     我理解为solid works的渲染      <a id="more"></a></p>
+<p>新建page页面 排列以建立顺序排列  ，第一个建立的优先显示  ，之后的页面可以被其索引，</p>
+<p>初体验： 小程序的数据绑定        .wxml  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt; 内容 &lt;&#x2F;view&gt;    or   &lt;view&gt;年龄&#123;&#123;age&#125;&#125;&lt;view&gt;   &#x2F;&#x2F;抽取 .js的内容</span><br></pre></td></tr></table></figure>
+
+<p>​         .js  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">page(&#123;</span><br><span class="line">date: &#123;</span><br><span class="line">age: 18</span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>​                小程序展示列表  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view wx:for&#x3D;&quot;&#123;&#123;数组名&#125;&#125;&quot;&gt;&#123;&#123;item&#125;&#125;&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure>
+
+<p>​                时间监听</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt;当前计数：&#123;&#123;&#125;&#125;&lt;&#x2F;view&gt;</span><br><span class="line"></span><br><span class="line">&lt;button&gt;&lt;&#x2F;button&gt;         &#x2F;&#x2F;这里偶然发现一个东西，md语法里   &lt;button&gt;按钮名称自定义&lt;&#x2F;button&gt;会生                           &#x2F;&#x2F;成一个按钮，当然在小程序里也会生成一个按钮</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p> 这里实现了之前我一直想在博客里实现的功能，即在博客里点击一个按钮，可以下载东西 （就是模仿一些网盘会有那个下载的按钮） </p>
+<p>eg:点击访问我的博客  <strong><a href="https://g-ncp.github.io"><button>秦岭以北</button></a></strong>  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   </span><br><span class="line">注：  **** 加粗 []() 添加链接 &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>小程序开发</category>
+      </categories>
+      <tags>
+        <tag>微信小程序</tag>
       </tags>
   </entry>
 </search>
