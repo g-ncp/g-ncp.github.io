@@ -52,15 +52,17 @@
     <link href="https://g-ncp.github.io/2020/04/27/markdown/"/>
     <id>https://g-ncp.github.io/2020/04/27/markdown/</id>
     <published>2020-04-27T07:23:23.000Z</published>
-    <updated>2020-04-27T07:29:04.899Z</updated>
+    <updated>2020-05-01T13:37:52.700Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/jyfu2_12/article/details/79207643?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-6" target="_blank" rel="noopener">markdown数学公式</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Typora</p><p>我使用的md编辑器是Typora，目前只用过这一个。界面右键可以使用很多快捷操作 如：加粗、引用、图片、……</p><p>还有一些快捷键可以使用。总体来说还是可以的，我不是很懂md语法，也能用用。 如果没有特殊需求，不学（就学一点）语法就够用了，其他的在使用过程中，慢慢记忆。就像我在那篇微信小程序开发里提到的——按钮功能</p><p><a href="https://g-ncp.github.io/2020/04/30/xiaochengxu/"><button>微信小程序开发传送门</button>&gt;&lt;</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   </span><br><span class="line">注：  **** 加粗 []() 添加链接 &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/jyfu2_12/article/details/79207643?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFrom
+        &lt;p&gt;Typora&lt;/p&gt;
+&lt;p&gt;我使用的md编辑器是Typora，目前只用过这一个。界面右键可以使用很多快捷操作 如：加粗、引用、图片、……&lt;/p&gt;
+&lt;p&gt;还有一些快捷键可以使用。总体来说还是可以的，我不是很懂md语法，也能用用。 如果没有特殊需求，不学（就学一点）语法就够用了
       
     
     </summary>
