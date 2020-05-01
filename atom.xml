@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://g-ncp.github.io/"/>
-  <updated>2020-04-27T07:29:04.899Z</updated>
+  <updated>2020-05-01T00:53:33.696Z</updated>
   <id>https://g-ncp.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xiaochengxu</title>
+    <link href="https://g-ncp.github.io/2020/04/30/xiaochengxu/"/>
+    <id>https://g-ncp.github.io/2020/04/30/xiaochengxu/</id>
+    <published>2020-04-30T13:46:53.000Z</published>
+    <updated>2020-05-01T00:53:33.696Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="应用程序结构"><a href="#应用程序结构" class="headerlink" title="应用程序结构"></a>应用程序结构</h2><p>APP-→{page 1-→{组件 1……内置组件</p><p>​            {page         {组件……自定义组件</p><p>文件结构 {APP  { app.js  实例代码    全局相关内容</p><pre><code>{app.json   全局的配置{app.wxss 全局的一些样式配置</code></pre><p>​                {page {page.js   c创建页面实例代码</p><p>​                           {page.json   业务的单独配置 </p><p>​                            {page.wxml   页面的wxml配置</p><p>​                            {page.wxss  页面的样式配置     我理解为solid works的渲染</p><p>新建page页面 排列以建立顺序排列  ，第一个建立的优先显示  ，之后的页面可以被其索引，</p><p>初体验： 小程序的数据绑定        .wxml  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;view&gt; 内容 &lt;&#x2F;view&gt;    or   &lt;view&gt;年龄&#123;&#123;age&#125;&#125;&lt;view&gt;   &#x2F;&#x2F;抽取 .js的内容</span><br></pre></td></tr></table></figure><p>​         .js  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">page(&#123;</span><br><span class="line">date: &#123;</span><br><span class="line">age: 18</span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><p>​                小程序展示列表  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;view wx:for&#x3D;&quot;&#123;&#123;数组名&#125;&#125;&quot;&gt;&#123;&#123;item&#125;&#125;&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure><p>​                时间监听</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;view&gt;当前计数：&#123;&#123;&#125;&#125;&lt;&#x2F;view&gt;</span><br><span class="line"></span><br><span class="line">&lt;button&gt;&lt;&#x2F;button&gt;         &#x2F;&#x2F;这里偶然发现一个东西，md语法里   &lt;button&gt;按钮名称自定义&lt;&#x2F;button&gt;会生                           &#x2F;&#x2F;成一个按钮，当然在小程序里也会生成一个按钮</span><br></pre></td></tr></table></figure><blockquote><p> 这里实现了之前我一直想在博客里实现的功能，即在博客里点击一个按钮，可以下载东西 （就是模仿一些网盘会有那个下载的按钮） </p><p>eg:点击访问我的博客  <strong><a href="https://g-ncp.github.io"><button>秦岭以北</button></a></strong>  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   注：  **** 加粗</span><br><span class="line">                        []() 添加链接</span><br><span class="line">                  &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;微信小程序&quot;&gt;&lt;a href=&quot;#微信小程序&quot; class=&quot;headerlink&quot; title=&quot;微信小程序&quot;&gt;&lt;/a&gt;微信小程序&lt;/h1&gt;&lt;h2 id=&quot;应用程序结构&quot;&gt;&lt;a href=&quot;#应用程序结构&quot; class=&quot;headerlink&quot; title=&quot;应
+      
+    
+    </summary>
+    
+    
+      <category term="小程序开发" scheme="https://g-ncp.github.io/categories/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="微信小程序" scheme="https://g-ncp.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown使用</title>
