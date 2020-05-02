@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>git加hexo博客</title>
+    <url>/2020/04/08/boke/</url>
+    <content><![CDATA[<h2 id="搭建自己的博客（一）"><a href="#搭建自己的博客（一）" class="headerlink" title="搭建自己的博客（一）"></a>搭建自己的博客（一）</h2><h3 id="前序："><a href="#前序：" class="headerlink" title="前序："></a><strong>前序：</strong></h3><p>折腾了几天，搞出了<strong>git</strong>加<strong>hexo</strong>的博客（带有评论功能），再次记录一下此次搭建的过程。先看看成品：</p>
+<p><a href="https://g-ncp.github.io">https://g-ncp.github.io</a>   （简约风）  推送一篇特制博文配合微信公众号的原文链接使用，可替代微信公众号留言功能，因为我们知道现在注册的公众号都没有留言功能。 （Windows10）  </p>
+<p><strong>工具：</strong>电脑   手机   <a id="more"></a></p>
+<p>既然是<strong>git</strong>加<strong>hexo</strong>,那么就先来看看<strong>git</strong>和<strong>hexo</strong>是什么。</p>
+<blockquote>
+<p>Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds(一个人)为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown(可以编辑文本，我感觉挺好用的，博客就是用这个写的)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+</blockquote>
+<p><a href="https://www.typora.io/#windows" target="_blank" rel="noopener">https://www.typora.io/#windows</a>  ←—— 这是我用的md编辑器（我直接贴的Windows下载界面），配合博客编辑使用，也可以自行下载。</p>
+<p>还有不推荐把软件都装在C盘，也不是太占C盘，就是如果需要重装系统的话，没有用注册表的话，到时候方便些，软件不用重新下载。</p>
+<h3 id="安装git-："><a href="#安装git-：" class="headerlink" title="安装git ："></a>安装git ：</h3><p>首先在电脑上安装git，这里给出官方下载链接,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>      注意与自己的操作系统匹配。 </p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75775522-1d34e880-5d8d-11ea-9df5-486466e84b0f.png" alt=""></p>
+<p> 双击安装包</p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75775992-1195f180-5d8e-11ea-9d40-22b0291604af.png" alt="">  </p>
+<p>出现下图，一路默认配置就可以了，</p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75776069-35f1ce00-5d8e-11ea-91b2-05bd9cfae405.png" alt=""></p>
+<p>安装完成之后，在桌面右键可以看到Git GUI Here      Git Bash Here             </p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75777078-41de8f80-5d90-11ea-8875-0b85b9678d1f.png" alt=""></p>
+<p>连接本地与远程，需要 https协议或者ssh密钥。 我记得好像有三种协议，详情可以百度查看GitHub官网。      </p>
+<p>下面我们采用ssh密钥的连接方式，首先注册一个GitHub的账户，<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a>    </p>
+<p> <img src="https://user-images.githubusercontent.com/49864898/75778155-3e4c0800-5d92-11ea-94d7-5af5045c37c1.png" alt=""></p>
+<blockquote>
+<p><strong>注册完成后，使用git命令进行如下操作（即右键选择 Git Bash Here）</strong></p>
+</blockquote>
+<p>​    <img src="https://user-images.githubusercontent.com/49864898/75779661-f7abdd00-5d94-11ea-95c4-d116968bd65a.png" alt=""></p>
+<p><strong>1、设置用户名和邮箱</strong><br>在git命令行中对git进行全局设置， <strong>git config –global user.name “用户名”， git config –global user.email 邮箱“</strong>；</p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75780049-b36d0c80-5d95-11ea-8b1b-9e36b5d2e940.png" alt=""></p>
+<p><strong>2、生成SSH key</strong><br>在git命令行中，输入命令<strong>ssh-keygen -t rsa -C “邮箱地址”</strong>，连续按三个回车；然后根据返回的信息，找到.ssh目录下的两个文件（C盘目录下user文件夹下）；<br><strong>3、在github上添加SSH key</strong><br>在github上点击你的头像，下拉菜单中点击“<strong>setting</strong>”，找到添加SSH key的菜单，然后新增SSH key；把文件id_rsa.pub 里面的内容全部复制到 key编辑框中，标题随意填写，保存完毕；<br><strong>4、检查SSH key是否有效</strong><br>在git命令行输入：<strong>ssh -T <a href="mailto:git@github.com">git@github.com</a></strong>；这里会要求你输入SSH key密码，如果刚才生成SSH key时未输入密码，密码就为空；然后看到信息：<br> <strong>Hi 用户名! You’ve successfully authenticated</strong>；说明配置成功；<br>再次查看github密钥<br>登陆到github上查看刚刚输入的SSH key，现在图标的颜色变为绿色，说明密钥配置有效；到这步git已经安装完成。</p>
+<h3 id="安装node-js-和部署hexo"><a href="#安装node-js-和部署hexo" class="headerlink" title="安装node.js 和部署hexo"></a><strong>安装node.js 和部署hexo</strong></h3><blockquote>
+<p>Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。    (一样的不知所云😵)</p>
+</blockquote>
+<p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>     ←——  正经下载地址。</p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75840457-362db000-5e06-11ea-9f13-2a3bb6cbc570.png" alt=""></p>
+<p>然后默认配置 ，node.js完成。</p>
+<p>下面安装hexo ,这里就方便多了，在合适的位置新建一个文件夹，来存放hexo的文件， 我的文件路径 → D:\hexo </p>
+<p>在这个文件夹里鼠标右键，选择  <strong>git bash  here</strong>   在弹出的黑框里输入命令  <strong>npm install -g hexo-cli</strong>  回车  </p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75841824-a558d380-5e09-11ea-930a-1cc75c0be9ba.png" alt=""></p>
+<p>等待完成，再次输入命令 <strong>hexo init</strong>  回车并等待完成，这个时候我们有了下面这些文件夹，    </p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75843129-4301d200-5e0d-11ea-99be-1757541a223e.png" alt=""></p>
+<p>安装deploy-git部署命令  ：在命令行输入<strong>npm install hexo-deployer-git –save</strong></p>
+<p>熟悉hexo的命令 ：  可以参考<a href="https://www.cnblogs.com/wsmrzx/p/9439448.html" target="_blank" rel="noopener">https://www.cnblogs.com/wsmrzx/p/9439448.html</a>     </p>
+<p>下面是常用的命令：</p>
+<p><strong>hexo clean</strong>  命令用于清理缓存文件，是一个比较常用的命令</p>
+<p><strong>hexo g</strong>    命令用于生成静态文件 这是简写  全称是 <strong>hexo generate</strong>  不过没有必要，简称也是可以的</p>
+<p><strong>hexo s</strong>    命令用于启动本地服务器，同样是简称 。 </p>
+<p><strong>hexo d</strong>   用于部署网站</p>
+<p><strong>hexo new</strong>  新建博文 如 hexo new “教程”</p>
+<p>在命令行输入 hexo clean  回车 结束后 输入 hexo g 回车 结束后 输入 hexo s 回车   等待<del>~</del>  命令行出现网址 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>  之后 在浏览器输入这个网址，就可以访问你的博客了。   命令行CTRL + C 退出  。</p>
+<h3 id="选择一个主题"><a href="#选择一个主题" class="headerlink" title="选择一个主题"></a><strong>选择一个主题</strong></h3><p>可以发现你的博客很简洁（丑陋），在博客根目录中有 <strong>themes</strong> 文件夹（上图），为了方便添加评论系统，我选择了一个内置了Valine 评论系统的主题，在<a href="https://valine.js.org/hexo.html" target="_blank" rel="noopener">https://valine.js.org/hexo.html</a>    网站里收录了不少这样的主题，建议选择一个经常有人维护的项目。 我选择的是<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a>  添加主题的方法是进入<strong>themes</strong> 文件夹，（为了简便下面我不在说怎么使用 Git bash here 了 ） 命令行输入<strong>git clone <a href="https://github.com/theme-next/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next.git</a></strong> 回车，文件夹内出现 名hexo-theme-next 的文件夹，  回到博客根目录，用记事本或其他方便的应用打开<strong>_config.yml</strong>     找到<strong>theme</strong> 将后面的 landscape 改为 hexo-theme-next （你下载的主题名）  然后 hexo clean  +hexo g+ hexo d +hexo s    查看新主题。  </p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75846092-24540900-5e16-11ea-8b2d-2408805850b7.png" alt=""></p>
+<h3 id="关联github和hexo"><a href="#关联github和hexo" class="headerlink" title="关联github和hexo"></a><strong>关联github和hexo</strong></h3><p>登录GitHub账户（看不懂就网页翻译），新建一个仓库（点击头像左侧的加号，下拉菜单选择new repository）名字为 <strong>你的用户名加github.io</strong>     选用公共仓库，毕竟我们喜欢白嫖。 <strong>！</strong>下面图片少了一个步骤，<strong>Initialize this repository with a README前面的方框点上对号</strong>    </p>
+<p>  <img src="https://user-images.githubusercontent.com/49864898/75847405-0c7e8400-5e1a-11ea-9d24-59d40e24dbfc.png" alt=""></p>
+<p>为github选择一个主题： 进入仓库的 Settings  （参考路径h ttps://github.com/你的用户名/你的用户名.github.io/settings）  向下滑动 ，到GitHub Pages 选择 一个主题  随意选择</p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75849250-5f0e6f00-5e1f-11ea-9930-e3f23b3bba1e.png" alt=""></p>
+<p><img src="https://user-images.githubusercontent.com/49864898/75849322-8b29f000-5e1f-11ea-8dff-0750d76deed6.png" alt=""></p>
+<p>接着打开博客配置文件 <strong>_config.yml</strong>   找到 deploy    进行下面的配置（如图）  添上你的GitHub用户名</p>
+<p> <img src="https://user-images.githubusercontent.com/49864898/75850358-15735380-5e22-11ea-8df4-d396c0950fd9.png" alt=""></p>
+<p>在repository 后面添加库链接就可以了    有的教程是加  git@github.……     这是两种协议，使用ssh协议，将公钥放到GitHub上，私钥留在电脑里，每次push会自动对比公钥私钥，免密使用。</p>
+<p>我使用http协议是因为我遇到了一些问题</p>
+<p><strong>最后   hexo clean   hexo g    hexo d      三件套</strong>  浏览器访问https://用户名.github.io   .**</p>
+]]></content>
+      <categories>
+        <category>hexo github 博客</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>robomaster备赛准备（停止更新）</title>
     <url>/2020/04/08/beisai/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
@@ -111,77 +182,6 @@
       </tags>
   </entry>
   <entry>
-    <title>git加hexo博客</title>
-    <url>/2020/04/08/boke/</url>
-    <content><![CDATA[<h2 id="搭建自己的博客（一）"><a href="#搭建自己的博客（一）" class="headerlink" title="搭建自己的博客（一）"></a>搭建自己的博客（一）</h2><h3 id="前序："><a href="#前序：" class="headerlink" title="前序："></a><strong>前序：</strong></h3><p>折腾了几天，搞出了<strong>git</strong>加<strong>hexo</strong>的博客（带有评论功能），再次记录一下此次搭建的过程。先看看成品：</p>
-<p><a href="https://g-ncp.github.io">https://g-ncp.github.io</a>   （简约风）  推送一篇特制博文配合微信公众号的原文链接使用，可替代微信公众号留言功能，因为我们知道现在注册的公众号都没有留言功能。 （Windows10）  </p>
-<p><strong>工具：</strong>电脑   手机   <a id="more"></a></p>
-<p>既然是<strong>git</strong>加<strong>hexo</strong>,那么就先来看看<strong>git</strong>和<strong>hexo</strong>是什么。</p>
-<blockquote>
-<p>Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds(一个人)为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
-<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown(可以编辑文本，我感觉挺好用的，博客就是用这个写的)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-</blockquote>
-<p><a href="https://www.typora.io/#windows" target="_blank" rel="noopener">https://www.typora.io/#windows</a>  ←—— 这是我用的md编辑器（我直接贴的Windows下载界面），配合博客编辑使用，也可以自行下载。</p>
-<p>还有不推荐把软件都装在C盘，也不是太占C盘，就是如果需要重装系统的话，没有用注册表的话，到时候方便些，软件不用重新下载。</p>
-<h3 id="安装git-："><a href="#安装git-：" class="headerlink" title="安装git ："></a>安装git ：</h3><p>首先在电脑上安装git，这里给出官方下载链接,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>      注意与自己的操作系统匹配。 </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75775522-1d34e880-5d8d-11ea-9df5-486466e84b0f.png" alt=""></p>
-<p> 双击安装包</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75775992-1195f180-5d8e-11ea-9d40-22b0291604af.png" alt="">  </p>
-<p>出现下图，一路默认配置就可以了，</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75776069-35f1ce00-5d8e-11ea-91b2-05bd9cfae405.png" alt=""></p>
-<p>安装完成之后，在桌面右键可以看到Git GUI Here      Git Bash Here             </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75777078-41de8f80-5d90-11ea-8875-0b85b9678d1f.png" alt=""></p>
-<p>连接本地与远程，需要 https协议或者ssh密钥。 我记得好像有三种协议，详情可以百度查看GitHub官网。      </p>
-<p>下面我们采用ssh密钥的连接方式，首先注册一个GitHub的账户，<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a>    </p>
-<p> <img src="https://user-images.githubusercontent.com/49864898/75778155-3e4c0800-5d92-11ea-94d7-5af5045c37c1.png" alt=""></p>
-<blockquote>
-<p><strong>注册完成后，使用git命令进行如下操作（即右键选择 Git Bash Here）</strong></p>
-</blockquote>
-<p>​    <img src="https://user-images.githubusercontent.com/49864898/75779661-f7abdd00-5d94-11ea-95c4-d116968bd65a.png" alt=""></p>
-<p><strong>1、设置用户名和邮箱</strong><br>在git命令行中对git进行全局设置， <strong>git config –global user.name “用户名”， git config –global user.email 邮箱“</strong>；</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75780049-b36d0c80-5d95-11ea-8b1b-9e36b5d2e940.png" alt=""></p>
-<p><strong>2、生成SSH key</strong><br>在git命令行中，输入命令<strong>ssh-keygen -t rsa -C “邮箱地址”</strong>，连续按三个回车；然后根据返回的信息，找到.ssh目录下的两个文件（C盘目录下user文件夹下）；<br><strong>3、在github上添加SSH key</strong><br>在github上点击你的头像，下拉菜单中点击“<strong>setting</strong>”，找到添加SSH key的菜单，然后新增SSH key；把文件id_rsa.pub 里面的内容全部复制到 key编辑框中，标题随意填写，保存完毕；<br><strong>4、检查SSH key是否有效</strong><br>在git命令行输入：<strong>ssh -T <a href="mailto:git@github.com">git@github.com</a></strong>；这里会要求你输入SSH key密码，如果刚才生成SSH key时未输入密码，密码就为空；然后看到信息：<br> <strong>Hi 用户名! You’ve successfully authenticated</strong>；说明配置成功；<br>再次查看github密钥<br>登陆到github上查看刚刚输入的SSH key，现在图标的颜色变为绿色，说明密钥配置有效；到这步git已经安装完成。</p>
-<h3 id="安装node-js-和部署hexo"><a href="#安装node-js-和部署hexo" class="headerlink" title="安装node.js 和部署hexo"></a><strong>安装node.js 和部署hexo</strong></h3><blockquote>
-<p>Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。    (一样的不知所云😵)</p>
-</blockquote>
-<p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>     ←——  正经下载地址。</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75840457-362db000-5e06-11ea-9f13-2a3bb6cbc570.png" alt=""></p>
-<p>然后默认配置 ，node.js完成。</p>
-<p>下面安装hexo ,这里就方便多了，在合适的位置新建一个文件夹，来存放hexo的文件， 我的文件路径 → D:\hexo </p>
-<p>在这个文件夹里鼠标右键，选择  <strong>git bash  here</strong>   在弹出的黑框里输入命令  <strong>npm install -g hexo-cli</strong>  回车  </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75841824-a558d380-5e09-11ea-930a-1cc75c0be9ba.png" alt=""></p>
-<p>等待完成，再次输入命令 <strong>hexo init</strong>  回车并等待完成，这个时候我们有了下面这些文件夹，    </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75843129-4301d200-5e0d-11ea-99be-1757541a223e.png" alt=""></p>
-<p>安装deploy-git部署命令  ：在命令行输入<strong>npm install hexo-deployer-git –save</strong></p>
-<p>熟悉hexo的命令 ：  可以参考<a href="https://www.cnblogs.com/wsmrzx/p/9439448.html" target="_blank" rel="noopener">https://www.cnblogs.com/wsmrzx/p/9439448.html</a>     </p>
-<p>下面是常用的命令：</p>
-<p><strong>hexo clean</strong>  命令用于清理缓存文件，是一个比较常用的命令</p>
-<p><strong>hexo g</strong>    命令用于生成静态文件 这是简写  全称是 <strong>hexo generate</strong>  不过没有必要，简称也是可以的</p>
-<p><strong>hexo s</strong>    命令用于启动本地服务器，同样是简称 。 </p>
-<p><strong>hexo d</strong>   用于部署网站</p>
-<p><strong>hexo new</strong>  新建博文 如 hexo new “教程”</p>
-<p>在命令行输入 hexo clean  回车 结束后 输入 hexo g 回车 结束后 输入 hexo s 回车   等待<del>~</del>  命令行出现网址 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>  之后 在浏览器输入这个网址，就可以访问你的博客了。   命令行CTRL + C 退出  。</p>
-<h3 id="选择一个主题"><a href="#选择一个主题" class="headerlink" title="选择一个主题"></a><strong>选择一个主题</strong></h3><p>可以发现你的博客很简洁（丑陋），在博客根目录中有 <strong>themes</strong> 文件夹（上图），为了方便添加评论系统，我选择了一个内置了Valine 评论系统的主题，在<a href="https://valine.js.org/hexo.html" target="_blank" rel="noopener">https://valine.js.org/hexo.html</a>    网站里收录了不少这样的主题，建议选择一个经常有人维护的项目。 我选择的是<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a>  添加主题的方法是进入<strong>themes</strong> 文件夹，（为了简便下面我不在说怎么使用 Git bash here 了 ） 命令行输入<strong>git clone <a href="https://github.com/theme-next/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next.git</a></strong> 回车，文件夹内出现 名hexo-theme-next 的文件夹，  回到博客根目录，用记事本或其他方便的应用打开<strong>_config.yml</strong>     找到<strong>theme</strong> 将后面的 landscape 改为 hexo-theme-next （你下载的主题名）  然后 hexo clean  +hexo g+ hexo d +hexo s    查看新主题。  </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75846092-24540900-5e16-11ea-8b2d-2408805850b7.png" alt=""></p>
-<h3 id="关联github和hexo"><a href="#关联github和hexo" class="headerlink" title="关联github和hexo"></a><strong>关联github和hexo</strong></h3><p>登录GitHub账户（看不懂就网页翻译），新建一个仓库（点击头像左侧的加号，下拉菜单选择new repository）名字为 <strong>你的用户名加github.io</strong>     选用公共仓库，毕竟我们喜欢白嫖。 <strong>！</strong>下面图片少了一个步骤，<strong>Initialize this repository with a README前面的方框点上对号</strong>    </p>
-<p>  <img src="https://user-images.githubusercontent.com/49864898/75847405-0c7e8400-5e1a-11ea-9d24-59d40e24dbfc.png" alt=""></p>
-<p>为github选择一个主题： 进入仓库的 Settings  （参考路径h ttps://github.com/你的用户名/你的用户名.github.io/settings）  向下滑动 ，到GitHub Pages 选择 一个主题  随意选择</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75849250-5f0e6f00-5e1f-11ea-9930-e3f23b3bba1e.png" alt=""></p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75849322-8b29f000-5e1f-11ea-8dff-0750d76deed6.png" alt=""></p>
-<p>接着打开博客配置文件 <strong>_config.yml</strong>   找到 deploy    进行下面的配置（如图）  添上你的GitHub用户名</p>
-<p> <img src="https://user-images.githubusercontent.com/49864898/75850358-15735380-5e22-11ea-8df4-d396c0950fd9.png" alt=""></p>
-<p>在repository 后面添加库链接就可以了    有的教程是加  git@github.……     这是两种协议，使用ssh协议，将公钥放到GitHub上，私钥留在电脑里，每次push会自动对比公钥私钥，免密使用。</p>
-<p>我使用http协议是因为我遇到了一些问题</p>
-<p><strong>最后   hexo clean   hexo g    hexo d      三件套</strong>  浏览器访问https://用户名.github.io   .**</p>
-]]></content>
-      <categories>
-        <category>hexo github 博客</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>小程序基础——html和css</title>
     <url>/2020/05/02/html-css/</url>
     <content><![CDATA[]]></content>
@@ -200,6 +200,22 @@
 <p>还有一些快捷键可以使用。总体来说还是可以的，我不是很懂md语法，也能用用。 如果没有特殊需求，不学（就学一点）语法就够用了，其他的在使用过程中，慢慢记忆。就像我在那篇微信小程序开发里提到的——按钮功能</p>
 <p><a href="https://g-ncp.github.io/2020/04/30/xiaochengxu/"><button>微信小程序开发传送门</button>&gt;&lt;</a></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   </span><br><span class="line">注：  **** 加粗 []() 添加链接 &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>
+
+<p><font face="STCAIYUN" color=Blue size=5>markdown的字体、字体颜色和背景色：</font></p>
+<p>md的语法可以多层嵌套，就像之前介绍过的<button> 可以在里面添加 **** 四个星星表示加粗  </p>
+<p>下面展示一些字体  <font face="黑体">黑体字</font> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;font face&#x3D;&quot;黑体&quot;&gt;黑体字&lt;&#x2F;font&gt;  &#x2F;&#x2F;可以在里面嵌套加粗、斜线、……发挥想象</span><br></pre></td></tr></table></figure>
+
+<p><font face="微软雅黑">微软雅黑</font> <font face="STCAIYUN">华文彩云</font></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;font face&#x3D;&quot;微软雅黑&quot;&gt;微软雅黑&lt;&#x2F;font&gt;  &lt;font face&#x3D;&quot;STCAIYUN&quot;&gt;华文彩云&lt;&#x2F;font&gt;</span><br></pre></td></tr></table></figure>
+
+<p>字体颜色</p>
+<p><font color=red>红色</font> <font color=#008000>绿色</font> <font color=Blue>蓝色</font></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;font color&#x3D;red&gt;红色&lt;&#x2F;font&gt; &lt;font color&#x3D;#008000&gt;绿色&lt;&#x2F;font&gt; &lt;font color&#x3D;Blue&gt;蓝色&lt;&#x2F;font&gt;</span><br><span class="line"> &lt;table&gt;&lt;tr&gt;&lt;td bgcolor&#x3D;yellow&gt;&lt;font face&#x3D;&quot;黑体&quot; color&#x3D;green size&#x3D;5&gt;黑体，绿色，尺寸为5&lt;&#x2F;font&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;table&gt;</span><br></pre></td></tr></table></figure>
+
+<table><tr><td bgcolor=yellow><font face="黑体" color=green size=5>黑体，绿色，尺寸为5</font></td></tr></table>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">上面蓝色华文彩云的实现： &lt;font face&#x3D;&quot;STCAIYUN&quot; color&#x3D;Blue size&#x3D;5&gt;markdown的字体、字体颜色和背景色：&lt;&#x2F;font&gt;</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -373,8 +389,33 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">App(&#123;</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）</span><br><span class="line">   *&#x2F;后台存活两个小时</span><br><span class="line">  onLaunch: function () &#123;</span><br><span class="line">    wx.getUserInfo(&#123; &#x2F;&#x2F;调用微信授权  在小程序加载完之后进行</span><br><span class="line">      success: function(res)&#123;</span><br><span class="line">       &#x2F;&#x2F; console.log(res)  &#x2F;&#x2F;打印 res到界面 不加入</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序启动，或从后台进入前台显示，会触发 onShow</span><br><span class="line">   *&#x2F;</span><br><span class="line">  onShow: function (options) &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序从前台进入后台，会触发 onHide</span><br><span class="line">   *&#x2F;界面被隐藏时  </span><br><span class="line">  onHide: function () &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序发生脚本错误，或者 api 调用失败时，会触发 onError 并带上错误信息</span><br><span class="line">   *&#x2F;</span><br><span class="line">  onError: function (msg) &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>注：小程序预备知识 css   html  js   从入门到放弃……</p>
+<p>注：小程序预备知识 css   html  js   从入门到放弃…… 在</p>
 </blockquote>
+<h2 id="小程序组件"><a href="#小程序组件" class="headerlink" title="小程序组件"></a>小程序组件</h2><h3 id="text组件"><a href="#text组件" class="headerlink" title="text组件"></a>text组件</h3><p>基础使用： <text>显示文本，\n表示换行</text>    属性：1、selectable是否可以被选中（默认长按不可选中） </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text&gt;……&lt;&#x2F;text&gt;    &lt;text selectable&#x3D;&quot;&#123;&#123;true&#125;&#125;&quot;&gt;……&lt;&#x2F;text&gt;  or  &lt;text selectable&gt;……&lt;&#x2F;text&gt;</span><br></pre></td></tr></table></figure>
+
+<p>2、文本空格大小 space</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text space&#x3D;&quot;ensp&quot;&gt;半个中文字符大小\n&lt;&#x2F;text&gt;</span><br><span class="line">&lt;text space&#x3D;&quot;emsp&quot;&gt;一个中文字符大小\n&lt;&#x2F;text&gt;</span><br><span class="line">&lt;text space&#x3D;&quot;nbsp&quot;&gt;根据字体设置空格大小\n&lt;&#x2F;text&gt;</span><br></pre></td></tr></table></figure>
+
+<p>3、decode属性：是否解码文本</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text decode&gt;5 &gt; 3&lt;&#x2F;text&gt;  &#x2F;&#x2F;显示5&gt;3</span><br></pre></td></tr></table></figure>
+
+<h3 id="button组件"><a href="#button组件" class="headerlink" title="button组件"></a>button组件</h3><p>属性：1、size （按钮大小）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;button&gt;……&lt;&#x2F;button&gt;  &lt;button size&#x3D;&#39;mini&#39;&gt;&lt;&#x2F;button&gt;</span><br></pre></td></tr></table></figure>
+
+<p>2、type（按钮颜色）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;button type&#x3D;&#39;?&#39;&gt;&lt;&#x2F;button&gt;  ？：查找微信文档可以找到相应的数值 warn 红色 primary 绿色 default 白色默认</span><br></pre></td></tr></table></figure>
+
+<p>3、disabled(不可点击)  …………</p>
+<h3 id="view组件"><a href="#view组件" class="headerlink" title="view组件"></a>view组件</h3><p>view的基本使用  一个容器    <view></view>   视图组件，块级元素，独占一行   放文本、其他组件</p>
+<p>属性：hover—class 点击变换样式     hover-start-time=”300“  按住后多久出现点击状态   hover-stop-propagation=””  是否阻止祖先组件状态变化（案例在view嵌套时候）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--pages&#x2F;text&#x2F;text.wxml--&gt;</span><br><span class="line">&lt;view class&#x3D;&quot;box1&quot;</span><br><span class="line">hover-class&#x3D;&quot;fs&quot;</span><br><span class="line">hover-start-time&#x3D;&quot;300&quot;  &#x2F;&#x2F;时间</span><br><span class="line">&gt;</span><br><span class="line">点击变换背景颜色</span><br><span class="line">&lt;&#x2F;view&gt;</span><br><span class="line">&#x2F;* pages&#x2F;text&#x2F;text.wxss *&#x2F;</span><br><span class="line"></span><br><span class="line">.box1 &#123;</span><br><span class="line">background-color: black; &#x2F;&#x2F;背景颜色</span><br><span class="line">  &#125;</span><br><span class="line">.fs &#123;</span><br><span class="line">  background-color: blue;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="image组件"><a href="#image组件" class="headerlink" title="image组件"></a>image组件</h3><p>重点：1、可以写成单标签和双标签 单：<image/>  双 <image></image>  2、默认有大小 占据位置  3、行内块级元素  相对路径/绝对路径/链接       调取相册里的图片</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;image src&#x3D;&#39;&#x2F;……&#39;&gt;      &lt;image src&#x3D;&#39;http……&#39;&gt;   &#x2F;&#x2F;两种路径的调用</span><br><span class="line">&#x2F;*相册的调用</span><br><span class="line">image.js</span><br><span class="line">&#x2F;&#x2F; pages&#x2F;text&#x2F;text.js</span><br><span class="line">Page(&#123;</span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   *&#x2F;</span><br><span class="line">  data: &#123;</span><br><span class="line">imagePath: &#39;&#39;  &#x2F;&#x2F;属性   </span><br><span class="line">  &#125;,</span><br><span class="line">  handleChooseAlbum() &#123;  &#x2F;&#x2F;这里的hand……也只是一个名字而已，“自定义的函数名”</span><br><span class="line">    &#x2F;&#x2F;系统api，让用户在相册中选择图片（或者拍照）</span><br><span class="line"> wx.chooseImage(&#123;</span><br><span class="line">   complete: (res) &#x3D;&gt; &#123;</span><br><span class="line">    &#x2F;&#x2F; console.log(res)  打印res是在学习过程中参看res有助于理解的 实操中无用</span><br><span class="line">     &#x2F;&#x2F;取出图片路径</span><br><span class="line">     const path &#x3D; res.tempFilePaths[0]  &#x2F;&#x2F;这里是一个数组，我们知道微信可以不止一张图片 取出res的tempFilePaths  </span><br><span class="line">     &#x2F;&#x2F;设置imagePath</span><br><span class="line">     this.setData(&#123;   &#x2F;&#x2F;setDate赋值操作</span><br><span class="line">       imagePath: path  &#x2F;&#x2F;path 可以替换成别的名字，他只是在取出图片路径那步用来保存的变量</span><br><span class="line">     &#125;)</span><br><span class="line">   &#125;,</span><br><span class="line"></span><br><span class="line"> &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">image.json</span><br><span class="line">&lt;!--pages&#x2F;text&#x2F;text.wxml--&gt;</span><br><span class="line">&lt;view class&#x3D;&quot;box1&quot; &#x2F;&#x2F;颜色</span><br><span class="line">hover-class&#x3D;&quot;fs&quot;  &#x2F;&#x2F;点击后颜色，微信文档里有</span><br><span class="line">hover-start-time&#x3D;&quot;300&quot; &#x2F;&#x2F;按下到变化时间 毫秒 同上</span><br><span class="line">&gt;</span><br><span class="line">点击变换背景颜色  &#x2F;&#x2F;界面显示的文本，点击产生变化</span><br><span class="line">&lt;&#x2F;view&gt; </span><br><span class="line">&lt;button bindtap&#x3D;&quot;handleChooseAlbum&quot;&gt;选中图片&lt;&#x2F;button&gt;  &#x2F;&#x2F;按钮</span><br><span class="line">&lt;image src&#x3D;&quot;&#123;&#123;imagePath&#125;&#125;&quot;&#x2F;&gt;  &#x2F;&#x2F;显示图片</span><br><span class="line"></span><br><span class="line">.wxss</span><br><span class="line">&#x2F;* pages&#x2F;text&#x2F;text.wxss *&#x2F;</span><br><span class="line">.box1 &#123;</span><br><span class="line">background-color: black;  &#x2F;&#x2F;背景颜色 黑色</span><br><span class="line">  &#125;</span><br><span class="line">.fs &#123;</span><br><span class="line">  background-color: blue;  &#x2F;&#x2F;蓝色</span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>小程序开发</category>
