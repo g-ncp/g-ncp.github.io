@@ -28,7 +28,7 @@
 <meta property="og:description" content="微信小程序应用程序结构APP-→{page 1-→{组件 1……内置组件 ​            {page         {组件……自定义组件 文件结构 {APP  { app.js  实例代码    全局相关内容 {app.json   全局的配置  {app.wxss 全局的一些样式配置​                {page {page.js   c创建页面实例代码 ​">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-04-30T13:46:53.000Z">
-<meta property="article:modified_time" content="2020-05-02T14:08:08.960Z">
+<meta property="article:modified_time" content="2020-05-03T07:36:46.601Z">
 <meta property="article:author" content="没有感情的记录者">
 <meta property="article:tag" content="微信小程序">
 <meta name="twitter:card" content="summary">
@@ -229,7 +229,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-02 22:08:08" itemprop="dateModified" datetime="2020-05-02T22:08:08+08:00">2020-05-02</time>
+                <time title="修改时间：2020-05-03 15:36:46" itemprop="dateModified" datetime="2020-05-03T15:36:46+08:00">2020-05-03</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -268,14 +268,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>6.5k</span>
+              <span>8.3k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>16 分钟</span>
+              <span>21 分钟</span>
             </span>
 
         </div>
@@ -425,6 +425,88 @@
 <h3 id="image组件"><a href="#image组件" class="headerlink" title="image组件"></a>image组件</h3><p>重点：1、可以写成单标签和双标签 单：<image/>  双 <image></image>  2、默认有大小 占据位置  3、行内块级元素  相对路径/绝对路径/链接       调取相册里的图片</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">&lt;image src&#x3D;&#39;&#x2F;……&#39;&gt;      &lt;image src&#x3D;&#39;http……&#39;&gt;   &#x2F;&#x2F;两种路径的调用</span><br><span class="line">&#x2F;*相册的调用</span><br><span class="line">image.js</span><br><span class="line">&#x2F;&#x2F; pages&#x2F;text&#x2F;text.js</span><br><span class="line">Page(&#123;</span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   *&#x2F;</span><br><span class="line">  data: &#123;</span><br><span class="line">imagePath: &#39;&#39;  &#x2F;&#x2F;属性   </span><br><span class="line">  &#125;,</span><br><span class="line">  handleChooseAlbum() &#123;  &#x2F;&#x2F;这里的hand……也只是一个名字而已，“自定义的函数名”</span><br><span class="line">    &#x2F;&#x2F;系统api，让用户在相册中选择图片（或者拍照）</span><br><span class="line"> wx.chooseImage(&#123;</span><br><span class="line">   complete: (res) &#x3D;&gt; &#123;</span><br><span class="line">    &#x2F;&#x2F; console.log(res)  打印res是在学习过程中参看res有助于理解的 实操中无用</span><br><span class="line">     &#x2F;&#x2F;取出图片路径</span><br><span class="line">     const path &#x3D; res.tempFilePaths[0]  &#x2F;&#x2F;这里是一个数组，我们知道微信可以不止一张图片 取出res的tempFilePaths  </span><br><span class="line">     &#x2F;&#x2F;设置imagePath</span><br><span class="line">     this.setData(&#123;   &#x2F;&#x2F;setDate赋值操作</span><br><span class="line">       imagePath: path  &#x2F;&#x2F;path 可以替换成别的名字，他只是在取出图片路径那步用来保存的变量</span><br><span class="line">     &#125;)</span><br><span class="line">   &#125;,</span><br><span class="line"></span><br><span class="line"> &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">image.json</span><br><span class="line">&lt;!--pages&#x2F;text&#x2F;text.wxml--&gt;</span><br><span class="line">&lt;view class&#x3D;&quot;box1&quot; &#x2F;&#x2F;颜色</span><br><span class="line">hover-class&#x3D;&quot;fs&quot;  &#x2F;&#x2F;点击后颜色，微信文档里有</span><br><span class="line">hover-start-time&#x3D;&quot;300&quot; &#x2F;&#x2F;按下到变化时间 毫秒 同上</span><br><span class="line">&gt;</span><br><span class="line">点击变换背景颜色  &#x2F;&#x2F;界面显示的文本，点击产生变化</span><br><span class="line">&lt;&#x2F;view&gt; </span><br><span class="line">&lt;button bindtap&#x3D;&quot;handleChooseAlbum&quot;&gt;选中图片&lt;&#x2F;button&gt;  &#x2F;&#x2F;按钮</span><br><span class="line">&lt;image src&#x3D;&quot;&#123;&#123;imagePath&#125;&#125;&quot;&#x2F;&gt;  &#x2F;&#x2F;显示图片</span><br><span class="line"></span><br><span class="line">.wxss</span><br><span class="line">&#x2F;* pages&#x2F;text&#x2F;text.wxss *&#x2F;</span><br><span class="line">.box1 &#123;</span><br><span class="line">background-color: black;  &#x2F;&#x2F;背景颜色 黑色</span><br><span class="line">  &#125;</span><br><span class="line">.fs &#123;</span><br><span class="line">  background-color: blue;  &#x2F;&#x2F;蓝色</span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure>
 
+<p>4、图片懒加载 lazy-load 默认false  </p>
+<p>5、监听图片加载完成 bindload   </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">image.wxml</span><br><span class="line">&lt;image wx:for&#x3D;&quot;&#123;&#123;10&#125;&#125;&quot;   &#x2F;&#x2F;循环10次 </span><br><span class="line">src&#x3D;&quot;https:&#x2F;&#x2F;api.ixiaowai.cn&#x2F;api&#x2F;api.php&quot; &#x2F;&#x2F;插入一个图片api 二次元漫画 </span><br><span class="line">bindload&#x3D;&quot;cscs &quot; &#x2F;&#x2F;监听图片加载  &#x3D;&gt;.js </span><br><span class="line">show-menu-by-longpress</span><br><span class="line">lazy-load&#x2F;&gt; &#x2F;&#x2F;懒加载  也可以写成 lazy-load&#x3D;&quot;&#123;&#123;true&#125;&#125;&quot;</span><br><span class="line">&lt;&#x2F;view&gt;  </span><br><span class="line">image.js</span><br><span class="line">Page(&#123;</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   *&#x2F;</span><br><span class="line">  data: &#123;</span><br><span class="line">  &#125;,</span><br><span class="line">  cscs()&#123;</span><br><span class="line">    console.log(&#39;图片加载完成&#39;)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>6、show-menu-by-longpress 长按识别小程序码</p>
+<p>7、mode   缩放、剪裁模式   </p>
+<p>非常多的数值…………</p>
+<h3 id="input组件"><a href="#input组件" class="headerlink" title="input组件"></a>input组件</h3><p>input表单组件，接受用户输入   value： 显示默认文本    type  ：键盘类型    password ：明文暗文   ……</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;input&#x2F;&gt; &#x2F;&#x2F;基本用法 &lt;input value&#x3D;&quot;hahah&quot;&#x2F;&gt;&#x2F;&#x2F;输入框里 “hahah”   &lt;input password&#x2F;&gt; &#x2F;&#x2F;明文暗文</span><br><span class="line">渲染文本框 wxss </span><br><span class="line">&#x2F;* input&#x2F;input.wxss *&#x2F;</span><br><span class="line"> input &#123;     </span><br><span class="line">   border: 1px solid red;</span><br><span class="line">   margin: 10px 30px; </span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>input绑定事件   事件监听</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;input bindinput&#x3D;&quot;han&quot;   &#x2F;&#x2F;键盘输入内容时触发</span><br><span class="line">      bindfocus&#x3D;&quot;zi&quot;  &#x2F;&#x2F;  输入框聚焦</span><br><span class="line">      bindblur&#x3D;&quot;shi&quot;  &#x2F;&#x2F; 失去焦点</span><br><span class="line">&#x2F;&gt;   &#x2F;&#x2F;在js中编辑逻辑 han\ zi \shi 自定义</span><br></pre></td></tr></table></figure>
+
+<h3 id="scroll-view组件"><a href="#scroll-view组件" class="headerlink" title="scroll-view组件"></a>scroll-view组件</h3><p>局部滚动   1、水平滚动   scroll-x   2、竖直滚动  scroll-y  </p>
+<scrooll-view class='da' scrooll-x>
+
+<view wx:for='10' class='xiao'>
+
+
+
+</view>
+
+</scroll-view>
+
+<p>wxss文件</p>
+<p>.da {</p>
+<p>…………</p>
+<p>}  //感觉不会用到  能用到之后在看</p>
+<h3 id="共同属性-wxml（组件）"><a href="#共同属性-wxml（组件）" class="headerlink" title="共同属性 wxml（组件）"></a>共同属性 wxml（组件）</h3><table>
+<thead>
+<tr>
+<th align="center">属性名</th>
+<th align="center">类型</th>
+<th align="center">描述</th>
+<th align="center">注解</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">id</td>
+<td align="center">String</td>
+<td align="center">组件唯一标识</td>
+<td align="center">整个页面唯一</td>
+</tr>
+<tr>
+<td align="center">class</td>
+<td align="center">String</td>
+<td align="center">组件样式类</td>
+<td align="center">在对应的wxss中定义的样式类</td>
+</tr>
+<tr>
+<td align="center">style</td>
+<td align="center">String</td>
+<td align="center">组件内联样式</td>
+<td align="center">可以动态设置的内联样式</td>
+</tr>
+<tr>
+<td align="center">hidden</td>
+<td align="center">Boolean</td>
+<td align="center">组件是否显示</td>
+<td align="center">所有组件默认显示</td>
+</tr>
+<tr>
+<td align="center">date-*</td>
+<td align="center">Any</td>
+<td align="center">自定义属性</td>
+<td align="center">组件上触发事件，会默认发送给事件处理函数</td>
+</tr>
+<tr>
+<td align="center">bind<em>/catch</em></td>
+<td align="center">EventHandler</td>
+<td align="center">组件的事件</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="样式的三种写法"><a href="#样式的三种写法" class="headerlink" title="样式的三种写法"></a>样式的三种写法</h2><p>wxss</p>
+<p>1、行内样式（内联样式） /<font color=red><strong>↑</strong> 上面的共同属性 </font>/  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">eg: &lt;view style&#x3D;&#39;color: red; font-saze: 32px;&#39;&gt;hahah&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure>
+
+<p>2、页内样式 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;wxml文件</span><br><span class="line">&lt;view class&#x3D;&#39;yangshi&#39;&gt;</span><br><span class="line">heiheihie</span><br><span class="line">&lt;&#x2F;view&gt;</span><br><span class="line">&#x2F;&#x2F;wxss 文件</span><br><span class="line">.yanshi &#123;</span><br><span class="line">  background-color: darkseagreen;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F;app.wxss  全局样式</span><br></pre></td></tr></table></figure>
+
+<p>3、全局样式 在app.wxss中编辑      行内样式优先级比较高&gt;页面样式&gt;全局样式 </p>
 
     </div>
 
@@ -549,7 +631,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序"><span class="nav-number">1.</span> <span class="nav-text">微信小程序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#应用程序结构"><span class="nav-number">1.1.</span> <span class="nav-text">应用程序结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初体验："><span class="nav-number">1.2.</span> <span class="nav-text">初体验：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序的MVVM架构"><span class="nav-number">1.3.</span> <span class="nav-text">小程序的MVVM架构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序的架构和配置"><span class="nav-number">1.4.</span> <span class="nav-text">小程序的架构和配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序的双线程模型（理解）"><span class="nav-number">1.5.</span> <span class="nav-text">小程序的双线程模型（理解）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序启动流程"><span class="nav-number">1.6.</span> <span class="nav-text">小程序启动流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序组件"><span class="nav-number">1.7.</span> <span class="nav-text">小程序组件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#text组件"><span class="nav-number">1.7.1.</span> <span class="nav-text">text组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#button组件"><span class="nav-number">1.7.2.</span> <span class="nav-text">button组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#view组件"><span class="nav-number">1.7.3.</span> <span class="nav-text">view组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#image组件"><span class="nav-number">1.7.4.</span> <span class="nav-text">image组件</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序"><span class="nav-number">1.</span> <span class="nav-text">微信小程序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#应用程序结构"><span class="nav-number">1.1.</span> <span class="nav-text">应用程序结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初体验："><span class="nav-number">1.2.</span> <span class="nav-text">初体验：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序的MVVM架构"><span class="nav-number">1.3.</span> <span class="nav-text">小程序的MVVM架构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序的架构和配置"><span class="nav-number">1.4.</span> <span class="nav-text">小程序的架构和配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序的双线程模型（理解）"><span class="nav-number">1.5.</span> <span class="nav-text">小程序的双线程模型（理解）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序启动流程"><span class="nav-number">1.6.</span> <span class="nav-text">小程序启动流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小程序组件"><span class="nav-number">1.7.</span> <span class="nav-text">小程序组件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#text组件"><span class="nav-number">1.7.1.</span> <span class="nav-text">text组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#button组件"><span class="nav-number">1.7.2.</span> <span class="nav-text">button组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#view组件"><span class="nav-number">1.7.3.</span> <span class="nav-text">view组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#image组件"><span class="nav-number">1.7.4.</span> <span class="nav-text">image组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#input组件"><span class="nav-number">1.7.5.</span> <span class="nav-text">input组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scroll-view组件"><span class="nav-number">1.7.6.</span> <span class="nav-text">scroll-view组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#共同属性-wxml（组件）"><span class="nav-number">1.7.7.</span> <span class="nav-text">共同属性 wxml（组件）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#样式的三种写法"><span class="nav-number">1.8.</span> <span class="nav-text">样式的三种写法</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -626,12 +708,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">13k</span>
+    <span title="站点总字数">15k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">32 分钟
+    <span title="站点阅读时长">37 分钟
 	</span>
 </div>
 <span id="timeDate">载入天数...</span>
