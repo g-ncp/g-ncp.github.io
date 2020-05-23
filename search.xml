@@ -1,113 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>robomaster备赛准备（停止更新）</title>
-    <url>/2020/04/08/beisai/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
-
-<h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>使用 solidworks画出一个三棱锥 并用<strong>Cura</strong> 将其转化为 打印机识别文件。</p>
-<p>长期任务：  <a href="https://bbs.robomaster.com/forum.php?mod=viewthread&tid=6979&extra=page%3D1" target="_blank" rel="noopener">开源汇总</a>    下载任意一类（除空中机器人）机械结构图纸，加以研究。</p>
-<h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
-<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a>          <a id="more"></a></p>
-<h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
-<h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
-<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续。</p>
-<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
-<h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
-<h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
-<h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
-<h2 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h2><h3 id="第四周：-1"><a href="#第四周：-1" class="headerlink" title="第四周："></a>第四周：</h3><p>任务：串口实验  </p>
-<h3 id="第三周：-2"><a href="#第三周：-2" class="headerlink" title="第三周："></a>第三周：</h3><p>本周电控组任务按键实验 （下周任务使用串口控制LED亮暗）</p>
-<h3 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h3><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
-<h3 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h3><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
-<h2 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h2><h3 id="第四周：-2"><a href="#第四周：-2" class="headerlink" title="第四周："></a>第四周：</h3><p>长期任务： 推送  不限于备赛组任务，也可以是其他内容。   两篇</p>
-<h3 id="第三周：-3"><a href="#第三周：-3" class="headerlink" title="第三周："></a>第三周：</h3><p>宣传：   继续推别的组    推自己组学习心得也行。    ps自学，不要求发图片了。（不同操作适用于不同图片，强制收图片意义不大。）    </p>
-<h3 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h3><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
-<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
-<p><img src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
-<h3 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h3><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
-<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
-<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
-<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
-<blockquote>
-<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
+    <title>小程序基础——html和css</title>
+    <url>/2020/05/02/html-css/</url>
+    <content><![CDATA[<h1 id="html5-css3"><a href="#html5-css3" class="headerlink" title="html5-css3"></a>html5-css3</h1><blockquote>
+<p><strong>网站</strong>-》多个网页     网页显示过程： 网络请求   返回网页（下载HTML CSS JS）  解析  </p>
+<p> 掌握常用英语：   element（元素）   profile （我的）………………   </p>
 </blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">组别/成员</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">电控</td>
-<td>陈峻琦</td>
-<td>刘宏源</td>
-<td>杨中凯</td>
-<td>宋博</td>
-<td>何明亮</td>
-<td>张炎</td>
-<td>胡展滔</td>
-<td>赵豪杰</td>
-<td>任一飞</td>
-<td>9人</td>
-</tr>
-<tr>
-<td align="center">机械</td>
-<td>杨毅</td>
-<td>蒋庚珊</td>
-<td>臧奕博</td>
-<td>魏世娜</td>
-<td>刘友睿</td>
-<td>郭润桐</td>
-<td>佟昕鹏</td>
-<td></td>
-<td></td>
-<td>7人</td>
-</tr>
-<tr>
-<td align="center">宣传</td>
-<td>王成玉</td>
-<td>郭蕊琪</td>
-<td>植永海</td>
-<td>孙洋</td>
-<td>马雪琪</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>5人</td>
-</tr>
-<tr>
-<td align="center">视觉</td>
-<td>杨思远</td>
-<td>陈贤卓</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>2人</td>
-</tr>
-</tbody></table>
+<h2 id="网页的组成"><a href="#网页的组成" class="headerlink" title="网页的组成"></a>网页的组成</h2><ol>
+<li><p>HTML</p>
+<p>网页结构</p>
+</li>
+<li><p>css</p>
+<p>网站样式  渲染</p>
+</li>
+<li><p>js </p>
+<p>网站交互  动画效果</p>
+<p>不同浏览器内核渲染出来的网页效果可能不同。</p>
+<!--mare-->
+
+</li>
+</ol>
+<h2 id="记事本开发第一个网站"><a href="#记事本开发第一个网站" class="headerlink" title="记事本开发第一个网站"></a>记事本开发第一个网站</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">title</span>&gt;</span>one<span class="tag">&lt;/<span class="name">title</span>&gt;</span>  //网站标题</span><br><span class="line">	<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">h1</span>&gt;</span>hello world<span class="tag">&lt;/<span class="name">h1</span>&gt;</span>  //一级标题 </span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>你好世界<span class="tag">&lt;/<span class="name">p</span>&gt;</span>   //段落</span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>文档声明  <!doctype html></li>
+<li>HTML元素<html></html></li>
+<li>head元素<head></head></li>
+<li>boby元素<body></body></li>
+</ol>
+<h2 id="vscode-配置"><a href="#vscode-配置" class="headerlink" title="vscode 配置"></a>vscode 配置</h2><p>安装插件：</p>
+<p>中文支持     open in browser   Atom主题    </p>
+<p>技巧：</p>
+<p>输入提示      缩进：选中 Tab     退回缩进： 选中   shift      Tab </p>
+<h2 id="快捷键总结"><a href="#快捷键总结" class="headerlink" title="快捷键总结"></a>快捷键总结</h2><ul>
+<li><p>！ </p>
+<ul>
+<li>自动生成一套HTML代码</li>
+</ul>
+</li>
+<li><p>tab</p>
+<ul>
+<li>增加选中行缩进</li>
+</ul>
+</li>
+<li><p>tab+shift </p>
+<ul>
+<li>减少选中行缩进</li>
+</ul>
+</li>
+<li><p>Alt+B</p>
+<ul>
+<li>快速浏览器浏览网页</li>
+</ul>
+</li>
+<li><p>CTRL c  v</p>
+<ul>
+<li>复制粘贴</li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>战队规划</category>
+        <category>小程序开发</category>
       </categories>
       <tags>
-        <tag>准备RM</tag>
+        <tag>html css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>matlab</title>
+    <url>/2020/04/26/matlab/</url>
+    <content><![CDATA[<h1 id="matlab笔记"><a href="#matlab笔记" class="headerlink" title="matlab笔记"></a><strong>matlab笔记</strong></h1><h3 id="matlab的数据操作——变量和语句"><a href="#matlab的数据操作——变量和语句" class="headerlink" title="matlab的数据操作——变量和语句"></a>matlab的数据操作——变量和语句</h3><p>1、变量命名</p>
+<p>字母开头，包括字母、数字、下划线，区分大小写</p>
+<p>不声明，不定义，拿来即用。</p>
+<p>2、语句</p>
+<p>回车则表示一句结束，末尾无分号，则输出该句执行的结果，有分号只执行不输出。</p>
+<p>注释以%开头表示       <a id="more"></a></p>
+<p>一行写不开，用……（英文输入法）续写，否则默认这一句已经完毕。</p>
+<p>3、赋值</p>
+<p>变量=表达式</p>
+<p>表达式</p>
+<p>前者将表达式的值赋值给=前的变量，后者将表达式的值赋值给默认变量ans。//没定义默认为ans？</p>
+<h3 id="matlab的数据操作——变量管理"><a href="#matlab的数据操作——变量管理" class="headerlink" title="matlab的数据操作——变量管理"></a>matlab的数据操作——变量管理</h3><p>1、工作空间中驻留的变量查看</p>
+<p>who</p>
+<p>whos</p>
+<p>2、删除 </p>
+<p>clear</p>
+<p>3、保存</p>
+<p>save</p>
+<p><strong>plot()    二维线图 函数</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg:  y&#x3D;[2, 3, 4, 5];</span><br><span class="line">            plot(y)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg:  x&#x3D;[3, 4, 8, 12];</span><br><span class="line"></span><br><span class="line">y&#x3D;sin(x);</span><br><span class="line"></span><br><span class="line">plot(x,y)</span><br></pre></td></tr></table></figure>
+
+<p>快速注释： ctrl + alt  </p>
+<p>函数参数可调标识变量 ：  nargin    nargout   varargin   varargout      前两者为输入输出参数<strong>个数</strong>，后面两个可以代表未知的输入输出变量。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg:  fuction re &#x3D; add_multi(a,b,c,d)</span><br><span class="line"></span><br><span class="line">if nargin &#x3D;&#x3D;4</span><br><span class="line"></span><br><span class="line">re &#x3D;……;</span><br><span class="line"></span><br><span class="line">elseif nargin  &#x3D;&#x3D;3</span><br><span class="line"></span><br><span class="line">re&#x3D;……;</span><br><span class="line"></span><br><span class="line">else </span><br><span class="line"></span><br><span class="line">……</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<p>输出= 函数（输入变量）</p>
+]]></content>
+      <categories>
+        <category>matlab</category>
+      </categories>
+      <tags>
+        <tag>matlab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小程序基础——vue</title>
+    <url>/2020/05/02/vuejs/</url>
+    <content><![CDATA[<p>暂时搁置</p>
+]]></content>
+      <categories>
+        <category>小程序开发</category>
+      </categories>
+      <tags>
+        <tag>vue vue.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>markdown使用</title>
+    <url>/2020/04/27/markdown/</url>
+    <content><![CDATA[<blockquote>
+<p>Typora</p>
+<p>我使用的md编辑器是Typora，目前只用过这一个。界面右键可以使用很多快捷操作 如：加粗、引用、图片、……</p>
+<p>还有一些快捷键可以使用。总体来说还是可以的，我不是很懂md语法，也能用用。 如果没有特殊需求，不学（就学一点）语法就够用了，其他的在使用过程中，慢慢记忆。就像我在那篇微信小程序开发里提到的——按钮功能</p>
+</blockquote>
+<p><a href="https://g-ncp.github.io/2020/04/30/xiaochengxu/"><button>微信小程序开发传送门</button>&gt;&lt;</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   </span><br><span class="line">注：  **** 加粗 []() 添加链接 &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>5/4号更新</p>
+<p>markdown整理的不太好，等考完试在整理吧   ==这里要补充软件使用，我们知道，md有很多语法，其实不光是语法，软件本身也有很多可操性==   这里在学习小程序过程中确实学到了不少。 首先是偏好设置，可更改内容也是非常多的 1、主题  支持多种主题选择 联网获取主题   2、拓展语法 3、自动保存  ……     默认主题支持自定义修改！！   进入偏好设置打开主题文件 更改即可 </p>
+]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -179,114 +210,6 @@
       </categories>
       <tags>
         <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小程序基础——html和css</title>
-    <url>/2020/05/02/html-css/</url>
-    <content><![CDATA[<h1 id="html5-css3"><a href="#html5-css3" class="headerlink" title="html5-css3"></a>html5-css3</h1><blockquote>
-<p><strong>网站</strong>-》多个网页     网页显示过程： 网络请求   返回网页（下载HTML CSS JS）  解析  </p>
-<p> 掌握常用英语：   element（元素）   profile （我的）………………   </p>
-</blockquote>
-<h2 id="网页的组成"><a href="#网页的组成" class="headerlink" title="网页的组成"></a>网页的组成</h2><ol>
-<li><p>HTML</p>
-<p>网页结构</p>
-</li>
-<li><p>css</p>
-<p>网站样式  渲染</p>
-</li>
-<li><p>js </p>
-<p>网站交互  动画效果</p>
-<p>不同浏览器内核渲染出来的网页效果可能不同。</p>
-<h2 id="记事本开发第一个网站"><a href="#记事本开发第一个网站" class="headerlink" title="记事本开发第一个网站"></a>记事本开发第一个网站</h2><ul>
-<li>文档声明</li>
-<li>html元素</li>
-<li>head元素</li>
-<li>body元素</li>
-</ul>
-</li>
-</ol>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">title</span>&gt;</span>one<span class="tag">&lt;/<span class="name">title</span>&gt;</span>  //网站标题</span><br><span class="line">	<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">h1</span>&gt;</span>hello world<span class="tag">&lt;/<span class="name">h1</span>&gt;</span>  //一级标题 </span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>你好世界<span class="tag">&lt;/<span class="name">p</span>&gt;</span>   //段落</span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>小程序开发</category>
-      </categories>
-      <tags>
-        <tag>html css</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>markdown使用</title>
-    <url>/2020/04/27/markdown/</url>
-    <content><![CDATA[<blockquote>
-<p>Typora</p>
-<p>我使用的md编辑器是Typora，目前只用过这一个。界面右键可以使用很多快捷操作 如：加粗、引用、图片、……</p>
-<p>还有一些快捷键可以使用。总体来说还是可以的，我不是很懂md语法，也能用用。 如果没有特殊需求，不学（就学一点）语法就够用了，其他的在使用过程中，慢慢记忆。就像我在那篇微信小程序开发里提到的——按钮功能</p>
-</blockquote>
-<p><a href="https://g-ncp.github.io/2020/04/30/xiaochengxu/"><button>微信小程序开发传送门</button>&gt;&lt;</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   </span><br><span class="line">注：  **** 加粗 []() 添加链接 &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>5/4号更新</p>
-<p>markdown整理的不太好，等考完试在整理吧   ==这里要补充软件使用，我们知道，md有很多语法，其实不光是语法，软件本身也有很多可操性==   这里在学习小程序过程中确实学到了不少。 首先是偏好设置，可更改内容也是非常多的 1、主题  支持多种主题选择 联网获取主题   2、拓展语法 3、自动保存  ……     默认主题支持自定义修改！！   进入偏好设置打开主题文件 更改即可 </p>
-]]></content>
-      <categories>
-        <category>markdown</category>
-      </categories>
-      <tags>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>matlab</title>
-    <url>/2020/04/26/matlab/</url>
-    <content><![CDATA[<h1 id="matlab笔记"><a href="#matlab笔记" class="headerlink" title="matlab笔记"></a><strong>matlab笔记</strong></h1><h3 id="matlab的数据操作——变量和语句"><a href="#matlab的数据操作——变量和语句" class="headerlink" title="matlab的数据操作——变量和语句"></a>matlab的数据操作——变量和语句</h3><p>1、变量命名</p>
-<p>字母开头，包括字母、数字、下划线，区分大小写</p>
-<p>不声明，不定义，拿来即用。</p>
-<p>2、语句</p>
-<p>回车则表示一句结束，末尾无分号，则输出该句执行的结果，有分号只执行不输出。</p>
-<p>注释以%开头表示       <a id="more"></a></p>
-<p>一行写不开，用……（英文输入法）续写，否则默认这一句已经完毕。</p>
-<p>3、赋值</p>
-<p>变量=表达式</p>
-<p>表达式</p>
-<p>前者将表达式的值赋值给=前的变量，后者将表达式的值赋值给默认变量ans。//没定义默认为ans？</p>
-<h3 id="matlab的数据操作——变量管理"><a href="#matlab的数据操作——变量管理" class="headerlink" title="matlab的数据操作——变量管理"></a>matlab的数据操作——变量管理</h3><p>1、工作空间中驻留的变量查看</p>
-<p>who</p>
-<p>whos</p>
-<p>2、删除 </p>
-<p>clear</p>
-<p>3、保存</p>
-<p>save</p>
-<p><strong>plot()    二维线图 函数</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg:  y&#x3D;[2, 3, 4, 5];</span><br><span class="line">            plot(y)</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg:  x&#x3D;[3, 4, 8, 12];</span><br><span class="line"></span><br><span class="line">y&#x3D;sin(x);</span><br><span class="line"></span><br><span class="line">plot(x,y)</span><br></pre></td></tr></table></figure>
-
-<p>快速注释： ctrl + alt  </p>
-<p>函数参数可调标识变量 ：  nargin    nargout   varargin   varargout      前两者为输入输出参数<strong>个数</strong>，后面两个可以代表未知的输入输出变量。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg:  fuction re &#x3D; add_multi(a,b,c,d)</span><br><span class="line"></span><br><span class="line">if nargin &#x3D;&#x3D;4</span><br><span class="line"></span><br><span class="line">re &#x3D;……;</span><br><span class="line"></span><br><span class="line">elseif nargin  &#x3D;&#x3D;3</span><br><span class="line"></span><br><span class="line">re&#x3D;……;</span><br><span class="line"></span><br><span class="line">else </span><br><span class="line"></span><br><span class="line">……</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-
-<p>输出= 函数（输入变量）</p>
-]]></content>
-      <categories>
-        <category>matlab</category>
-      </categories>
-      <tags>
-        <tag>matlab</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小程序基础——vue</title>
-    <url>/2020/05/02/vuejs/</url>
-    <content><![CDATA[<p>暂时搁置</p>
-]]></content>
-      <categories>
-        <category>小程序开发</category>
-      </categories>
-      <tags>
-        <tag>vue vue.js</tag>
       </tags>
   </entry>
   <entry>
@@ -518,6 +441,116 @@
       </categories>
       <tags>
         <tag>微信小程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>robomaster备赛准备（停止更新）</title>
+    <url>/2020/04/08/beisai/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
+
+<h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>使用 solidworks画出一个三棱锥 并用<strong>Cura</strong> 将其转化为 打印机识别文件。</p>
+<p>长期任务：  <a href="https://bbs.robomaster.com/forum.php?mod=viewthread&tid=6979&extra=page%3D1" target="_blank" rel="noopener">开源汇总</a>    下载任意一类（除空中机器人）机械结构图纸，加以研究。</p>
+<h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
+<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a>          <a id="more"></a></p>
+<h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
+<h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
+<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续。</p>
+<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
+<h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
+<h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
+<h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
+<h2 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h2><h3 id="第四周：-1"><a href="#第四周：-1" class="headerlink" title="第四周："></a>第四周：</h3><p>任务：串口实验  </p>
+<h3 id="第三周：-2"><a href="#第三周：-2" class="headerlink" title="第三周："></a>第三周：</h3><p>本周电控组任务按键实验 （下周任务使用串口控制LED亮暗）</p>
+<h3 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h3><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
+<h3 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h3><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
+<h2 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h2><h3 id="第四周：-2"><a href="#第四周：-2" class="headerlink" title="第四周："></a>第四周：</h3><p>长期任务： 推送  不限于备赛组任务，也可以是其他内容。   两篇</p>
+<h3 id="第三周：-3"><a href="#第三周：-3" class="headerlink" title="第三周："></a>第三周：</h3><p>宣传：   继续推别的组    推自己组学习心得也行。    ps自学，不要求发图片了。（不同操作适用于不同图片，强制收图片意义不大。）    </p>
+<h3 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h3><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
+<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
+<p><img src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
+<p><img src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
+<h3 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h3><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
+<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
+<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
+<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
+<blockquote>
+<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">组别/成员</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">电控</td>
+<td>陈峻琦</td>
+<td>刘宏源</td>
+<td>杨中凯</td>
+<td>宋博</td>
+<td>何明亮</td>
+<td>张炎</td>
+<td>胡展滔</td>
+<td>赵豪杰</td>
+<td>任一飞</td>
+<td>9人</td>
+</tr>
+<tr>
+<td align="center">机械</td>
+<td>杨毅</td>
+<td>蒋庚珊</td>
+<td>臧奕博</td>
+<td>魏世娜</td>
+<td>刘友睿</td>
+<td>郭润桐</td>
+<td>佟昕鹏</td>
+<td></td>
+<td></td>
+<td>7人</td>
+</tr>
+<tr>
+<td align="center">宣传</td>
+<td>王成玉</td>
+<td>郭蕊琪</td>
+<td>植永海</td>
+<td>孙洋</td>
+<td>马雪琪</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>5人</td>
+</tr>
+<tr>
+<td align="center">视觉</td>
+<td>杨思远</td>
+<td>陈贤卓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2人</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>战队规划</category>
+      </categories>
+      <tags>
+        <tag>准备RM</tag>
       </tags>
   </entry>
 </search>
