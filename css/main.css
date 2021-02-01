@@ -1218,7 +1218,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #696999;
+  background: #c39391;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2239,7 +2239,7 @@ ul.breadcrumb li + li:last-child {
   color: var(--link-hover-color) !important;
 }
 body {
-  background: url("https://user-images.githubusercontent.com/61535478/106421865-77a46080-6498-11eb-9a2a-31e3bf6fe4d1.jpg");
+  background: url("https://api.ixiaowai.cn/mcapi/mcapi.php");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
