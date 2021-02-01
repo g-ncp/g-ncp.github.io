@@ -315,34 +315,34 @@
 <p><a href="https://www.typora.io/#windows" target="_blank" rel="noopener">https://www.typora.io/#windows</a>  ←—— 这是我用的md编辑器（我直接贴的Windows下载界面），配合博客编辑使用，也可以自行下载。</p>
 <p>还有不推荐把软件都装在C盘，也不是太占C盘，就是如果需要重装系统的话，没有用注册表的话，到时候方便些，软件不用重新下载。</p>
 <h3 id="安装git-："><a href="#安装git-：" class="headerlink" title="安装git ："></a>安装git ：</h3><p>首先在电脑上安装git，这里给出官方下载链接,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>      注意与自己的操作系统匹配。 </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75775522-1d34e880-5d8d-11ea-9df5-486466e84b0f.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75775522-1d34e880-5d8d-11ea-9df5-486466e84b0f.png" alt=""></p>
 <p> 双击安装包</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75775992-1195f180-5d8e-11ea-9d40-22b0291604af.png" alt="">  </p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75775992-1195f180-5d8e-11ea-9d40-22b0291604af.png" alt="">  </p>
 <p>出现下图，一路默认配置就可以了，</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75776069-35f1ce00-5d8e-11ea-91b2-05bd9cfae405.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75776069-35f1ce00-5d8e-11ea-91b2-05bd9cfae405.png" alt=""></p>
 <p>安装完成之后，在桌面右键可以看到Git GUI Here      Git Bash Here             </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75777078-41de8f80-5d90-11ea-8875-0b85b9678d1f.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75777078-41de8f80-5d90-11ea-8875-0b85b9678d1f.png" alt=""></p>
 <p>连接本地与远程，需要 https协议或者ssh密钥。 我记得好像有三种协议，详情可以百度查看GitHub官网。      </p>
 <p>下面我们采用ssh密钥的连接方式，首先注册一个GitHub的账户，<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a>    </p>
-<p> <img src="https://user-images.githubusercontent.com/49864898/75778155-3e4c0800-5d92-11ea-94d7-5af5045c37c1.png" alt=""></p>
+<p> <img data-src="https://user-images.githubusercontent.com/49864898/75778155-3e4c0800-5d92-11ea-94d7-5af5045c37c1.png" alt=""></p>
 <blockquote>
 <p><strong>注册完成后，使用git命令进行如下操作（即右键选择 Git Bash Here）</strong></p>
 </blockquote>
-<p>​    <img src="https://user-images.githubusercontent.com/49864898/75779661-f7abdd00-5d94-11ea-95c4-d116968bd65a.png" alt=""></p>
+<p>​    <img data-src="https://user-images.githubusercontent.com/49864898/75779661-f7abdd00-5d94-11ea-95c4-d116968bd65a.png" alt=""></p>
 <p><strong>1、设置用户名和邮箱</strong><br>在git命令行中对git进行全局设置， <strong>git config –global user.name “用户名”， git config –global user.email 邮箱“</strong>；</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75780049-b36d0c80-5d95-11ea-8b1b-9e36b5d2e940.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75780049-b36d0c80-5d95-11ea-8b1b-9e36b5d2e940.png" alt=""></p>
 <p><strong>2、生成SSH key</strong><br>在git命令行中，输入命令<strong>ssh-keygen -t rsa -C “邮箱地址”</strong>，连续按三个回车；然后根据返回的信息，找到.ssh目录下的两个文件（C盘目录下user文件夹下）；<br><strong>3、在github上添加SSH key</strong><br>在github上点击你的头像，下拉菜单中点击“<strong>setting</strong>”，找到添加SSH key的菜单，然后新增SSH key；把文件id_rsa.pub 里面的内容全部复制到 key编辑框中，标题随意填写，保存完毕；<br><strong>4、检查SSH key是否有效</strong><br>在git命令行输入：<strong>ssh -T <a href="mailto:git@github.com">git@github.com</a></strong>；这里会要求你输入SSH key密码，如果刚才生成SSH key时未输入密码，密码就为空；然后看到信息：<br> <strong>Hi 用户名! You’ve successfully authenticated</strong>；说明配置成功；<br>再次查看github密钥<br>登陆到github上查看刚刚输入的SSH key，现在图标的颜色变为绿色，说明密钥配置有效；到这步git已经安装完成。</p>
 <h3 id="安装node-js-和部署hexo"><a href="#安装node-js-和部署hexo" class="headerlink" title="安装node.js 和部署hexo"></a><strong>安装node.js 和部署hexo</strong></h3><blockquote>
 <p>Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。    (一样的不知所云😵)</p>
 </blockquote>
 <p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>     ←——  正经下载地址。</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75840457-362db000-5e06-11ea-9f13-2a3bb6cbc570.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75840457-362db000-5e06-11ea-9f13-2a3bb6cbc570.png" alt=""></p>
 <p>然后默认配置 ，node.js完成。</p>
 <p>下面安装hexo ,这里就方便多了，在合适的位置新建一个文件夹，来存放hexo的文件， 我的文件路径 → D:\hexo </p>
 <p>在这个文件夹里鼠标右键，选择  <strong>git bash  here</strong>   在弹出的黑框里输入命令  <strong>npm install -g hexo-cli</strong>  回车  </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75841824-a558d380-5e09-11ea-930a-1cc75c0be9ba.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75841824-a558d380-5e09-11ea-930a-1cc75c0be9ba.png" alt=""></p>
 <p>等待完成，再次输入命令 <strong>hexo init</strong>  回车并等待完成，这个时候我们有了下面这些文件夹，    </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75843129-4301d200-5e0d-11ea-99be-1757541a223e.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75843129-4301d200-5e0d-11ea-99be-1757541a223e.png" alt=""></p>
 <p>安装deploy-git部署命令  ：在命令行输入<strong>npm install hexo-deployer-git –save</strong></p>
 <p>熟悉hexo的命令 ：  可以参考<a href="https://www.cnblogs.com/wsmrzx/p/9439448.html" target="_blank" rel="noopener">https://www.cnblogs.com/wsmrzx/p/9439448.html</a>     </p>
 <p>下面是常用的命令：</p>
@@ -353,14 +353,14 @@
 <p><strong>hexo new</strong>  新建博文 如 hexo new “教程”</p>
 <p>在命令行输入 hexo clean  回车 结束后 输入 hexo g 回车 结束后 输入 hexo s 回车   等待<del>~</del>  命令行出现网址 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>  之后 在浏览器输入这个网址，就可以访问你的博客了。   命令行CTRL + C 退出  。</p>
 <h3 id="选择一个主题"><a href="#选择一个主题" class="headerlink" title="选择一个主题"></a><strong>选择一个主题</strong></h3><p>可以发现你的博客很简洁（丑陋），在博客根目录中有 <strong>themes</strong> 文件夹（上图），为了方便添加评论系统，我选择了一个内置了Valine 评论系统的主题，在<a href="https://valine.js.org/hexo.html" target="_blank" rel="noopener">https://valine.js.org/hexo.html</a>    网站里收录了不少这样的主题，建议选择一个经常有人维护的项目。 我选择的是<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a>  添加主题的方法是进入<strong>themes</strong> 文件夹，（为了简便下面我不在说怎么使用 Git bash here 了 ） 命令行输入<strong>git clone <a href="https://github.com/theme-next/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next.git</a></strong> 回车，文件夹内出现 名hexo-theme-next 的文件夹，  回到博客根目录，用记事本或其他方便的应用打开<strong>_config.yml</strong>     找到<strong>theme</strong> 将后面的 landscape 改为 hexo-theme-next （你下载的主题名）  然后 hexo clean  +hexo g+ hexo d +hexo s    查看新主题。  </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75846092-24540900-5e16-11ea-8b2d-2408805850b7.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75846092-24540900-5e16-11ea-8b2d-2408805850b7.png" alt=""></p>
 <h3 id="关联github和hexo"><a href="#关联github和hexo" class="headerlink" title="关联github和hexo"></a><strong>关联github和hexo</strong></h3><p>登录GitHub账户（看不懂就网页翻译），新建一个仓库（点击头像左侧的加号，下拉菜单选择new repository）名字为 <strong>你的用户名加github.io</strong>     选用公共仓库，毕竟我们喜欢白嫖。 <strong>！</strong>下面图片少了一个步骤，<strong>Initialize this repository with a README前面的方框点上对号</strong>    </p>
-<p>  <img src="https://user-images.githubusercontent.com/49864898/75847405-0c7e8400-5e1a-11ea-9d24-59d40e24dbfc.png" alt=""></p>
+<p>  <img data-src="https://user-images.githubusercontent.com/49864898/75847405-0c7e8400-5e1a-11ea-9d24-59d40e24dbfc.png" alt=""></p>
 <p>为github选择一个主题： 进入仓库的 Settings  （参考路径h ttps://github.com/你的用户名/你的用户名.github.io/settings）  向下滑动 ，到GitHub Pages 选择 一个主题  随意选择</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75849250-5f0e6f00-5e1f-11ea-9930-e3f23b3bba1e.png" alt=""></p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75849322-8b29f000-5e1f-11ea-8dff-0750d76deed6.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75849250-5f0e6f00-5e1f-11ea-9930-e3f23b3bba1e.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75849322-8b29f000-5e1f-11ea-8dff-0750d76deed6.png" alt=""></p>
 <p>接着打开博客配置文件 <strong>_config.yml</strong>   找到 deploy    进行下面的配置（如图）  添上你的GitHub用户名</p>
-<p> <img src="https://user-images.githubusercontent.com/49864898/75850358-15735380-5e22-11ea-8df4-d396c0950fd9.png" alt=""></p>
+<p> <img data-src="https://user-images.githubusercontent.com/49864898/75850358-15735380-5e22-11ea-8df4-d396c0950fd9.png" alt=""></p>
 <p>在repository 后面添加库链接就可以了    有的教程是加  git@github.……     这是两种协议，使用ssh协议，将公钥放到GitHub上，私钥留在电脑里，每次push会自动对比公钥私钥，免密使用。</p>
 <p>我使用http协议是因为我遇到了一些问题</p>
 <p><strong>最后   hexo clean   hexo g    hexo d      三件套</strong>  浏览器访问https://用户名.github.io   .**</p>

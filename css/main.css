@@ -1218,7 +1218,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #3cff60;
+  background: #696999;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1464,6 +1464,7 @@ pre .javascript .function {
   color: #ff0000;
   display: inline-block;
   margin: 0 5px;
+  animation: iconAnimate 1.33s ease-in-out infinite;
 }
 .powered-by,
 .theme-info {
@@ -2238,7 +2239,7 @@ ul.breadcrumb li + li:last-child {
   color: var(--link-hover-color) !important;
 }
 body {
-  background: url("https://api.ixiaowai.cn/mcapi/mcapi.php");
+  background: url("https://user-images.githubusercontent.com/61535478/106421865-77a46080-6498-11eb-9a2a-31e3bf6fe4d1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;

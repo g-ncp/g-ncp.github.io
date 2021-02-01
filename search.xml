@@ -1,116 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>robomaster备赛准备（停止更新）</title>
-    <url>/2020/04/08/beisai/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
-
-<h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>使用 solidworks画出一个三棱锥 并用<strong>Cura</strong> 将其转化为 打印机识别文件。</p>
-<p>长期任务：  <a href="https://bbs.robomaster.com/forum.php?mod=viewthread&tid=6979&extra=page%3D1" target="_blank" rel="noopener">开源汇总</a>    下载任意一类（除空中机器人）机械结构图纸，加以研究。</p>
-<h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
-<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a>          <a id="more"></a></p>
-<h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
-<h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
-<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续。</p>
-<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
-<h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
-<h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
-<h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
-<h2 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h2><h3 id="第四周：-1"><a href="#第四周：-1" class="headerlink" title="第四周："></a>第四周：</h3><p>任务：串口实验  </p>
-<h3 id="第三周：-2"><a href="#第三周：-2" class="headerlink" title="第三周："></a>第三周：</h3><p>本周电控组任务按键实验 （下周任务使用串口控制LED亮暗）</p>
-<h3 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h3><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
-<h3 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h3><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
-<h2 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h2><h3 id="第四周：-2"><a href="#第四周：-2" class="headerlink" title="第四周："></a>第四周：</h3><p>长期任务： 推送  不限于备赛组任务，也可以是其他内容。   两篇</p>
-<h3 id="第三周：-3"><a href="#第三周：-3" class="headerlink" title="第三周："></a>第三周：</h3><p>宣传：   继续推别的组    推自己组学习心得也行。    ps自学，不要求发图片了。（不同操作适用于不同图片，强制收图片意义不大。）    </p>
-<h3 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h3><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
-<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
-<p><img src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
-<h3 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h3><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
-<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
-<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
-<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
-<blockquote>
-<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">组别/成员</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">电控</td>
-<td>陈峻琦</td>
-<td>刘宏源</td>
-<td>杨中凯</td>
-<td>宋博</td>
-<td>何明亮</td>
-<td>张炎</td>
-<td>胡展滔</td>
-<td>赵豪杰</td>
-<td>任一飞</td>
-<td>9人</td>
-</tr>
-<tr>
-<td align="center">机械</td>
-<td>杨毅</td>
-<td>蒋庚珊</td>
-<td>臧奕博</td>
-<td>魏世娜</td>
-<td>刘友睿</td>
-<td>郭润桐</td>
-<td>佟昕鹏</td>
-<td></td>
-<td></td>
-<td>7人</td>
-</tr>
-<tr>
-<td align="center">宣传</td>
-<td>王成玉</td>
-<td>郭蕊琪</td>
-<td>植永海</td>
-<td>孙洋</td>
-<td>马雪琪</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>5人</td>
-</tr>
-<tr>
-<td align="center">视觉</td>
-<td>杨思远</td>
-<td>陈贤卓</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>2人</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>战队规划</category>
-      </categories>
-      <tags>
-        <tag>准备RM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>markdown使用</title>
     <url>/2020/04/27/markdown/</url>
     <content><![CDATA[<blockquote>
@@ -133,74 +23,168 @@
       </tags>
   </entry>
   <entry>
-    <title>git加hexo博客</title>
-    <url>/2020/04/08/boke/</url>
-    <content><![CDATA[<h2 id="搭建自己的博客（一）"><a href="#搭建自己的博客（一）" class="headerlink" title="搭建自己的博客（一）"></a>搭建自己的博客（一）</h2><h3 id="前序："><a href="#前序：" class="headerlink" title="前序："></a><strong>前序：</strong></h3><p>折腾了几天，搞出了<strong>git</strong>加<strong>hexo</strong>的博客（带有评论功能），再次记录一下此次搭建的过程。先看看成品：</p>
-<p><a href="https://g-ncp.github.io">https://g-ncp.github.io</a>   （简约风）  推送一篇特制博文配合微信公众号的原文链接使用，可替代微信公众号留言功能，因为我们知道现在注册的公众号都没有留言功能。 （Windows10）  </p>
-<p><strong>工具：</strong>电脑   手机   <a id="more"></a></p>
-<p>既然是<strong>git</strong>加<strong>hexo</strong>,那么就先来看看<strong>git</strong>和<strong>hexo</strong>是什么。</p>
-<blockquote>
-<p>Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds(一个人)为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
-<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown(可以编辑文本，我感觉挺好用的，博客就是用这个写的)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+    <title>小程序基础——html和css</title>
+    <url>/2020/05/02/html-css/</url>
+    <content><![CDATA[<h1 id="html5-css3❤"><a href="#html5-css3❤" class="headerlink" title="html5-css3❤"></a>html5-css3❤</h1><blockquote>
+<p><strong>网站</strong>-》多个网页     网页显示过程： 网络请求   返回网页（下载HTML CSS JS）  解析  </p>
 </blockquote>
-<p><a href="https://www.typora.io/#windows" target="_blank" rel="noopener">https://www.typora.io/#windows</a>  ←—— 这是我用的md编辑器（我直接贴的Windows下载界面），配合博客编辑使用，也可以自行下载。</p>
-<p>还有不推荐把软件都装在C盘，也不是太占C盘，就是如果需要重装系统的话，没有用注册表的话，到时候方便些，软件不用重新下载。</p>
-<h3 id="安装git-："><a href="#安装git-：" class="headerlink" title="安装git ："></a>安装git ：</h3><p>首先在电脑上安装git，这里给出官方下载链接,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>      注意与自己的操作系统匹配。 </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75775522-1d34e880-5d8d-11ea-9df5-486466e84b0f.png" alt=""></p>
-<p> 双击安装包</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75775992-1195f180-5d8e-11ea-9d40-22b0291604af.png" alt="">  </p>
-<p>出现下图，一路默认配置就可以了，</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75776069-35f1ce00-5d8e-11ea-91b2-05bd9cfae405.png" alt=""></p>
-<p>安装完成之后，在桌面右键可以看到Git GUI Here      Git Bash Here             </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75777078-41de8f80-5d90-11ea-8875-0b85b9678d1f.png" alt=""></p>
-<p>连接本地与远程，需要 https协议或者ssh密钥。 我记得好像有三种协议，详情可以百度查看GitHub官网。      </p>
-<p>下面我们采用ssh密钥的连接方式，首先注册一个GitHub的账户，<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a>    </p>
-<p> <img src="https://user-images.githubusercontent.com/49864898/75778155-3e4c0800-5d92-11ea-94d7-5af5045c37c1.png" alt=""></p>
-<blockquote>
-<p><strong>注册完成后，使用git命令进行如下操作（即右键选择 Git Bash Here）</strong></p>
-</blockquote>
-<p>​    <img src="https://user-images.githubusercontent.com/49864898/75779661-f7abdd00-5d94-11ea-95c4-d116968bd65a.png" alt=""></p>
-<p><strong>1、设置用户名和邮箱</strong><br>在git命令行中对git进行全局设置， <strong>git config –global user.name “用户名”， git config –global user.email 邮箱“</strong>；</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75780049-b36d0c80-5d95-11ea-8b1b-9e36b5d2e940.png" alt=""></p>
-<p><strong>2、生成SSH key</strong><br>在git命令行中，输入命令<strong>ssh-keygen -t rsa -C “邮箱地址”</strong>，连续按三个回车；然后根据返回的信息，找到.ssh目录下的两个文件（C盘目录下user文件夹下）；<br><strong>3、在github上添加SSH key</strong><br>在github上点击你的头像，下拉菜单中点击“<strong>setting</strong>”，找到添加SSH key的菜单，然后新增SSH key；把文件id_rsa.pub 里面的内容全部复制到 key编辑框中，标题随意填写，保存完毕；<br><strong>4、检查SSH key是否有效</strong><br>在git命令行输入：<strong>ssh -T <a href="mailto:git@github.com">git@github.com</a></strong>；这里会要求你输入SSH key密码，如果刚才生成SSH key时未输入密码，密码就为空；然后看到信息：<br> <strong>Hi 用户名! You’ve successfully authenticated</strong>；说明配置成功；<br>再次查看github密钥<br>登陆到github上查看刚刚输入的SSH key，现在图标的颜色变为绿色，说明密钥配置有效；到这步git已经安装完成。</p>
-<h3 id="安装node-js-和部署hexo"><a href="#安装node-js-和部署hexo" class="headerlink" title="安装node.js 和部署hexo"></a><strong>安装node.js 和部署hexo</strong></h3><blockquote>
-<p>Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。    (一样的不知所云😵)</p>
-</blockquote>
-<p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>     ←——  正经下载地址。</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75840457-362db000-5e06-11ea-9f13-2a3bb6cbc570.png" alt=""></p>
-<p>然后默认配置 ，node.js完成。</p>
-<p>下面安装hexo ,这里就方便多了，在合适的位置新建一个文件夹，来存放hexo的文件， 我的文件路径 → D:\hexo </p>
-<p>在这个文件夹里鼠标右键，选择  <strong>git bash  here</strong>   在弹出的黑框里输入命令  <strong>npm install -g hexo-cli</strong>  回车  </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75841824-a558d380-5e09-11ea-930a-1cc75c0be9ba.png" alt=""></p>
-<p>等待完成，再次输入命令 <strong>hexo init</strong>  回车并等待完成，这个时候我们有了下面这些文件夹，    </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75843129-4301d200-5e0d-11ea-99be-1757541a223e.png" alt=""></p>
-<p>安装deploy-git部署命令  ：在命令行输入<strong>npm install hexo-deployer-git –save</strong></p>
-<p>熟悉hexo的命令 ：  可以参考<a href="https://www.cnblogs.com/wsmrzx/p/9439448.html" target="_blank" rel="noopener">https://www.cnblogs.com/wsmrzx/p/9439448.html</a>     </p>
-<p>下面是常用的命令：</p>
-<p><strong>hexo clean</strong>  命令用于清理缓存文件，是一个比较常用的命令</p>
-<p><strong>hexo g</strong>    命令用于生成静态文件 这是简写  全称是 <strong>hexo generate</strong>  不过没有必要，简称也是可以的</p>
-<p><strong>hexo s</strong>    命令用于启动本地服务器，同样是简称 。 </p>
-<p><strong>hexo d</strong>   用于部署网站</p>
-<p><strong>hexo new</strong>  新建博文 如 hexo new “教程”</p>
-<p>在命令行输入 hexo clean  回车 结束后 输入 hexo g 回车 结束后 输入 hexo s 回车   等待<del>~</del>  命令行出现网址 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>  之后 在浏览器输入这个网址，就可以访问你的博客了。   命令行CTRL + C 退出  。</p>
-<h3 id="选择一个主题"><a href="#选择一个主题" class="headerlink" title="选择一个主题"></a><strong>选择一个主题</strong></h3><p>可以发现你的博客很简洁（丑陋），在博客根目录中有 <strong>themes</strong> 文件夹（上图），为了方便添加评论系统，我选择了一个内置了Valine 评论系统的主题，在<a href="https://valine.js.org/hexo.html" target="_blank" rel="noopener">https://valine.js.org/hexo.html</a>    网站里收录了不少这样的主题，建议选择一个经常有人维护的项目。 我选择的是<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a>  添加主题的方法是进入<strong>themes</strong> 文件夹，（为了简便下面我不在说怎么使用 Git bash here 了 ） 命令行输入<strong>git clone <a href="https://github.com/theme-next/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next.git</a></strong> 回车，文件夹内出现 名hexo-theme-next 的文件夹，  回到博客根目录，用记事本或其他方便的应用打开<strong>_config.yml</strong>     找到<strong>theme</strong> 将后面的 landscape 改为 hexo-theme-next （你下载的主题名）  然后 hexo clean  +hexo g+ hexo d +hexo s    查看新主题。  </p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75846092-24540900-5e16-11ea-8b2d-2408805850b7.png" alt=""></p>
-<h3 id="关联github和hexo"><a href="#关联github和hexo" class="headerlink" title="关联github和hexo"></a><strong>关联github和hexo</strong></h3><p>登录GitHub账户（看不懂就网页翻译），新建一个仓库（点击头像左侧的加号，下拉菜单选择new repository）名字为 <strong>你的用户名加github.io</strong>     选用公共仓库，毕竟我们喜欢白嫖。 <strong>！</strong>下面图片少了一个步骤，<strong>Initialize this repository with a README前面的方框点上对号</strong>    </p>
-<p>  <img src="https://user-images.githubusercontent.com/49864898/75847405-0c7e8400-5e1a-11ea-9d24-59d40e24dbfc.png" alt=""></p>
-<p>为github选择一个主题： 进入仓库的 Settings  （参考路径h ttps://github.com/你的用户名/你的用户名.github.io/settings）  向下滑动 ，到GitHub Pages 选择 一个主题  随意选择</p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75849250-5f0e6f00-5e1f-11ea-9930-e3f23b3bba1e.png" alt=""></p>
-<p><img src="https://user-images.githubusercontent.com/49864898/75849322-8b29f000-5e1f-11ea-8dff-0750d76deed6.png" alt=""></p>
-<p>接着打开博客配置文件 <strong>_config.yml</strong>   找到 deploy    进行下面的配置（如图）  添上你的GitHub用户名</p>
-<p> <img src="https://user-images.githubusercontent.com/49864898/75850358-15735380-5e22-11ea-8df4-d396c0950fd9.png" alt=""></p>
-<p>在repository 后面添加库链接就可以了    有的教程是加  git@github.……     这是两种协议，使用ssh协议，将公钥放到GitHub上，私钥留在电脑里，每次push会自动对比公钥私钥，免密使用。</p>
-<p>我使用http协议是因为我遇到了一些问题</p>
-<p><strong>最后   hexo clean   hexo g    hexo d      三件套</strong>  浏览器访问https://用户名.github.io   .**</p>
+<p>:man_singer: : 挺好玩的</p>
+<h2 id="网页的组成"><a href="#网页的组成" class="headerlink" title="网页的组成"></a>网页的组成</h2><ol>
+<li><p>HTML</p>
+<p>网页结构</p>
+</li>
+<li><p>css</p>
+<p>网站样式  渲染</p>
+</li>
+<li><p>js </p>
+<p>网站交互  动画效果</p>
+<p>不同浏览器内核渲染出来的网页效果可能不同。</p>
+<a id="more"></a>
+
+</li>
+</ol>
+<h2 id="记事本开发第一个网站"><a href="#记事本开发第一个网站" class="headerlink" title="记事本开发第一个网站"></a>记事本开发第一个网站</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">title</span>&gt;</span>one<span class="tag">&lt;/<span class="name">title</span>&gt;</span>  //网站标题</span><br><span class="line">	<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">h1</span>&gt;</span>hello world<span class="tag">&lt;/<span class="name">h1</span>&gt;</span>  //一级标题 </span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>你好世界<span class="tag">&lt;/<span class="name">p</span>&gt;</span>   //段落</span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>文档声明  <!doctype html></li>
+<li>HTML元素<html></html></li>
+<li>head元素<head></head></li>
+<li>boby元素<body></body></li>
+</ol>
+<h2 id="vscode-配置"><a href="#vscode-配置" class="headerlink" title="vscode 配置"></a>vscode 配置</h2><p>安装插件：</p>
+<p>中文支持     open in browser   Atom主题    </p>
+<p>技巧：</p>
+<p>输入提示      缩进：选中 Tab     退回缩进： 选中   shift      Tab </p>
+<h2 id="快捷键总结"><a href="#快捷键总结" class="headerlink" title="快捷键总结"></a>快捷键总结</h2><ul>
+<li><p>！ </p>
+</li>
+<li><p>自动生成一套HTML代码</p>
+</li>
+<li><p>tab</p>
+</li>
+<li><p>增加选中行缩进</p>
+</li>
+<li><p>tab+shift </p>
+</li>
+<li><p>减少选中行缩进</p>
+</li>
+<li><p>Alt+B</p>
+</li>
+<li><p>快速浏览器浏览网页</p>
+</li>
+<li><p>CTRL c  v</p>
+</li>
+<li><p>复制粘贴</p>
+</li>
+<li><p>CTRL + /</p>
+<p>快速注释      注释多行    </p>
+</li>
+<li><p>alt  shift  向下键  </p>
+<p>复制当前行</p>
+</li>
+<li><p>ctrl +f </p>
+<p>搜索</p>
+</li>
+</ul>
+<h2 id="元素的书写格式"><a href="#元素的书写格式" class="headerlink" title="元素的书写格式"></a>元素的书写格式</h2><ul>
+<li>双标签   &lt;元素&gt;内容&lt;/元素&gt;  </li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>内容<span class="tag">&lt;/<span class="name">p</span>&gt;</span>     <span class="tag">&lt;<span class="name">--例子</span> <span class="attr">--</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>单标签   </p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"地址"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ul>
+<ul>
+<li>元素之间的嵌套</li>
+</ul>
+<h2 id="元素的属性"><a href="#元素的属性" class="headerlink" title="元素的属性"></a>元素的属性</h2><p>&lt;元素 属性名=“属性值” 属性名=“属性值”&gt;&lt;/元素&gt;</p>
+<p>公共属性很多标签可以设置     特有属性特殊标签才能设置</p>
+<h2 id="HTML基础练习"><a href="#HTML基础练习" class="headerlink" title="HTML基础练习"></a>HTML基础练习</h2><p>文档声明 <!doctype html></p>
+<h3 id="HTML元素"><a href="#HTML元素" class="headerlink" title="HTML元素"></a>HTML元素</h3><p>html 元素只有一个  是html 文档的根元素 </p>
+<p>lang属性   例： <html lang="en"></p>
+<h3 id="head元素"><a href="#head元素" class="headerlink" title="head元素"></a>head元素</h3><p>对网页做基本设置    </p>
+<p>描述网页各种设置   标题、图标、编码等     link 设置图标</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span>  </span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"shortcut icon"</span> <span class="attr">href</span>=<span class="string">"favicon.png"</span> &gt;</span>      </span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>新发现的一个东西  <strong><em>==win+.==</em></strong>  弹出一个表情选择框    q(≧▽≦q)    []<del>(￣▽￣)</del>*    挺好玩</p>
+<h3 id="boby元素"><a href="#boby元素" class="headerlink" title="boby元素"></a>boby元素</h3><p>浏览器显示内容</p>
+<h3 id="h-p-strong-元素"><a href="#h-p-strong-元素" class="headerlink" title="h p strong 元素"></a>h p strong 元素</h3><p>h元素   从h1到h6 标题从大到小</p>
+<p>p元素   段落 </p>
+<p>strong元素  加粗</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span> 人生是一面<span class="tag">&lt;<span class="name">strong</span>&gt;</span>镜子<span class="tag">&lt;/<span class="name">strong</span>&gt;</span>&gt;</span><br><span class="line"></span><br><span class="line">		人生是一面镜子，我们梦寐以求的第一件事就是从中辨认出自己！！</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="h元素与搜索引擎优化-SEO"><a href="#h元素与搜索引擎优化-SEO" class="headerlink" title="h元素与搜索引擎优化(SEO)"></a>h元素与搜索引擎优化(SEO)</h3><ul>
+<li><p>h元素有助于网站的seo优化,可以促进关键词排名</p>
+</li>
+<li><p>建议一个网站只有一个h1标签</p>
+</li>
+</ul>
+<h3 id="code-br-hr-元素-不常用"><a href="#code-br-hr-元素-不常用" class="headerlink" title="code br hr 元素  (不常用)"></a>code br hr 元素  (不常用)</h3><p>code元素:  等宽字体   代码字体</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span> 人生是一面<span class="tag">&lt;<span class="name">strong</span>&gt;</span>镜子<span class="tag">&lt;/<span class="name">strong</span>&gt;</span>&gt;</span><br><span class="line">		<span class="tag">&lt;<span class="name">code</span>&gt;</span>#include <span class="tag">&lt;<span class="name">stdio.h</span>&gt;</span></span><br><span class="line">			 int main()</span><br><span class="line">			 &#123;</span><br><span class="line">				 return 0;</span><br><span class="line">			 &#125;</span><br><span class="line">		<span class="tag">&lt;/<span class="name">stdio.h</span>&gt;</span><span class="tag">&lt;/<span class="name">code</span>&gt;</span></span><br><span class="line">		人生是一面镜子，我们梦寐以求的第一件事就是从中辨认出自己！！</span><br><span class="line">	<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>br元素:   段落换行   —–其他方法    多个p或者div</p>
+<p>hr元素: 分割线    —–其他方法   给div设置样式   div设置边框</p>
+<h3 id="span元素"><a href="#span元素" class="headerlink" title="span元素"></a>span元素</h3><p>默认情况与普通文本无差别</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">heab</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>span元素的使用例子<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">            <span class="selector-class">.text</span>&#123;</span></span><br><span class="line">                color: red;</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">heab</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">        这是一段文本</span><br><span class="line">            <span class="tag">&lt;<span class="name">span</span>&gt;</span>这也是一段文本<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text"</span>&gt;</span>这还是一段文本<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="div元素"><a href="#div元素" class="headerlink" title="div元素"></a>div元素</h3><p>区块型    </p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>测试<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">        <span class="selector-class">.yangshi</span>&#123;</span></span><br><span class="line">            color: red;</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"yangshi"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">        一个人的夜我的心应该放在哪里</span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="字符实体"><a href="#字符实体" class="headerlink" title="字符实体"></a>字符实体</h2><p>==&amp;nbsp ;== : 空格     —其他方式    css实现    ==&amp;lt ;== :小于号   左小括号 ==&lt;==   ==&amp;gt ;== 大于号  小右括号 ==&gt;==</p>
+<h2 id="img元素-使用"><a href="#img元素-使用" class="headerlink" title="img元素 使用"></a>img元素 使用</h2><p>src 图片地址  alt加载失败显示.   width 图片宽度</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片地址"</span> <span class="attr">alt</span>=<span class="string">"加载失败"</span> <span class="attr">width</span>=<span class="string">"300"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="a元素"><a href="#a元素" class="headerlink" title="a元素"></a>a元素</h2><p>属性: href</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.baidu.com"</span>&gt;</span>百度一下<span class="tag">&lt;/<span class="name">a</span>&gt;</span>   //基本使用</span><br></pre></td></tr></table></figure>
+
+<p>属性: target</p>
+<ul>
+<li>_self  默认值</li>
+<li>_blank 空白</li>
+</ul>
+<p>a元素和base元素</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">base</span> <span class="attr">href</span>=<span class="string">"https://www.baidu.com"</span>&gt;</span>  //抽取链接的一部分</span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bady</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.baidu.com/省略"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>百度一下<span class="tag">&lt;/<span class="name">a</span>&gt;</span>  //https://www.baidu.com 可以省略,已经被抽取了</span><br><span class="line">    <span class="tag">&lt;/<span class="name">bady</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
-        <category>hexo github 博客</category>
+        <category>小程序开发</category>
       </categories>
       <tags>
-        <tag>博客搭建</tag>
+        <tag>html css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>三国杀系列视频</title>
+    <url>/2021/02/01/sanguo/</url>
+    <content><![CDATA[<h1 id="哔哩哔哩UP主-给点氧气还有救-三国杀系列视频及配套资源下载"><a href="#哔哩哔哩UP主-给点氧气还有救-三国杀系列视频及配套资源下载" class="headerlink" title="哔哩哔哩UP主:给点氧气还有救   三国杀系列视频及配套资源下载"></a>哔哩哔哩UP主:给点氧气还有救   三国杀系列视频及配套资源下载</h1><p><a href="https://space.bilibili.com/388527048" target="_blank" rel="noopener">小破站主页</a>                     使用提醒:可通过网站搜索功能快速查找需要的资源 (视频后就是资源链接)</p>
+<p><a href="https://jq.qq.com/?_wv=1027&k=Q6qtiPax" target="_blank" rel="noopener">QQ群</a>  713567833</p>
+<h2 id="第一弹-游戏背景"><a href="#第一弹-游戏背景" class="headerlink" title="第一弹: 游戏背景"></a>第一弹: 游戏背景</h2>
+
+ <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+ <iframe src="//player.bilibili.com/player.html?aid=671466683&bvid=BV1UU4y1s7Th&cid=290442527&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
+ 
+
+<p><a href="https://pan-yz.chaoxing.com/external/m/file/562955597060177920" target="_blank" rel="noopener">游戏背景下载</a></p>
+<p>下载文件后将文件后缀名改为 zip     例子:   下载氧气.txt      改为氧气.zip  </p>
+<h2 id="动态背景导入"><a href="#动态背景导入" class="headerlink" title="动态背景导入"></a>动态背景导入</h2>
+ <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+ <iframe src="//player.bilibili.com/player.html?aid=203599683&bvid=BV18h41127oz&cid=280146746&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
+ 
+
+<p><a href="https://pan-yz.chaoxing.com/external/m/file/562987018586685440" target="_blank" rel="noopener">动态皮肤下载</a>  <strong>下载文件后将文件后缀名改为 zip</strong></p>
+]]></content>
+      <categories>
+        <category>三国杀</category>
+      </categories>
+      <tags>
+        <tag>三国杀</tag>
       </tags>
   </entry>
   <entry>
@@ -447,6 +431,116 @@
       </tags>
   </entry>
   <entry>
+    <title>robomaster备赛准备（停止更新）</title>
+    <url>/2020/04/08/beisai/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
+
+<h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>使用 solidworks画出一个三棱锥 并用<strong>Cura</strong> 将其转化为 打印机识别文件。</p>
+<p>长期任务：  <a href="https://bbs.robomaster.com/forum.php?mod=viewthread&tid=6979&extra=page%3D1" target="_blank" rel="noopener">开源汇总</a>    下载任意一类（除空中机器人）机械结构图纸，加以研究。</p>
+<h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
+<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a>          <a id="more"></a></p>
+<h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
+<h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
+<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续。</p>
+<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
+<h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
+<h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
+<h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
+<h2 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h2><h3 id="第四周：-1"><a href="#第四周：-1" class="headerlink" title="第四周："></a>第四周：</h3><p>任务：串口实验  </p>
+<h3 id="第三周：-2"><a href="#第三周：-2" class="headerlink" title="第三周："></a>第三周：</h3><p>本周电控组任务按键实验 （下周任务使用串口控制LED亮暗）</p>
+<h3 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h3><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
+<h3 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h3><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
+<h2 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h2><h3 id="第四周：-2"><a href="#第四周：-2" class="headerlink" title="第四周："></a>第四周：</h3><p>长期任务： 推送  不限于备赛组任务，也可以是其他内容。   两篇</p>
+<h3 id="第三周：-3"><a href="#第三周：-3" class="headerlink" title="第三周："></a>第三周：</h3><p>宣传：   继续推别的组    推自己组学习心得也行。    ps自学，不要求发图片了。（不同操作适用于不同图片，强制收图片意义不大。）    </p>
+<h3 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h3><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
+<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
+<h3 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h3><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
+<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
+<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
+<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
+<blockquote>
+<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">组别/成员</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">电控</td>
+<td>陈峻琦</td>
+<td>刘宏源</td>
+<td>杨中凯</td>
+<td>宋博</td>
+<td>何明亮</td>
+<td>张炎</td>
+<td>胡展滔</td>
+<td>赵豪杰</td>
+<td>任一飞</td>
+<td>9人</td>
+</tr>
+<tr>
+<td align="center">机械</td>
+<td>杨毅</td>
+<td>蒋庚珊</td>
+<td>臧奕博</td>
+<td>魏世娜</td>
+<td>刘友睿</td>
+<td>郭润桐</td>
+<td>佟昕鹏</td>
+<td></td>
+<td></td>
+<td>7人</td>
+</tr>
+<tr>
+<td align="center">宣传</td>
+<td>王成玉</td>
+<td>郭蕊琪</td>
+<td>植永海</td>
+<td>孙洋</td>
+<td>马雪琪</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>5人</td>
+</tr>
+<tr>
+<td align="center">视觉</td>
+<td>杨思远</td>
+<td>陈贤卓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2人</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>战队规划</category>
+      </categories>
+      <tags>
+        <tag>准备RM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>matlab</title>
     <url>/2020/04/26/matlab/</url>
     <content><![CDATA[<h1 id="matlab笔记"><a href="#matlab笔记" class="headerlink" title="matlab笔记"></a><strong>matlab笔记</strong></h1><h3 id="matlab的数据操作——变量和语句"><a href="#matlab的数据操作——变量和语句" class="headerlink" title="matlab的数据操作——变量和语句"></a>matlab的数据操作——变量和语句</h3><p>1、变量命名</p>
@@ -486,141 +580,74 @@
       </tags>
   </entry>
   <entry>
-    <title>小程序基础——html和css</title>
-    <url>/2020/05/02/html-css/</url>
-    <content><![CDATA[<h1 id="html5-css3❤"><a href="#html5-css3❤" class="headerlink" title="html5-css3❤"></a>html5-css3❤</h1><blockquote>
-<p><strong>网站</strong>-》多个网页     网页显示过程： 网络请求   返回网页（下载HTML CSS JS）  解析  </p>
+    <title>git加hexo博客</title>
+    <url>/2020/04/08/boke/</url>
+    <content><![CDATA[<h2 id="搭建自己的博客（一）"><a href="#搭建自己的博客（一）" class="headerlink" title="搭建自己的博客（一）"></a>搭建自己的博客（一）</h2><h3 id="前序："><a href="#前序：" class="headerlink" title="前序："></a><strong>前序：</strong></h3><p>折腾了几天，搞出了<strong>git</strong>加<strong>hexo</strong>的博客（带有评论功能），再次记录一下此次搭建的过程。先看看成品：</p>
+<p><a href="https://g-ncp.github.io">https://g-ncp.github.io</a>   （简约风）  推送一篇特制博文配合微信公众号的原文链接使用，可替代微信公众号留言功能，因为我们知道现在注册的公众号都没有留言功能。 （Windows10）  </p>
+<p><strong>工具：</strong>电脑   手机   <a id="more"></a></p>
+<p>既然是<strong>git</strong>加<strong>hexo</strong>,那么就先来看看<strong>git</strong>和<strong>hexo</strong>是什么。</p>
+<blockquote>
+<p>Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds(一个人)为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown(可以编辑文本，我感觉挺好用的，博客就是用这个写的)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 </blockquote>
-<p>:man_singer: : 挺好玩的</p>
-<h2 id="网页的组成"><a href="#网页的组成" class="headerlink" title="网页的组成"></a>网页的组成</h2><ol>
-<li><p>HTML</p>
-<p>网页结构</p>
-</li>
-<li><p>css</p>
-<p>网站样式  渲染</p>
-</li>
-<li><p>js </p>
-<p>网站交互  动画效果</p>
-<p>不同浏览器内核渲染出来的网页效果可能不同。</p>
-<a id="more"></a>
-
-</li>
-</ol>
-<h2 id="记事本开发第一个网站"><a href="#记事本开发第一个网站" class="headerlink" title="记事本开发第一个网站"></a>记事本开发第一个网站</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">title</span>&gt;</span>one<span class="tag">&lt;/<span class="name">title</span>&gt;</span>  //网站标题</span><br><span class="line">	<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">h1</span>&gt;</span>hello world<span class="tag">&lt;/<span class="name">h1</span>&gt;</span>  //一级标题 </span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>你好世界<span class="tag">&lt;/<span class="name">p</span>&gt;</span>   //段落</span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>文档声明  <!doctype html></li>
-<li>HTML元素<html></html></li>
-<li>head元素<head></head></li>
-<li>boby元素<body></body></li>
-</ol>
-<h2 id="vscode-配置"><a href="#vscode-配置" class="headerlink" title="vscode 配置"></a>vscode 配置</h2><p>安装插件：</p>
-<p>中文支持     open in browser   Atom主题    </p>
-<p>技巧：</p>
-<p>输入提示      缩进：选中 Tab     退回缩进： 选中   shift      Tab </p>
-<h2 id="快捷键总结"><a href="#快捷键总结" class="headerlink" title="快捷键总结"></a>快捷键总结</h2><ul>
-<li><p>！ </p>
-</li>
-<li><p>自动生成一套HTML代码</p>
-</li>
-<li><p>tab</p>
-</li>
-<li><p>增加选中行缩进</p>
-</li>
-<li><p>tab+shift </p>
-</li>
-<li><p>减少选中行缩进</p>
-</li>
-<li><p>Alt+B</p>
-</li>
-<li><p>快速浏览器浏览网页</p>
-</li>
-<li><p>CTRL c  v</p>
-</li>
-<li><p>复制粘贴</p>
-</li>
-<li><p>CTRL + /</p>
-<p>快速注释      注释多行    </p>
-</li>
-<li><p>alt  shift  向下键  </p>
-<p>复制当前行</p>
-</li>
-<li><p>ctrl +f </p>
-<p>搜索</p>
-</li>
-</ul>
-<h2 id="元素的书写格式"><a href="#元素的书写格式" class="headerlink" title="元素的书写格式"></a>元素的书写格式</h2><ul>
-<li>双标签   &lt;元素&gt;内容&lt;/元素&gt;  </li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>内容<span class="tag">&lt;/<span class="name">p</span>&gt;</span>     <span class="tag">&lt;<span class="name">--例子</span> <span class="attr">--</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p>单标签   </p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"地址"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-</li>
-</ul>
-<ul>
-<li>元素之间的嵌套</li>
-</ul>
-<h2 id="元素的属性"><a href="#元素的属性" class="headerlink" title="元素的属性"></a>元素的属性</h2><p>&lt;元素 属性名=“属性值” 属性名=“属性值”&gt;&lt;/元素&gt;</p>
-<p>公共属性很多标签可以设置     特有属性特殊标签才能设置</p>
-<h2 id="HTML基础练习"><a href="#HTML基础练习" class="headerlink" title="HTML基础练习"></a>HTML基础练习</h2><p>文档声明 <!doctype html></p>
-<h3 id="HTML元素"><a href="#HTML元素" class="headerlink" title="HTML元素"></a>HTML元素</h3><p>html 元素只有一个  是html 文档的根元素 </p>
-<p>lang属性   例： <html lang="en"></p>
-<h3 id="head元素"><a href="#head元素" class="headerlink" title="head元素"></a>head元素</h3><p>对网页做基本设置    </p>
-<p>描述网页各种设置   标题、图标、编码等     link 设置图标</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span>  </span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"shortcut icon"</span> <span class="attr">href</span>=<span class="string">"favicon.png"</span> &gt;</span>      </span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>标题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>新发现的一个东西  <strong><em>==win+.==</em></strong>  弹出一个表情选择框    q(≧▽≦q)    []<del>(￣▽￣)</del>*    挺好玩</p>
-<h3 id="boby元素"><a href="#boby元素" class="headerlink" title="boby元素"></a>boby元素</h3><p>浏览器显示内容</p>
-<h3 id="h-p-strong-元素"><a href="#h-p-strong-元素" class="headerlink" title="h p strong 元素"></a>h p strong 元素</h3><p>h元素   从h1到h6 标题从大到小</p>
-<p>p元素   段落 </p>
-<p>strong元素  加粗</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span> 人生是一面<span class="tag">&lt;<span class="name">strong</span>&gt;</span>镜子<span class="tag">&lt;/<span class="name">strong</span>&gt;</span>&gt;</span><br><span class="line"></span><br><span class="line">		人生是一面镜子，我们梦寐以求的第一件事就是从中辨认出自己！！</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="h元素与搜索引擎优化-SEO"><a href="#h元素与搜索引擎优化-SEO" class="headerlink" title="h元素与搜索引擎优化(SEO)"></a>h元素与搜索引擎优化(SEO)</h3><ul>
-<li><p>h元素有助于网站的seo优化,可以促进关键词排名</p>
-</li>
-<li><p>建议一个网站只有一个h1标签</p>
-</li>
-</ul>
-<h3 id="code-br-hr-元素-不常用"><a href="#code-br-hr-元素-不常用" class="headerlink" title="code br hr 元素  (不常用)"></a>code br hr 元素  (不常用)</h3><p>code元素:  等宽字体   代码字体</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span> 人生是一面<span class="tag">&lt;<span class="name">strong</span>&gt;</span>镜子<span class="tag">&lt;/<span class="name">strong</span>&gt;</span>&gt;</span><br><span class="line">		<span class="tag">&lt;<span class="name">code</span>&gt;</span>#include <span class="tag">&lt;<span class="name">stdio.h</span>&gt;</span></span><br><span class="line">			 int main()</span><br><span class="line">			 &#123;</span><br><span class="line">				 return 0;</span><br><span class="line">			 &#125;</span><br><span class="line">		<span class="tag">&lt;/<span class="name">stdio.h</span>&gt;</span><span class="tag">&lt;/<span class="name">code</span>&gt;</span></span><br><span class="line">		人生是一面镜子，我们梦寐以求的第一件事就是从中辨认出自己！！</span><br><span class="line">	<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>br元素:   段落换行   —–其他方法    多个p或者div</p>
-<p>hr元素: 分割线    —–其他方法   给div设置样式   div设置边框</p>
-<h3 id="span元素"><a href="#span元素" class="headerlink" title="span元素"></a>span元素</h3><p>默认情况与普通文本无差别</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">heab</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>span元素的使用例子<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">            <span class="selector-class">.text</span>&#123;</span></span><br><span class="line">                color: red;</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">heab</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">        这是一段文本</span><br><span class="line">            <span class="tag">&lt;<span class="name">span</span>&gt;</span>这也是一段文本<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text"</span>&gt;</span>这还是一段文本<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="div元素"><a href="#div元素" class="headerlink" title="div元素"></a>div元素</h3><p>区块型    </p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>测试<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">        <span class="selector-class">.yangshi</span>&#123;</span></span><br><span class="line">            color: red;</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"yangshi"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">        一个人的夜我的心应该放在哪里</span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="字符实体"><a href="#字符实体" class="headerlink" title="字符实体"></a>字符实体</h2><p>==&amp;nbsp ;== : 空格     —其他方式    css实现    ==&amp;lt ;== :小于号   左小括号 ==&lt;==   ==&amp;gt ;== 大于号  小右括号 ==&gt;==</p>
-<h2 id="img元素-使用"><a href="#img元素-使用" class="headerlink" title="img元素 使用"></a>img元素 使用</h2><p>src 图片地址  alt加载失败显示.   width 图片宽度</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"图片地址"</span> <span class="attr">alt</span>=<span class="string">"加载失败"</span> <span class="attr">width</span>=<span class="string">"300"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="a元素"><a href="#a元素" class="headerlink" title="a元素"></a>a元素</h2><p>属性: href</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.baidu.com"</span>&gt;</span>百度一下<span class="tag">&lt;/<span class="name">a</span>&gt;</span>   //基本使用</span><br></pre></td></tr></table></figure>
-
-<p>属性: target</p>
-<ul>
-<li>_self  默认值</li>
-<li>_blank 空白</li>
-</ul>
-<p>a元素和base元素</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">base</span> <span class="attr">href</span>=<span class="string">"https://www.baidu.com"</span>&gt;</span>  //抽取链接的一部分</span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bady</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.baidu.com/省略"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>百度一下<span class="tag">&lt;/<span class="name">a</span>&gt;</span>  //https://www.baidu.com 可以省略,已经被抽取了</span><br><span class="line">    <span class="tag">&lt;/<span class="name">bady</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
+<p><a href="https://www.typora.io/#windows" target="_blank" rel="noopener">https://www.typora.io/#windows</a>  ←—— 这是我用的md编辑器（我直接贴的Windows下载界面），配合博客编辑使用，也可以自行下载。</p>
+<p>还有不推荐把软件都装在C盘，也不是太占C盘，就是如果需要重装系统的话，没有用注册表的话，到时候方便些，软件不用重新下载。</p>
+<h3 id="安装git-："><a href="#安装git-：" class="headerlink" title="安装git ："></a>安装git ：</h3><p>首先在电脑上安装git，这里给出官方下载链接,<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>      注意与自己的操作系统匹配。 </p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75775522-1d34e880-5d8d-11ea-9df5-486466e84b0f.png" alt=""></p>
+<p> 双击安装包</p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75775992-1195f180-5d8e-11ea-9d40-22b0291604af.png" alt="">  </p>
+<p>出现下图，一路默认配置就可以了，</p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75776069-35f1ce00-5d8e-11ea-91b2-05bd9cfae405.png" alt=""></p>
+<p>安装完成之后，在桌面右键可以看到Git GUI Here      Git Bash Here             </p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75777078-41de8f80-5d90-11ea-8875-0b85b9678d1f.png" alt=""></p>
+<p>连接本地与远程，需要 https协议或者ssh密钥。 我记得好像有三种协议，详情可以百度查看GitHub官网。      </p>
+<p>下面我们采用ssh密钥的连接方式，首先注册一个GitHub的账户，<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a>    </p>
+<p> <img data-src="https://user-images.githubusercontent.com/49864898/75778155-3e4c0800-5d92-11ea-94d7-5af5045c37c1.png" alt=""></p>
+<blockquote>
+<p><strong>注册完成后，使用git命令进行如下操作（即右键选择 Git Bash Here）</strong></p>
+</blockquote>
+<p>​    <img data-src="https://user-images.githubusercontent.com/49864898/75779661-f7abdd00-5d94-11ea-95c4-d116968bd65a.png" alt=""></p>
+<p><strong>1、设置用户名和邮箱</strong><br>在git命令行中对git进行全局设置， <strong>git config –global user.name “用户名”， git config –global user.email 邮箱“</strong>；</p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75780049-b36d0c80-5d95-11ea-8b1b-9e36b5d2e940.png" alt=""></p>
+<p><strong>2、生成SSH key</strong><br>在git命令行中，输入命令<strong>ssh-keygen -t rsa -C “邮箱地址”</strong>，连续按三个回车；然后根据返回的信息，找到.ssh目录下的两个文件（C盘目录下user文件夹下）；<br><strong>3、在github上添加SSH key</strong><br>在github上点击你的头像，下拉菜单中点击“<strong>setting</strong>”，找到添加SSH key的菜单，然后新增SSH key；把文件id_rsa.pub 里面的内容全部复制到 key编辑框中，标题随意填写，保存完毕；<br><strong>4、检查SSH key是否有效</strong><br>在git命令行输入：<strong>ssh -T <a href="mailto:git@github.com">git@github.com</a></strong>；这里会要求你输入SSH key密码，如果刚才生成SSH key时未输入密码，密码就为空；然后看到信息：<br> <strong>Hi 用户名! You’ve successfully authenticated</strong>；说明配置成功；<br>再次查看github密钥<br>登陆到github上查看刚刚输入的SSH key，现在图标的颜色变为绿色，说明密钥配置有效；到这步git已经安装完成。</p>
+<h3 id="安装node-js-和部署hexo"><a href="#安装node-js-和部署hexo" class="headerlink" title="安装node.js 和部署hexo"></a><strong>安装node.js 和部署hexo</strong></h3><blockquote>
+<p>Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。    (一样的不知所云😵)</p>
+</blockquote>
+<p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>     ←——  正经下载地址。</p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75840457-362db000-5e06-11ea-9f13-2a3bb6cbc570.png" alt=""></p>
+<p>然后默认配置 ，node.js完成。</p>
+<p>下面安装hexo ,这里就方便多了，在合适的位置新建一个文件夹，来存放hexo的文件， 我的文件路径 → D:\hexo </p>
+<p>在这个文件夹里鼠标右键，选择  <strong>git bash  here</strong>   在弹出的黑框里输入命令  <strong>npm install -g hexo-cli</strong>  回车  </p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75841824-a558d380-5e09-11ea-930a-1cc75c0be9ba.png" alt=""></p>
+<p>等待完成，再次输入命令 <strong>hexo init</strong>  回车并等待完成，这个时候我们有了下面这些文件夹，    </p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75843129-4301d200-5e0d-11ea-99be-1757541a223e.png" alt=""></p>
+<p>安装deploy-git部署命令  ：在命令行输入<strong>npm install hexo-deployer-git –save</strong></p>
+<p>熟悉hexo的命令 ：  可以参考<a href="https://www.cnblogs.com/wsmrzx/p/9439448.html" target="_blank" rel="noopener">https://www.cnblogs.com/wsmrzx/p/9439448.html</a>     </p>
+<p>下面是常用的命令：</p>
+<p><strong>hexo clean</strong>  命令用于清理缓存文件，是一个比较常用的命令</p>
+<p><strong>hexo g</strong>    命令用于生成静态文件 这是简写  全称是 <strong>hexo generate</strong>  不过没有必要，简称也是可以的</p>
+<p><strong>hexo s</strong>    命令用于启动本地服务器，同样是简称 。 </p>
+<p><strong>hexo d</strong>   用于部署网站</p>
+<p><strong>hexo new</strong>  新建博文 如 hexo new “教程”</p>
+<p>在命令行输入 hexo clean  回车 结束后 输入 hexo g 回车 结束后 输入 hexo s 回车   等待<del>~</del>  命令行出现网址 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>  之后 在浏览器输入这个网址，就可以访问你的博客了。   命令行CTRL + C 退出  。</p>
+<h3 id="选择一个主题"><a href="#选择一个主题" class="headerlink" title="选择一个主题"></a><strong>选择一个主题</strong></h3><p>可以发现你的博客很简洁（丑陋），在博客根目录中有 <strong>themes</strong> 文件夹（上图），为了方便添加评论系统，我选择了一个内置了Valine 评论系统的主题，在<a href="https://valine.js.org/hexo.html" target="_blank" rel="noopener">https://valine.js.org/hexo.html</a>    网站里收录了不少这样的主题，建议选择一个经常有人维护的项目。 我选择的是<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a>  添加主题的方法是进入<strong>themes</strong> 文件夹，（为了简便下面我不在说怎么使用 Git bash here 了 ） 命令行输入<strong>git clone <a href="https://github.com/theme-next/hexo-theme-next.git" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next.git</a></strong> 回车，文件夹内出现 名hexo-theme-next 的文件夹，  回到博客根目录，用记事本或其他方便的应用打开<strong>_config.yml</strong>     找到<strong>theme</strong> 将后面的 landscape 改为 hexo-theme-next （你下载的主题名）  然后 hexo clean  +hexo g+ hexo d +hexo s    查看新主题。  </p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75846092-24540900-5e16-11ea-8b2d-2408805850b7.png" alt=""></p>
+<h3 id="关联github和hexo"><a href="#关联github和hexo" class="headerlink" title="关联github和hexo"></a><strong>关联github和hexo</strong></h3><p>登录GitHub账户（看不懂就网页翻译），新建一个仓库（点击头像左侧的加号，下拉菜单选择new repository）名字为 <strong>你的用户名加github.io</strong>     选用公共仓库，毕竟我们喜欢白嫖。 <strong>！</strong>下面图片少了一个步骤，<strong>Initialize this repository with a README前面的方框点上对号</strong>    </p>
+<p>  <img data-src="https://user-images.githubusercontent.com/49864898/75847405-0c7e8400-5e1a-11ea-9d24-59d40e24dbfc.png" alt=""></p>
+<p>为github选择一个主题： 进入仓库的 Settings  （参考路径h ttps://github.com/你的用户名/你的用户名.github.io/settings）  向下滑动 ，到GitHub Pages 选择 一个主题  随意选择</p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75849250-5f0e6f00-5e1f-11ea-9930-e3f23b3bba1e.png" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/75849322-8b29f000-5e1f-11ea-8dff-0750d76deed6.png" alt=""></p>
+<p>接着打开博客配置文件 <strong>_config.yml</strong>   找到 deploy    进行下面的配置（如图）  添上你的GitHub用户名</p>
+<p> <img data-src="https://user-images.githubusercontent.com/49864898/75850358-15735380-5e22-11ea-8df4-d396c0950fd9.png" alt=""></p>
+<p>在repository 后面添加库链接就可以了    有的教程是加  git@github.……     这是两种协议，使用ssh协议，将公钥放到GitHub上，私钥留在电脑里，每次push会自动对比公钥私钥，免密使用。</p>
+<p>我使用http协议是因为我遇到了一些问题</p>
+<p><strong>最后   hexo clean   hexo g    hexo d      三件套</strong>  浏览器访问https://用户名.github.io   .**</p>
 ]]></content>
       <categories>
-        <category>小程序开发</category>
+        <category>hexo github 博客</category>
       </categories>
       <tags>
-        <tag>html css</tag>
+        <tag>博客搭建</tag>
       </tags>
   </entry>
   <entry>
@@ -636,7 +663,7 @@
 <p><button><a href="https://pan-yz.chaoxing.com/external/m/file/493741967147261952" target="_blank" rel="noopener">魁拔之雾凝纪事</a></button></p>
 <p><button><a href="https://pan-yz.chaoxing.com/external/m/file/493742721873326080" target="_blank" rel="noopener">魁拔之书第三卷</a></button></p>
 <p>青青树　著（<a href="http://www.egreenapple.com）" target="_blank" rel="noopener">www.egreenapple.com）</a></p>
-<p><img src="http://imageproxy.chaoxing.com/0x0,q15,jpeg,ssdjmUw6RtMzOwzHnKu-St4zA5ZqrpH5GbkTG8FBOiXU/http://p.ananas.chaoxing.com/star3/origin/0ad7e7d42a8fedda79d70e77f1a7975f.png" alt=""></p>
+<p><img data-src="http://imageproxy.chaoxing.com/0x0,q15,jpeg,ssdjmUw6RtMzOwzHnKu-St4zA5ZqrpH5GbkTG8FBOiXU/http://p.ananas.chaoxing.com/star3/origin/0ad7e7d42a8fedda79d70e77f1a7975f.png" alt=""></p>
 <h1 id="魁拔之书-一卷"><a href="#魁拔之书-一卷" class="headerlink" title="魁拔之书 一卷"></a>魁拔之书 一卷</h1><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><h3 id="宇宙大爆炸中同时诞生的两个世界"><a href="#宇宙大爆炸中同时诞生的两个世界" class="headerlink" title="宇宙大爆炸中同时诞生的两个世界"></a>宇宙大爆炸中同时诞生的两个世界</h3><p>宇宙大爆炸发生之时，至少有两个已知的世界同时诞生。<a id="more"></a></p>
 <p>这两个世界不是分别处在两个地方，而是大致“套叠”在一起的，就像空气和光可以同时存在于一个空间里却各不相扰一样。</p>
 <p>用物理学界普遍认同的“超弦”理论来说明这件事，是很容易理解的。</p>
@@ -2555,33 +2582,6 @@
       </categories>
       <tags>
         <tag>魁拔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三国杀系列视频</title>
-    <url>/2021/02/01/sanguo/</url>
-    <content><![CDATA[<h1 id="哔哩哔哩UP主-给点氧气还有救-三国杀系列视频及配套资源下载"><a href="#哔哩哔哩UP主-给点氧气还有救-三国杀系列视频及配套资源下载" class="headerlink" title="哔哩哔哩UP主:给点氧气还有救   三国杀系列视频及配套资源下载"></a>哔哩哔哩UP主:给点氧气还有救   三国杀系列视频及配套资源下载</h1><p><a href="https://space.bilibili.com/388527048" target="_blank" rel="noopener">小破站主页</a>                     使用提醒:可通过网站搜索功能快速查找需要的资源 (视频后就是资源链接)</p>
-<p><a href="https://jq.qq.com/?_wv=1027&k=Q6qtiPax" target="_blank" rel="noopener">QQ群</a>  713567833</p>
-<h2 id="第一弹-游戏背景"><a href="#第一弹-游戏背景" class="headerlink" title="第一弹: 游戏背景"></a>第一弹: 游戏背景</h2>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
- <iframe src="//player.bilibili.com/player.html?aid=671466683&bvid=BV1UU4y1s7Th&cid=290442527&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/562955597060177920" target="_blank" rel="noopener">游戏背景下载</a></p>
-<p>下载文件后将文件后缀名改为 zip     例子:   下载氧气.txt      改为氧气.zip  </p>
-<h2 id="动态背景导入"><a href="#动态背景导入" class="headerlink" title="动态背景导入"></a>动态背景导入</h2>
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
- <iframe src="//player.bilibili.com/player.html?aid=203599683&bvid=BV18h41127oz&cid=280146746&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/562987018586685440" target="_blank" rel="noopener">动态皮肤下载</a>  <strong>下载文件后将文件后缀名改为 zip</strong></p>
-]]></content>
-      <categories>
-        <category>三国杀</category>
-      </categories>
-      <tags>
-        <tag>三国杀</tag>
       </tags>
   </entry>
 </search>
