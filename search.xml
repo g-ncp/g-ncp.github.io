@@ -1,113 +1,234 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>robomaster备赛准备（停止更新）</title>
-    <url>/2020/04/08/beisai/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
+    <title>微信小程序开发</title>
+    <url>/2020/04/30/xiaochengxu/</url>
+    <content><![CDATA[<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="应用程序结构"><a href="#应用程序结构" class="headerlink" title="应用程序结构"></a>应用程序结构</h2><p>APP-→{page 1-→{组件 1……内置组件</p>
+<p>​            {page         {组件……自定义组件</p>
+<p>文件结构 {APP  { app.js  实例代码    全局相关内容</p>
+<pre><code>{app.json   全局的配置
 
-<h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>使用 solidworks画出一个三棱锥 并用<strong>Cura</strong> 将其转化为 打印机识别文件。</p>
-<p>长期任务：  <a href="https://bbs.robomaster.com/forum.php?mod=viewthread&tid=6979&extra=page%3D1" target="_blank" rel="noopener">开源汇总</a>    下载任意一类（除空中机器人）机械结构图纸，加以研究。</p>
-<h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
-<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a>          <a id="more"></a></p>
-<h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
-<h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
-<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续。</p>
-<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
-<h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
-<h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
-<h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
-<h2 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h2><h3 id="第四周：-1"><a href="#第四周：-1" class="headerlink" title="第四周："></a>第四周：</h3><p>任务：串口实验  </p>
-<h3 id="第三周：-2"><a href="#第三周：-2" class="headerlink" title="第三周："></a>第三周：</h3><p>本周电控组任务按键实验 （下周任务使用串口控制LED亮暗）</p>
-<h3 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h3><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
-<h3 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h3><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
-<h2 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h2><h3 id="第四周：-2"><a href="#第四周：-2" class="headerlink" title="第四周："></a>第四周：</h3><p>长期任务： 推送  不限于备赛组任务，也可以是其他内容。   两篇</p>
-<h3 id="第三周：-3"><a href="#第三周：-3" class="headerlink" title="第三周："></a>第三周：</h3><p>宣传：   继续推别的组    推自己组学习心得也行。    ps自学，不要求发图片了。（不同操作适用于不同图片，强制收图片意义不大。）    </p>
-<h3 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h3><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
-<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
-<p><img data-src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
-<p><img data-src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
-<h3 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h3><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
-<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
-<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
-<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
+{app.wxss 全局的一些样式配置</code></pre><p>​                {page {page.js   c创建页面实例代码</p>
+<p>​                           {page.json   业务的单独配置 </p>
+<p>​                            {page.wxml   页面的wxml配置    内容编辑 ？</p>
+<p>​                            {page.wxss  页面的样式配置     我理解为solid works的渲染   eg:以改变页面字体颜色 文字大小 <a id="more"></a></p>
+<p>新建page页面 排列以建立顺序排列  ，第一个建立的优先显示  ，之后的页面可以被其索引，</p>
+<hr>
+<h2 id="初体验："><a href="#初体验：" class="headerlink" title="初体验："></a>初体验：</h2><p>​           小程序的数据绑定        .wxml  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt; 内容 &lt;&#x2F;view&gt;    or   &lt;view&gt;年龄&#123;&#123;age&#125;&#125;&lt;view&gt;   &#x2F;&#x2F;抽取 .js的内容</span><br></pre></td></tr></table></figure>
+
+<p>​         .js  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">page(&#123;</span><br><span class="line">date: &#123;</span><br><span class="line">age: 18</span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>​                小程序展示列表  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view wx:for&#x3D;&quot;&#123;&#123;数组名&#125;&#125;&quot;&gt;&#123;&#123;item&#125;&#125;&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure>
+
+<p>​                时间监听</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt;当前计数：&#123;&#123;&#125;&#125;&lt;&#x2F;view&gt;</span><br><span class="line"></span><br><span class="line">&lt;button&gt;&lt;&#x2F;button&gt;         &#x2F;&#x2F;这里偶然发现一个东西，md语法里   &lt;button&gt;按钮名称自定义&lt;&#x2F;button&gt;会生                           &#x2F;&#x2F;成一个按钮，当然在小程序里也会生成一个按钮</span><br></pre></td></tr></table></figure>
+
 <blockquote>
-<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
+<p> 这里实现了之前我一直想在博客里实现的功能，即在博客里点击一个按钮，可以下载东西 （就是模仿一些网盘会有那个下载的按钮） </p>
+<p>eg:点击访问我的博客  <strong><a href="https://g-ncp.github.io"><button>秦岭以北</button></a></strong>  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   </span><br><span class="line">注：  **** 加粗 []() 添加链接 &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>
+
 </blockquote>
+<p>创建页面  ，如果使用微信 的“小加号“创建会自动 在app.json中注册   此时编译运行默认显示 第一个创建页面的 .wxml 文件  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&quot;pages&quot;: [</span><br><span class="line">  &quot;pages&#x2F;home&#x2F;home&quot;,</span><br><span class="line">  &quot;pages&#x2F;about&#x2F;about&quot;</span><br><span class="line">],</span><br></pre></td></tr></table></figure>
+
+<p>app.json是整个应用程序入口。 配置页面信息     页面 的.wxml  文件我理解为页面编辑文件     笔记有点乱   现在主要是在熟悉”开发环境“   </p>
+<hr>
+<h2 id="小程序的MVVM架构"><a href="#小程序的MVVM架构" class="headerlink" title="小程序的MVVM架构"></a>小程序的MVVM架构</h2><p>mvvm  m: model   v: view   vm: viewmodel         </p>
+<p>model(数据)  ←→ view model（桥梁）  ← → view       vue 的mvvm架构</p>
+<p>小程序的 mvvm 架构     view（视图层）    MINA框架    model（逻辑层）</p>
+<p>编程范式：1、命令式编程：原生操作DOM   <strong>2、声明式编程</strong> </p>
+<hr>
+<h2 id="小程序的架构和配置"><a href="#小程序的架构和配置" class="headerlink" title="小程序的架构和配置"></a>小程序的架构和配置</h2><ul>
+<li><p>小程序的很多开发需求被规定在配置文件中</p>
+</li>
+<li><p><strong>app.json 全局配置</strong></p>
+</li>
+<li><p><strong>page.json页面配置</strong></p>
+</li>
+<li><p>project.config.json 编译基础库设置文件  </p>
+</li>
+<li><p>sitemap.json 配置小程序是否允许被微信搜索</p>
 <table>
 <thead>
 <tr>
-<th align="center">组别/成员</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th align="center">部分全局配置</th>
+<th align="center">详情参考微信官方文档</th>
+<th align="center"></th>
+<th align="center"></th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">电控</td>
-<td>陈峻琦</td>
-<td>刘宏源</td>
-<td>杨中凯</td>
-<td>宋博</td>
-<td>何明亮</td>
-<td>张炎</td>
-<td>胡展滔</td>
-<td>赵豪杰</td>
-<td>任一飞</td>
-<td>9人</td>
+<td align="center">属性</td>
+<td align="center">类型</td>
+<td align="center">必填</td>
+<td align="center">描述</td>
 </tr>
 <tr>
-<td align="center">机械</td>
-<td>杨毅</td>
-<td>蒋庚珊</td>
-<td>臧奕博</td>
-<td>魏世娜</td>
-<td>刘友睿</td>
-<td>郭润桐</td>
-<td>佟昕鹏</td>
-<td></td>
-<td></td>
-<td>7人</td>
+<td align="center">pages</td>
+<td align="center">string[]</td>
+<td align="center">是</td>
+<td align="center">页面描述列表</td>
 </tr>
 <tr>
-<td align="center">宣传</td>
-<td>王成玉</td>
-<td>郭蕊琪</td>
-<td>植永海</td>
-<td>孙洋</td>
-<td>马雪琪</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>5人</td>
+<td align="center">windows</td>
+<td align="center">Object</td>
+<td align="center">否</td>
+<td align="center">全局的默认窗口表现</td>
 </tr>
 <tr>
-<td align="center">视觉</td>
-<td>杨思远</td>
-<td>陈贤卓</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>2人</td>
+<td align="center">tabBar</td>
+<td align="center">Object</td>
+<td align="center">否</td>
+<td align="center">底部tab栏的表现</td>
 </tr>
 </tbody></table>
+<p>所以页面必须在pages中注册   每一项对应一个路径信息    windows窗口（不是页面内容）显示指定窗口如何显示，还包含了其他属性</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&quot;window&quot;: &#123;</span><br><span class="line">    &quot;navigationBarBackgroundColor&quot;: &quot;#ff5777&quot;,  &#x2F;&#x2F;导航栏颜色</span><br><span class="line">    &quot;navigationBarTextStyle&quot;: &quot;black&quot;,   &#x2F;&#x2F;文本颜色black&#x2F;white</span><br><span class="line">    &quot;navigationBarTitleText&quot;: &quot;小程序&quot;,   &#x2F;&#x2F;标题  全局配置会展示在</span><br><span class="line">    &quot;backgroundColor&quot;: &quot;#eeeeee&quot;,        &#x2F;&#x2F;背景颜色</span><br><span class="line">    &quot;backgroundTextStyle&quot;: &quot;light&quot;,      &#x2F;&#x2F;刷新动画  light&#x2F;dark</span><br><span class="line">    &quot;enablePullDownRefresh&quot;: false      &#x2F;&#x2F;下拉刷新 默认关闭 下拉看到背景颜色</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&quot;tabBar&quot;: &#123;  &#x2F;&#x2F;整个底部栏</span><br><span class="line">    &quot;list&quot;: [&#123;  &#x2F;&#x2F;list至少包含两项（1）  </span><br><span class="line">      &quot;pagePath&quot;: &quot;pagePath&quot;,  &#x2F;&#x2F;pagePath改为页面路径</span><br><span class="line">      &quot;text&quot;: &quot;text&quot;,  &#x2F;&#x2F;替换为菜单名称</span><br><span class="line">      &quot;iconPath&quot;: &quot;iconPath&quot;,  &#x2F;&#x2F;默认图标  改为图片路径</span><br><span class="line">      &quot;selectedIconPath&quot;: &quot;selectedIconPath&quot;  &#x2F;&#x2F;点击图标 同上</span><br><span class="line">    &#125;，</span><br><span class="line">    &#123;  &#x2F;&#x2F;list至少包含两项（2）  </span><br><span class="line">      &quot;pagePath&quot;: &quot;pagePath&quot;,  &#x2F;&#x2F;pagePath改为页面路径</span><br><span class="line">      &quot;text&quot;: &quot;text&quot;,</span><br><span class="line">      &quot;iconPath&quot;: &quot;iconPath&quot;,  &#x2F;&#x2F;默认图标  改为图片路径</span><br><span class="line">      &quot;selectedIconPath&quot;: &quot;selectedIconPath&quot;  &#x2F;&#x2F;点击图标 同上</span><br><span class="line">    &#125;，</span><br><span class="line">    ]</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
+
+<p>局部配置</p>
+<p>在相应的页面编辑.json文件  直接设置属性，不用写 window 。页面配置会覆盖全局配置</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg：&#123;</span><br><span class="line">  &quot;usingComponents&quot;: &#123;&#125;</span><br><span class="line">   &quot;navigationBarTitleText&quot;: &quot;小程序&quot;,</span><br><span class="line">   ………………</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="小程序的双线程模型（理解）"><a href="#小程序的双线程模型（理解）" class="headerlink" title="小程序的双线程模型（理解）"></a>小程序的双线程模型（理解）</h2><ul>
+<li><p>小程序的宿主环境  ？微信客户端</p>
+</li>
+<li><p>执行wxml （布局）、wxss(样式)、 js(逻辑)文件</p>
+</li>
+<li><p>提供小程序的双线程模型 ↑{渲染层 wxml  wxss    渲染过程 ：wxml=&gt;js对象=&gt;真正的DOM结构树=&gt; 渲染</p>
+<p>​                                             { 逻辑层 js脚本    </p>
+<h2 id="小程序启动流程"><a href="#小程序启动流程" class="headerlink" title="小程序启动流程"></a>小程序启动流程</h2><p>下载程序包-&gt;启动小程序-&gt;加载解析app.json-&gt;注册app()-&gt;执行生命周期</p>
+<p>​                                                                                                 -&gt;加载自定义组件–{加载解析page.json</p>
+<p>{渲染层加载渲染page.wxml</p>
+<p>{逻辑层注册page() –&gt;执行page生命周期</p>
+<p>注册小程序–初始化 app() 这里可以编辑生命周期函数，调取微信授权 </p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">App(&#123;</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）</span><br><span class="line">   *&#x2F;后台存活两个小时</span><br><span class="line">  onLaunch: function () &#123;</span><br><span class="line">    wx.getUserInfo(&#123; &#x2F;&#x2F;调用微信授权  在小程序加载完之后进行</span><br><span class="line">      success: function(res)&#123;</span><br><span class="line">       &#x2F;&#x2F; console.log(res)  &#x2F;&#x2F;打印 res到界面 不加入</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序启动，或从后台进入前台显示，会触发 onShow</span><br><span class="line">   *&#x2F;</span><br><span class="line">  onShow: function (options) &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序从前台进入后台，会触发 onHide</span><br><span class="line">   *&#x2F;界面被隐藏时  </span><br><span class="line">  onHide: function () &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序发生脚本错误，或者 api 调用失败时，会触发 onError 并带上错误信息</span><br><span class="line">   *&#x2F;</span><br><span class="line">  onError: function (msg) &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：小程序预备知识 css   html  js   从入门到放弃…… 在</p>
+</blockquote>
+<h2 id="小程序组件"><a href="#小程序组件" class="headerlink" title="小程序组件"></a>小程序组件</h2><h3 id="text组件"><a href="#text组件" class="headerlink" title="text组件"></a>text组件</h3><p>基础使用： <text>显示文本，\n表示换行</text>    属性：1、selectable是否可以被选中（默认长按不可选中） </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text&gt;……&lt;&#x2F;text&gt;    &lt;text selectable&#x3D;&quot;&#123;&#123;true&#125;&#125;&quot;&gt;……&lt;&#x2F;text&gt;  or  &lt;text selectable&gt;……&lt;&#x2F;text&gt;</span><br></pre></td></tr></table></figure>
+
+<p>2、文本空格大小 space</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text space&#x3D;&quot;ensp&quot;&gt;半个中文字符大小\n&lt;&#x2F;text&gt;</span><br><span class="line">&lt;text space&#x3D;&quot;emsp&quot;&gt;一个中文字符大小\n&lt;&#x2F;text&gt;</span><br><span class="line">&lt;text space&#x3D;&quot;nbsp&quot;&gt;根据字体设置空格大小\n&lt;&#x2F;text&gt;</span><br></pre></td></tr></table></figure>
+
+<p>3、decode属性：是否解码文本</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text decode&gt;5 &gt; 3&lt;&#x2F;text&gt;  &#x2F;&#x2F;显示5&gt;3</span><br></pre></td></tr></table></figure>
+
+<h3 id="button组件"><a href="#button组件" class="headerlink" title="button组件"></a>button组件</h3><p>属性：1、size （按钮大小）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;button&gt;……&lt;&#x2F;button&gt;  &lt;button size&#x3D;&#39;mini&#39;&gt;&lt;&#x2F;button&gt;</span><br></pre></td></tr></table></figure>
+
+<p>2、type（按钮颜色）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;button type&#x3D;&#39;?&#39;&gt;&lt;&#x2F;button&gt;  ？：查找微信文档可以找到相应的数值 warn 红色 primary 绿色 default 白色默认</span><br></pre></td></tr></table></figure>
+
+<p>3、disabled(不可点击)  …………</p>
+<h3 id="view组件"><a href="#view组件" class="headerlink" title="view组件"></a>view组件</h3><p>view的基本使用  一个容器    <view></view>   视图组件，块级元素，独占一行   放文本、其他组件</p>
+<p>属性：hover—class 点击变换样式     hover-start-time=”300“  按住后多久出现点击状态   hover-stop-propagation=””  是否阻止祖先组件状态变化（案例在view嵌套时候）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--pages&#x2F;text&#x2F;text.wxml--&gt;</span><br><span class="line">&lt;view class&#x3D;&quot;box1&quot;</span><br><span class="line">hover-class&#x3D;&quot;fs&quot;</span><br><span class="line">hover-start-time&#x3D;&quot;300&quot;  &#x2F;&#x2F;时间</span><br><span class="line">&gt;</span><br><span class="line">点击变换背景颜色</span><br><span class="line">&lt;&#x2F;view&gt;</span><br><span class="line">&#x2F;* pages&#x2F;text&#x2F;text.wxss *&#x2F;</span><br><span class="line"></span><br><span class="line">.box1 &#123;</span><br><span class="line">background-color: black; &#x2F;&#x2F;背景颜色</span><br><span class="line">  &#125;</span><br><span class="line">.fs &#123;</span><br><span class="line">  background-color: blue;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="image组件"><a href="#image组件" class="headerlink" title="image组件"></a>image组件</h3><p>重点：1、可以写成单标签和双标签 单：<image/>  双 <image></image>  2、默认有大小 占据位置  3、行内块级元素  相对路径/绝对路径/链接       调取相册里的图片</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;image src&#x3D;&#39;&#x2F;……&#39;&gt;      &lt;image src&#x3D;&#39;http……&#39;&gt;   &#x2F;&#x2F;两种路径的调用</span><br><span class="line">&#x2F;*相册的调用</span><br><span class="line">image.js</span><br><span class="line">&#x2F;&#x2F; pages&#x2F;text&#x2F;text.js</span><br><span class="line">Page(&#123;</span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   *&#x2F;</span><br><span class="line">  data: &#123;</span><br><span class="line">imagePath: &#39;&#39;  &#x2F;&#x2F;属性   </span><br><span class="line">  &#125;,</span><br><span class="line">  handleChooseAlbum() &#123;  &#x2F;&#x2F;这里的hand……也只是一个名字而已，“自定义的函数名”</span><br><span class="line">    &#x2F;&#x2F;系统api，让用户在相册中选择图片（或者拍照）</span><br><span class="line"> wx.chooseImage(&#123;</span><br><span class="line">   complete: (res) &#x3D;&gt; &#123;</span><br><span class="line">    &#x2F;&#x2F; console.log(res)  打印res是在学习过程中参看res有助于理解的 实操中无用</span><br><span class="line">     &#x2F;&#x2F;取出图片路径</span><br><span class="line">     const path &#x3D; res.tempFilePaths[0]  &#x2F;&#x2F;这里是一个数组，我们知道微信可以不止一张图片 取出res的tempFilePaths  </span><br><span class="line">     &#x2F;&#x2F;设置imagePath</span><br><span class="line">     this.setData(&#123;   &#x2F;&#x2F;setDate赋值操作</span><br><span class="line">       imagePath: path  &#x2F;&#x2F;path 可以替换成别的名字，他只是在取出图片路径那步用来保存的变量</span><br><span class="line">     &#125;)</span><br><span class="line">   &#125;,</span><br><span class="line"></span><br><span class="line"> &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">image.json</span><br><span class="line">&lt;!--pages&#x2F;text&#x2F;text.wxml--&gt;</span><br><span class="line">&lt;view class&#x3D;&quot;box1&quot; &#x2F;&#x2F;颜色</span><br><span class="line">hover-class&#x3D;&quot;fs&quot;  &#x2F;&#x2F;点击后颜色，微信文档里有</span><br><span class="line">hover-start-time&#x3D;&quot;300&quot; &#x2F;&#x2F;按下到变化时间 毫秒 同上</span><br><span class="line">&gt;</span><br><span class="line">点击变换背景颜色  &#x2F;&#x2F;界面显示的文本，点击产生变化</span><br><span class="line">&lt;&#x2F;view&gt; </span><br><span class="line">&lt;button bindtap&#x3D;&quot;handleChooseAlbum&quot;&gt;选中图片&lt;&#x2F;button&gt;  &#x2F;&#x2F;按钮</span><br><span class="line">&lt;image src&#x3D;&quot;&#123;&#123;imagePath&#125;&#125;&quot;&#x2F;&gt;  &#x2F;&#x2F;显示图片</span><br><span class="line"></span><br><span class="line">.wxss</span><br><span class="line">&#x2F;* pages&#x2F;text&#x2F;text.wxss *&#x2F;</span><br><span class="line">.box1 &#123;</span><br><span class="line">background-color: black;  &#x2F;&#x2F;背景颜色 黑色</span><br><span class="line">  &#125;</span><br><span class="line">.fs &#123;</span><br><span class="line">  background-color: blue;  &#x2F;&#x2F;蓝色</span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure>
+
+<p>4、图片懒加载 lazy-load 默认false  </p>
+<p>5、监听图片加载完成 bindload   </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">image.wxml</span><br><span class="line">&lt;image wx:for&#x3D;&quot;&#123;&#123;10&#125;&#125;&quot;   &#x2F;&#x2F;循环10次 </span><br><span class="line">src&#x3D;&quot;https:&#x2F;&#x2F;api.ixiaowai.cn&#x2F;api&#x2F;api.php&quot; &#x2F;&#x2F;插入一个图片api 二次元漫画 </span><br><span class="line">bindload&#x3D;&quot;cscs &quot; &#x2F;&#x2F;监听图片加载  &#x3D;&gt;.js </span><br><span class="line">show-menu-by-longpress</span><br><span class="line">lazy-load&#x2F;&gt; &#x2F;&#x2F;懒加载  也可以写成 lazy-load&#x3D;&quot;&#123;&#123;true&#125;&#125;&quot;</span><br><span class="line">&lt;&#x2F;view&gt;  </span><br><span class="line">image.js</span><br><span class="line">Page(&#123;</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   *&#x2F;</span><br><span class="line">  data: &#123;</span><br><span class="line">  &#125;,</span><br><span class="line">  cscs()&#123;</span><br><span class="line">    console.log(&#39;图片加载完成&#39;)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>6、show-menu-by-longpress 长按识别小程序码</p>
+<p>7、mode   缩放、剪裁模式   </p>
+<p>非常多的数值…………</p>
+<h3 id="input组件"><a href="#input组件" class="headerlink" title="input组件"></a>input组件</h3><p>input表单组件，接受用户输入   value： 显示默认文本    type  ：键盘类型    password ：明文暗文   ……</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;input&#x2F;&gt; &#x2F;&#x2F;基本用法 &lt;input value&#x3D;&quot;hahah&quot;&#x2F;&gt;&#x2F;&#x2F;输入框里 “hahah”   &lt;input password&#x2F;&gt; &#x2F;&#x2F;明文暗文</span><br><span class="line">渲染文本框 wxss </span><br><span class="line">&#x2F;* input&#x2F;input.wxss *&#x2F;</span><br><span class="line"> input &#123;     </span><br><span class="line">   border: 1px solid red;</span><br><span class="line">   margin: 10px 30px; </span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>input绑定事件   事件监听</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;input bindinput&#x3D;&quot;han&quot;   &#x2F;&#x2F;键盘输入内容时触发</span><br><span class="line">      bindfocus&#x3D;&quot;zi&quot;  &#x2F;&#x2F;  输入框聚焦</span><br><span class="line">      bindblur&#x3D;&quot;shi&quot;  &#x2F;&#x2F; 失去焦点</span><br><span class="line">&#x2F;&gt;   &#x2F;&#x2F;在js中编辑逻辑 han\ zi \shi 自定义</span><br></pre></td></tr></table></figure>
+
+<h3 id="scroll-view组件"><a href="#scroll-view组件" class="headerlink" title="scroll-view组件"></a>scroll-view组件</h3><p>局部滚动   1、水平滚动   scroll-x   2、竖直滚动  scroll-y  </p>
+<scrooll-view class='da' scrooll-x>
+
+<view wx:for='10' class='xiao'>
+
+
+
+</view>
+
+</scroll-view>
+
+<p>wxss文件</p>
+<p>.da {</p>
+<p>…………</p>
+<p>}  //感觉不会用到  能用到之后在看</p>
+<h3 id="共同属性-wxml（组件）"><a href="#共同属性-wxml（组件）" class="headerlink" title="共同属性 wxml（组件）"></a>共同属性 wxml（组件）</h3><table>
+<thead>
+<tr>
+<th align="center">属性名</th>
+<th align="center">类型</th>
+<th align="center">描述</th>
+<th align="center">注解</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">id</td>
+<td align="center">String</td>
+<td align="center">组件唯一标识</td>
+<td align="center">整个页面唯一</td>
+</tr>
+<tr>
+<td align="center">class</td>
+<td align="center">String</td>
+<td align="center">组件样式类</td>
+<td align="center">在对应的wxss中定义的样式类</td>
+</tr>
+<tr>
+<td align="center">style</td>
+<td align="center">String</td>
+<td align="center">组件内联样式</td>
+<td align="center">可以动态设置的内联样式</td>
+</tr>
+<tr>
+<td align="center">hidden</td>
+<td align="center">Boolean</td>
+<td align="center">组件是否显示</td>
+<td align="center">所有组件默认显示</td>
+</tr>
+<tr>
+<td align="center">date-*</td>
+<td align="center">Any</td>
+<td align="center">自定义属性</td>
+<td align="center">组件上触发事件，会默认发送给事件处理函数</td>
+</tr>
+<tr>
+<td align="center">bind<em>/catch</em></td>
+<td align="center">EventHandler</td>
+<td align="center">组件的事件</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="样式的三种写法"><a href="#样式的三种写法" class="headerlink" title="样式的三种写法"></a>样式的三种写法</h2><p>wxss</p>
+<p>1、行内样式（内联样式） /<font color=red><strong>↑</strong> 上面的共同属性 </font>/  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg: &lt;view style&#x3D;&#39;color: red; font-saze: 32px;&#39;&gt;hahah&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure>
+
+<p>2、页内样式 </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;wxml文件</span><br><span class="line">&lt;view class&#x3D;&#39;yangshi&#39;&gt;</span><br><span class="line">heiheihie</span><br><span class="line">&lt;&#x2F;view&gt;</span><br><span class="line">&#x2F;&#x2F;wxss 文件</span><br><span class="line">.yanshi &#123;</span><br><span class="line">  background-color: darkseagreen;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F;app.wxss  全局样式</span><br></pre></td></tr></table></figure>
+
+<p>3、全局样式 在app.wxss中编辑      行内样式优先级比较高&gt;页面样式&gt;全局样式 </p>
 ]]></content>
       <categories>
-        <category>战队规划</category>
+        <category>小程序开发</category>
       </categories>
       <tags>
-        <tag>准备RM</tag>
+        <tag>微信小程序</tag>
       </tags>
   </entry>
   <entry>
@@ -342,6 +463,116 @@
       </tags>
   </entry>
   <entry>
+    <title>robomaster备赛准备（停止更新）</title>
+    <url>/2020/04/08/beisai/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">进度  第一周—→第二周-→第三周-→第四周-→使用钉钉</span><br></pre></td></tr></table></figure>
+
+<h1 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h1><h2 id="机械："><a href="#机械：" class="headerlink" title="机械："></a>机械：</h2><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>使用 solidworks画出一个三棱锥 并用<strong>Cura</strong> 将其转化为 打印机识别文件。</p>
+<p>长期任务：  <a href="https://bbs.robomaster.com/forum.php?mod=viewthread&tid=6979&extra=page%3D1" target="_blank" rel="noopener">开源汇总</a>    下载任意一类（除空中机器人）机械结构图纸，加以研究。</p>
+<h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>1、安装 软件（电脑） <strong>Cura 15.02.1</strong>  并学会使用。  可参考 <a href="https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/K7zlHAxfBYAaLPZZ1cspzA</a></p>
+<p>2、 画出  <a href="https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/LCN6tpU30oK4vA1mSFMYfg</a>          <a id="more"></a></p>
+<h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>1、熟悉软件草图和特征命令，尝试用尽可能多的方法 画出一个水杯 （不用杯把手）  最后报出使用方法的数量和简要步骤，水杯尺寸不限。  2、了解零件间的配合关系，运用两个零件（分为把手和杯体），配合出一个带把手的杯子</p>
+<h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>使用软件solid works ， 版本最好18或以上版本，学习可以参考b站学习视频  ，后期还要在论坛上下载开源的机械图，熟悉机器人的功能，和结构。   任务： 安装好软件，下周交  边长10mm的正方体、底面直径10mm高10mm的圆柱体、底面直径10mm高10mm的圆锥。  </p>
+<p>3/23—— <a href="https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;" target="_blank" rel="noopener">https://github.com/sanshihilliard/learngit/blob/master/一体铝条框.SLDPRT&gt;</a>    点击链接下载  建议直接用电脑下载  ，然后看看能不能把这个复现一下  ，PS：没做完 圆锥、圆柱、正方体的继续。</p>
+<p>3/26—— 空闲时间注册robomaster论坛账户（我发现没有账户有的东西看不全），论坛技术交流栏 → 机械设计    看一看别的学校开源图纸。  </p>
+<h2 id="视觉："><a href="#视觉：" class="headerlink" title="视觉："></a><strong>视觉：</strong></h2><h3 id="第三周：-1"><a href="#第三周：-1" class="headerlink" title="第三周："></a>第三周：</h3><p>本周视觉组任务继续写程序读取照片并灰度化，并可以以自定义的标题框显示出来</p>
+<h3 id="第二周：-1"><a href="#第二周：-1" class="headerlink" title="第二周："></a>第二周：</h3><p>  写出一个程序打开指定目录下的图片，并将其转化为灰度图片</p>
+<h3 id="第一周：-1"><a href="#第一周：-1" class="headerlink" title="第一周："></a>第一周：</h3><p>想参加视觉组的人，这周需要安装visual studio软件，并且配置好opencv，这个配置方法网上有教程，可以照着教程来完成。</p>
+<h2 id="电控："><a href="#电控：" class="headerlink" title="电控："></a><strong>电控：</strong></h2><h3 id="第四周：-1"><a href="#第四周：-1" class="headerlink" title="第四周："></a>第四周：</h3><p>任务：串口实验  </p>
+<h3 id="第三周：-2"><a href="#第三周：-2" class="headerlink" title="第三周："></a>第三周：</h3><p>本周电控组任务按键实验 （下周任务使用串口控制LED亮暗）</p>
+<h3 id="第二周：-2"><a href="#第二周：-2" class="headerlink" title="第二周："></a>第二周：</h3><p> 电控任务：看GPIO工作原理完成跑马灯实验库函数版以及跑马灯位操作</p>
+<h3 id="第一周：-2"><a href="#第一周：-2" class="headerlink" title="第一周："></a>第一周：</h3><p>任务：安装keil  配好环境 学会新建工程        关于32板的学习： <a href="www.openedv.com">正点原子论坛</a>     <a href="https://space.bilibili.com/394620890?share_medium=android&share_source=copy_link&bbid=XY9612D9221B69E9C66295DA90C1583FD5D05&ts=1584782208083" target="_blank" rel="noopener">正点原子在B站</a>       </p>
+<h2 id="宣传："><a href="#宣传：" class="headerlink" title="宣传："></a><strong>宣传：</strong></h2><h3 id="第四周：-2"><a href="#第四周：-2" class="headerlink" title="第四周："></a>第四周：</h3><p>长期任务： 推送  不限于备赛组任务，也可以是其他内容。   两篇</p>
+<h3 id="第三周：-3"><a href="#第三周：-3" class="headerlink" title="第三周："></a>第三周：</h3><p>宣传：   继续推别的组    推自己组学习心得也行。    ps自学，不要求发图片了。（不同操作适用于不同图片，强制收图片意义不大。）    </p>
+<h3 id="第二周：-3"><a href="#第二周：-3" class="headerlink" title="第二周："></a>第二周：</h3><p>1、推送 ：跟进实验室其他组的学习，进行推送  一篇推送。  比如学到哪里 。遇到什么困难，怎样解决的、想法和创意  （这个就需要你们自己去找别的组的同学沟通了，获取推送的信息。最少挑选一个组。这个是考虑到，我们是一个团队，相互之间应该有个交流和对彼此工作的了解)   任务下周还会有，变为两篇</p>
+<p>2、ps     下面两张图  P到一起。 （长按图片保存）</p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/77852698-a5829e00-7212-11ea-82e3-d38e3ee96372.jpg" alt=""></p>
+<p><img data-src="https://user-images.githubusercontent.com/49864898/77852782-0a3df880-7213-11ea-9ea7-955264a2f199.jpg" alt=""></p>
+<h3 id="第一周：-3"><a href="#第一周：-3" class="headerlink" title="第一周："></a>第一周：</h3><p>宣传工作 上篇有介绍    <a href="https://g-ncp.github.io/2020/03/16/602learn/">602learn</a>  。 推送编辑器 我用的是秀米 <a href="https://xiumi.us" target="_blank" rel="noopener">https://xiumi.us</a>    还有别的你们可以自主选择。 </p>
+<p>我自己注册了一个公众号，你们可以拿去练练手 ，  邮箱：<a href="mailto:3351623274@qq.com">3351623274@qq.com</a>    密码：602宣传   网上搜微信公众平台登录就可以了（你们如果想拿它练手的话，在微信群里告诉我（秦岭以北），我把你们加到运营者里）     王岩学姐对你们的要求是学习ps，一周两篇微信推送、 一周发原图和ps后的图片</p>
+<p>3/22 —— 补充  ps内容自定义  ，就是想让你们学点东西。  推送 的话，自己想题材 （看看别的学校的战队公众号或者追一下现在的热点什么的），做出来，可以先保存  （保存之后在微信素材库就可以找到）   下周择优发布到  黑大雄狮</p>
+<p> 很高兴实验室能有这么多人对这个比赛感兴趣，对这个比赛我就不做介绍了，之前也讲过。我来说一下现状，首先这个比赛在黑龙江大学进行过几届，由我们602实验室 组织队伍参与，<strong>队名Simba</strong>     在这届（2020年）我们组好了队伍，准备参加两项单项赛。  并且决定把你们组织起来，培养你们参加比赛的技术，为下届比赛做准备。 在这里说明一下安排         </p>
+<blockquote>
+<p><a href="https://bbs.robomaster.com/" target="_blank" rel="noopener">https://bbs.robomaster.com/</a>    这个链接是官方rm论坛   组委会还有一些学校的战队会发帖子，关于比赛规则、还有些机械、电控、视觉等开源资料，学校举办校内赛的消息  。 <a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>  这个链接是RM官网链接      </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">组别/成员</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">电控</td>
+<td>陈峻琦</td>
+<td>刘宏源</td>
+<td>杨中凯</td>
+<td>宋博</td>
+<td>何明亮</td>
+<td>张炎</td>
+<td>胡展滔</td>
+<td>赵豪杰</td>
+<td>任一飞</td>
+<td>9人</td>
+</tr>
+<tr>
+<td align="center">机械</td>
+<td>杨毅</td>
+<td>蒋庚珊</td>
+<td>臧奕博</td>
+<td>魏世娜</td>
+<td>刘友睿</td>
+<td>郭润桐</td>
+<td>佟昕鹏</td>
+<td></td>
+<td></td>
+<td>7人</td>
+</tr>
+<tr>
+<td align="center">宣传</td>
+<td>王成玉</td>
+<td>郭蕊琪</td>
+<td>植永海</td>
+<td>孙洋</td>
+<td>马雪琪</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>5人</td>
+</tr>
+<tr>
+<td align="center">视觉</td>
+<td>杨思远</td>
+<td>陈贤卓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2人</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>战队规划</category>
+      </categories>
+      <tags>
+        <tag>准备RM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>matlab</title>
     <url>/2020/04/26/matlab/</url>
     <content><![CDATA[<h1 id="matlab笔记"><a href="#matlab笔记" class="headerlink" title="matlab笔记"></a><strong>matlab笔记</strong></h1><h3 id="matlab的数据操作——变量和语句"><a href="#matlab的数据操作——变量和语句" class="headerlink" title="matlab的数据操作——变量和语句"></a>matlab的数据操作——变量和语句</h3><p>1、变量命名</p>
@@ -378,341 +609,6 @@
       </categories>
       <tags>
         <tag>matlab</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三国杀系列视频:游戏背景</title>
-    <url>/2021/02/01/sanguo/</url>
-    <content><![CDATA[<p><a href="https://space.bilibili.com/388527048" target="_blank" rel="noopener">小破站主页</a>                     使用提醒:可通过网站搜索功能快速查找需要的资源 (视频后就是资源链接)</p>
-<p><a href="https://jq.qq.com/?_wv=1027&k=Q6qtiPax" target="_blank" rel="noopener">QQ群</a>  713567833</p>
-<p>网站评论区也可留言</p>
-<p>  github可搜索noname 下载考虑到有些人不会接触GitHub,附上下载链接→ <a href="https://pan-yz.chaoxing.com/external/m/file/565098870792687616" target="_blank" rel="noopener">无名杀下载</a>   (注意:由于网盘限制下载完后将.txt 改为.apk)</p>
-<h2 id="第一弹-游戏背景"><a href="#第一弹-游戏背景" class="headerlink" title="第一弹: 游戏背景"></a>第一弹: 游戏背景</h2>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
- <iframe src="//player.bilibili.com/player.html?aid=671466683&bvid=BV1UU4y1s7Th&cid=290442527&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/562955597060177920" target="_blank" rel="noopener">游戏背景下载</a></p>
-<p>下载文件后将文件后缀名改为 zip     例子:   下载氧气.txt      改为氧气.zip  </p>
-]]></content>
-      <categories>
-        <category>给点氧气还有救三国杀</category>
-      </categories>
-      <tags>
-        <tag>三国杀</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三国杀系列视频:十周年UI</title>
-    <url>/2021/02/15/sanguo1/</url>
-    <content><![CDATA[<h2 id="第二弹-十周年UI导入"><a href="#第二弹-十周年UI导入" class="headerlink" title="第二弹:十周年UI导入"></a>第二弹:十周年UI导入</h2>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=929086050&bvid=BV1AK4y1Q7T6&cid=293651478&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/565098867736137728" target="_blank" rel="noopener">导入助手</a></p>
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/565098864489119744" target="_blank" rel="noopener">十周年UI</a></p>
-<p>如果文件后缀名是txt 显示不正常,请更改为zip</p>
-]]></content>
-      <categories>
-        <category>给点氧气还有救三国杀</category>
-      </categories>
-      <tags>
-        <tag>三国杀</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三国杀系列视频:动态皮肤导入</title>
-    <url>/2021/02/15/sanguo2/</url>
-    <content><![CDATA[<h2 id="第二弹-动态皮肤导入"><a href="#第二弹-动态皮肤导入" class="headerlink" title="第二弹:动态皮肤导入"></a>第二弹:动态皮肤导入</h2>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
- <iframe src="//player.bilibili.com/player.html?aid=203599683&bvid=BV18h41127oz&cid=280146746&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
-
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/562987018586685440" target="_blank" rel="noopener">动态皮肤下载</a>  <em>下载文件后将文件后缀名改为 zip</em></p>
-]]></content>
-      <categories>
-        <category>给点氧气还有救三国杀</category>
-      </categories>
-      <tags>
-        <tag>三国杀</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无名杀动态背景</title>
-    <url>/2021/02/17/sanguo3/</url>
-    <content><![CDATA[<h1 id="动态游戏背景"><a href="#动态游戏背景" class="headerlink" title="动态游戏背景"></a>动态游戏背景</h1>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=544140430&bvid=BV1nv4y1Z7Ni&cid=298419475&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
- </div>
-
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/568738702443114496" target="_blank" rel="noopener"><strong>游戏动态背景下载</strong></a> 老规矩  下载完 txt改成 zip</p>
-]]></content>
-      <categories>
-        <category>给点氧气还有救三国杀</category>
-      </categories>
-      <tags>
-        <tag>三国杀</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三国杀美化包(免费)</title>
-    <url>/2021/03/03/sanguo4/</url>
-    <content><![CDATA[<h1 id="美化包"><a href="#美化包" class="headerlink" title="美化包"></a>美化包</h1>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=331926529&bvid=BV18A411K78n&cid=305052531&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
- </div>
-
-
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/573111330549231616" target="_blank" rel="noopener">美化包下载链接</a></p>
-<p> //老规矩</p>
-]]></content>
-      <categories>
-        <category>给点氧气还有救三国杀</category>
-      </categories>
-      <tags>
-        <tag>三国杀</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微信小程序开发</title>
-    <url>/2020/04/30/xiaochengxu/</url>
-    <content><![CDATA[<h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="应用程序结构"><a href="#应用程序结构" class="headerlink" title="应用程序结构"></a>应用程序结构</h2><p>APP-→{page 1-→{组件 1……内置组件</p>
-<p>​            {page         {组件……自定义组件</p>
-<p>文件结构 {APP  { app.js  实例代码    全局相关内容</p>
-<pre><code>{app.json   全局的配置
-
-{app.wxss 全局的一些样式配置</code></pre><p>​                {page {page.js   c创建页面实例代码</p>
-<p>​                           {page.json   业务的单独配置 </p>
-<p>​                            {page.wxml   页面的wxml配置    内容编辑 ？</p>
-<p>​                            {page.wxss  页面的样式配置     我理解为solid works的渲染   eg:以改变页面字体颜色 文字大小 <a id="more"></a></p>
-<p>新建page页面 排列以建立顺序排列  ，第一个建立的优先显示  ，之后的页面可以被其索引，</p>
-<hr>
-<h2 id="初体验："><a href="#初体验：" class="headerlink" title="初体验："></a>初体验：</h2><p>​           小程序的数据绑定        .wxml  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt; 内容 &lt;&#x2F;view&gt;    or   &lt;view&gt;年龄&#123;&#123;age&#125;&#125;&lt;view&gt;   &#x2F;&#x2F;抽取 .js的内容</span><br></pre></td></tr></table></figure>
-
-<p>​         .js  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">page(&#123;</span><br><span class="line">date: &#123;</span><br><span class="line">age: 18</span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<p>​                小程序展示列表  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view wx:for&#x3D;&quot;&#123;&#123;数组名&#125;&#125;&quot;&gt;&#123;&#123;item&#125;&#125;&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure>
-
-<p>​                时间监听</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view&gt;当前计数：&#123;&#123;&#125;&#125;&lt;&#x2F;view&gt;</span><br><span class="line"></span><br><span class="line">&lt;button&gt;&lt;&#x2F;button&gt;         &#x2F;&#x2F;这里偶然发现一个东西，md语法里   &lt;button&gt;按钮名称自定义&lt;&#x2F;button&gt;会生                           &#x2F;&#x2F;成一个按钮，当然在小程序里也会生成一个按钮</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p> 这里实现了之前我一直想在博客里实现的功能，即在博客里点击一个按钮，可以下载东西 （就是模仿一些网盘会有那个下载的按钮） </p>
-<p>eg:点击访问我的博客  <strong><a href="https://g-ncp.github.io"><button>秦岭以北</button></a></strong>  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用语法： **[&lt;button&gt;按钮名称&lt;&#x2F;button&gt;](链接地址)**   </span><br><span class="line">注：  **** 加粗 []() 添加链接 &lt;buttonn&gt;&lt;&#x2F;button&gt;  添加按钮</span><br></pre></td></tr></table></figure>
-
-</blockquote>
-<p>创建页面  ，如果使用微信 的“小加号“创建会自动 在app.json中注册   此时编译运行默认显示 第一个创建页面的 .wxml 文件  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&quot;pages&quot;: [</span><br><span class="line">  &quot;pages&#x2F;home&#x2F;home&quot;,</span><br><span class="line">  &quot;pages&#x2F;about&#x2F;about&quot;</span><br><span class="line">],</span><br></pre></td></tr></table></figure>
-
-<p>app.json是整个应用程序入口。 配置页面信息     页面 的.wxml  文件我理解为页面编辑文件     笔记有点乱   现在主要是在熟悉”开发环境“   </p>
-<hr>
-<h2 id="小程序的MVVM架构"><a href="#小程序的MVVM架构" class="headerlink" title="小程序的MVVM架构"></a>小程序的MVVM架构</h2><p>mvvm  m: model   v: view   vm: viewmodel         </p>
-<p>model(数据)  ←→ view model（桥梁）  ← → view       vue 的mvvm架构</p>
-<p>小程序的 mvvm 架构     view（视图层）    MINA框架    model（逻辑层）</p>
-<p>编程范式：1、命令式编程：原生操作DOM   <strong>2、声明式编程</strong> </p>
-<hr>
-<h2 id="小程序的架构和配置"><a href="#小程序的架构和配置" class="headerlink" title="小程序的架构和配置"></a>小程序的架构和配置</h2><ul>
-<li><p>小程序的很多开发需求被规定在配置文件中</p>
-</li>
-<li><p><strong>app.json 全局配置</strong></p>
-</li>
-<li><p><strong>page.json页面配置</strong></p>
-</li>
-<li><p>project.config.json 编译基础库设置文件  </p>
-</li>
-<li><p>sitemap.json 配置小程序是否允许被微信搜索</p>
-<table>
-<thead>
-<tr>
-<th align="center">部分全局配置</th>
-<th align="center">详情参考微信官方文档</th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">属性</td>
-<td align="center">类型</td>
-<td align="center">必填</td>
-<td align="center">描述</td>
-</tr>
-<tr>
-<td align="center">pages</td>
-<td align="center">string[]</td>
-<td align="center">是</td>
-<td align="center">页面描述列表</td>
-</tr>
-<tr>
-<td align="center">windows</td>
-<td align="center">Object</td>
-<td align="center">否</td>
-<td align="center">全局的默认窗口表现</td>
-</tr>
-<tr>
-<td align="center">tabBar</td>
-<td align="center">Object</td>
-<td align="center">否</td>
-<td align="center">底部tab栏的表现</td>
-</tr>
-</tbody></table>
-<p>所以页面必须在pages中注册   每一项对应一个路径信息    windows窗口（不是页面内容）显示指定窗口如何显示，还包含了其他属性</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&quot;window&quot;: &#123;</span><br><span class="line">    &quot;navigationBarBackgroundColor&quot;: &quot;#ff5777&quot;,  &#x2F;&#x2F;导航栏颜色</span><br><span class="line">    &quot;navigationBarTextStyle&quot;: &quot;black&quot;,   &#x2F;&#x2F;文本颜色black&#x2F;white</span><br><span class="line">    &quot;navigationBarTitleText&quot;: &quot;小程序&quot;,   &#x2F;&#x2F;标题  全局配置会展示在</span><br><span class="line">    &quot;backgroundColor&quot;: &quot;#eeeeee&quot;,        &#x2F;&#x2F;背景颜色</span><br><span class="line">    &quot;backgroundTextStyle&quot;: &quot;light&quot;,      &#x2F;&#x2F;刷新动画  light&#x2F;dark</span><br><span class="line">    &quot;enablePullDownRefresh&quot;: false      &#x2F;&#x2F;下拉刷新 默认关闭 下拉看到背景颜色</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&quot;tabBar&quot;: &#123;  &#x2F;&#x2F;整个底部栏</span><br><span class="line">    &quot;list&quot;: [&#123;  &#x2F;&#x2F;list至少包含两项（1）  </span><br><span class="line">      &quot;pagePath&quot;: &quot;pagePath&quot;,  &#x2F;&#x2F;pagePath改为页面路径</span><br><span class="line">      &quot;text&quot;: &quot;text&quot;,  &#x2F;&#x2F;替换为菜单名称</span><br><span class="line">      &quot;iconPath&quot;: &quot;iconPath&quot;,  &#x2F;&#x2F;默认图标  改为图片路径</span><br><span class="line">      &quot;selectedIconPath&quot;: &quot;selectedIconPath&quot;  &#x2F;&#x2F;点击图标 同上</span><br><span class="line">    &#125;，</span><br><span class="line">    &#123;  &#x2F;&#x2F;list至少包含两项（2）  </span><br><span class="line">      &quot;pagePath&quot;: &quot;pagePath&quot;,  &#x2F;&#x2F;pagePath改为页面路径</span><br><span class="line">      &quot;text&quot;: &quot;text&quot;,</span><br><span class="line">      &quot;iconPath&quot;: &quot;iconPath&quot;,  &#x2F;&#x2F;默认图标  改为图片路径</span><br><span class="line">      &quot;selectedIconPath&quot;: &quot;selectedIconPath&quot;  &#x2F;&#x2F;点击图标 同上</span><br><span class="line">    &#125;，</span><br><span class="line">    ]</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
-
-<p>局部配置</p>
-<p>在相应的页面编辑.json文件  直接设置属性，不用写 window 。页面配置会覆盖全局配置</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg：&#123;</span><br><span class="line">  &quot;usingComponents&quot;: &#123;&#125;</span><br><span class="line">   &quot;navigationBarTitleText&quot;: &quot;小程序&quot;,</span><br><span class="line">   ………………</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="小程序的双线程模型（理解）"><a href="#小程序的双线程模型（理解）" class="headerlink" title="小程序的双线程模型（理解）"></a>小程序的双线程模型（理解）</h2><ul>
-<li><p>小程序的宿主环境  ？微信客户端</p>
-</li>
-<li><p>执行wxml （布局）、wxss(样式)、 js(逻辑)文件</p>
-</li>
-<li><p>提供小程序的双线程模型 ↑{渲染层 wxml  wxss    渲染过程 ：wxml=&gt;js对象=&gt;真正的DOM结构树=&gt; 渲染</p>
-<p>​                                             { 逻辑层 js脚本    </p>
-<h2 id="小程序启动流程"><a href="#小程序启动流程" class="headerlink" title="小程序启动流程"></a>小程序启动流程</h2><p>下载程序包-&gt;启动小程序-&gt;加载解析app.json-&gt;注册app()-&gt;执行生命周期</p>
-<p>​                                                                                                 -&gt;加载自定义组件–{加载解析page.json</p>
-<p>{渲染层加载渲染page.wxml</p>
-<p>{逻辑层注册page() –&gt;执行page生命周期</p>
-<p>注册小程序–初始化 app() 这里可以编辑生命周期函数，调取微信授权 </p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">App(&#123;</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）</span><br><span class="line">   *&#x2F;后台存活两个小时</span><br><span class="line">  onLaunch: function () &#123;</span><br><span class="line">    wx.getUserInfo(&#123; &#x2F;&#x2F;调用微信授权  在小程序加载完之后进行</span><br><span class="line">      success: function(res)&#123;</span><br><span class="line">       &#x2F;&#x2F; console.log(res)  &#x2F;&#x2F;打印 res到界面 不加入</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序启动，或从后台进入前台显示，会触发 onShow</span><br><span class="line">   *&#x2F;</span><br><span class="line">  onShow: function (options) &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序从前台进入后台，会触发 onHide</span><br><span class="line">   *&#x2F;界面被隐藏时  </span><br><span class="line">  onHide: function () &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 当小程序发生脚本错误，或者 api 调用失败时，会触发 onError 并带上错误信息</span><br><span class="line">   *&#x2F;</span><br><span class="line">  onError: function (msg) &#123;</span><br><span class="line">    </span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>注：小程序预备知识 css   html  js   从入门到放弃…… 在</p>
-</blockquote>
-<h2 id="小程序组件"><a href="#小程序组件" class="headerlink" title="小程序组件"></a>小程序组件</h2><h3 id="text组件"><a href="#text组件" class="headerlink" title="text组件"></a>text组件</h3><p>基础使用： <text>显示文本，\n表示换行</text>    属性：1、selectable是否可以被选中（默认长按不可选中） </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text&gt;……&lt;&#x2F;text&gt;    &lt;text selectable&#x3D;&quot;&#123;&#123;true&#125;&#125;&quot;&gt;……&lt;&#x2F;text&gt;  or  &lt;text selectable&gt;……&lt;&#x2F;text&gt;</span><br></pre></td></tr></table></figure>
-
-<p>2、文本空格大小 space</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text space&#x3D;&quot;ensp&quot;&gt;半个中文字符大小\n&lt;&#x2F;text&gt;</span><br><span class="line">&lt;text space&#x3D;&quot;emsp&quot;&gt;一个中文字符大小\n&lt;&#x2F;text&gt;</span><br><span class="line">&lt;text space&#x3D;&quot;nbsp&quot;&gt;根据字体设置空格大小\n&lt;&#x2F;text&gt;</span><br></pre></td></tr></table></figure>
-
-<p>3、decode属性：是否解码文本</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;text decode&gt;5 &gt; 3&lt;&#x2F;text&gt;  &#x2F;&#x2F;显示5&gt;3</span><br></pre></td></tr></table></figure>
-
-<h3 id="button组件"><a href="#button组件" class="headerlink" title="button组件"></a>button组件</h3><p>属性：1、size （按钮大小）</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;button&gt;……&lt;&#x2F;button&gt;  &lt;button size&#x3D;&#39;mini&#39;&gt;&lt;&#x2F;button&gt;</span><br></pre></td></tr></table></figure>
-
-<p>2、type（按钮颜色）</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;button type&#x3D;&#39;?&#39;&gt;&lt;&#x2F;button&gt;  ？：查找微信文档可以找到相应的数值 warn 红色 primary 绿色 default 白色默认</span><br></pre></td></tr></table></figure>
-
-<p>3、disabled(不可点击)  …………</p>
-<h3 id="view组件"><a href="#view组件" class="headerlink" title="view组件"></a>view组件</h3><p>view的基本使用  一个容器    <view></view>   视图组件，块级元素，独占一行   放文本、其他组件</p>
-<p>属性：hover—class 点击变换样式     hover-start-time=”300“  按住后多久出现点击状态   hover-stop-propagation=””  是否阻止祖先组件状态变化（案例在view嵌套时候）</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--pages&#x2F;text&#x2F;text.wxml--&gt;</span><br><span class="line">&lt;view class&#x3D;&quot;box1&quot;</span><br><span class="line">hover-class&#x3D;&quot;fs&quot;</span><br><span class="line">hover-start-time&#x3D;&quot;300&quot;  &#x2F;&#x2F;时间</span><br><span class="line">&gt;</span><br><span class="line">点击变换背景颜色</span><br><span class="line">&lt;&#x2F;view&gt;</span><br><span class="line">&#x2F;* pages&#x2F;text&#x2F;text.wxss *&#x2F;</span><br><span class="line"></span><br><span class="line">.box1 &#123;</span><br><span class="line">background-color: black; &#x2F;&#x2F;背景颜色</span><br><span class="line">  &#125;</span><br><span class="line">.fs &#123;</span><br><span class="line">  background-color: blue;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="image组件"><a href="#image组件" class="headerlink" title="image组件"></a>image组件</h3><p>重点：1、可以写成单标签和双标签 单：<image/>  双 <image></image>  2、默认有大小 占据位置  3、行内块级元素  相对路径/绝对路径/链接       调取相册里的图片</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;image src&#x3D;&#39;&#x2F;……&#39;&gt;      &lt;image src&#x3D;&#39;http……&#39;&gt;   &#x2F;&#x2F;两种路径的调用</span><br><span class="line">&#x2F;*相册的调用</span><br><span class="line">image.js</span><br><span class="line">&#x2F;&#x2F; pages&#x2F;text&#x2F;text.js</span><br><span class="line">Page(&#123;</span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   *&#x2F;</span><br><span class="line">  data: &#123;</span><br><span class="line">imagePath: &#39;&#39;  &#x2F;&#x2F;属性   </span><br><span class="line">  &#125;,</span><br><span class="line">  handleChooseAlbum() &#123;  &#x2F;&#x2F;这里的hand……也只是一个名字而已，“自定义的函数名”</span><br><span class="line">    &#x2F;&#x2F;系统api，让用户在相册中选择图片（或者拍照）</span><br><span class="line"> wx.chooseImage(&#123;</span><br><span class="line">   complete: (res) &#x3D;&gt; &#123;</span><br><span class="line">    &#x2F;&#x2F; console.log(res)  打印res是在学习过程中参看res有助于理解的 实操中无用</span><br><span class="line">     &#x2F;&#x2F;取出图片路径</span><br><span class="line">     const path &#x3D; res.tempFilePaths[0]  &#x2F;&#x2F;这里是一个数组，我们知道微信可以不止一张图片 取出res的tempFilePaths  </span><br><span class="line">     &#x2F;&#x2F;设置imagePath</span><br><span class="line">     this.setData(&#123;   &#x2F;&#x2F;setDate赋值操作</span><br><span class="line">       imagePath: path  &#x2F;&#x2F;path 可以替换成别的名字，他只是在取出图片路径那步用来保存的变量</span><br><span class="line">     &#125;)</span><br><span class="line">   &#125;,</span><br><span class="line"></span><br><span class="line"> &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">image.json</span><br><span class="line">&lt;!--pages&#x2F;text&#x2F;text.wxml--&gt;</span><br><span class="line">&lt;view class&#x3D;&quot;box1&quot; &#x2F;&#x2F;颜色</span><br><span class="line">hover-class&#x3D;&quot;fs&quot;  &#x2F;&#x2F;点击后颜色，微信文档里有</span><br><span class="line">hover-start-time&#x3D;&quot;300&quot; &#x2F;&#x2F;按下到变化时间 毫秒 同上</span><br><span class="line">&gt;</span><br><span class="line">点击变换背景颜色  &#x2F;&#x2F;界面显示的文本，点击产生变化</span><br><span class="line">&lt;&#x2F;view&gt; </span><br><span class="line">&lt;button bindtap&#x3D;&quot;handleChooseAlbum&quot;&gt;选中图片&lt;&#x2F;button&gt;  &#x2F;&#x2F;按钮</span><br><span class="line">&lt;image src&#x3D;&quot;&#123;&#123;imagePath&#125;&#125;&quot;&#x2F;&gt;  &#x2F;&#x2F;显示图片</span><br><span class="line"></span><br><span class="line">.wxss</span><br><span class="line">&#x2F;* pages&#x2F;text&#x2F;text.wxss *&#x2F;</span><br><span class="line">.box1 &#123;</span><br><span class="line">background-color: black;  &#x2F;&#x2F;背景颜色 黑色</span><br><span class="line">  &#125;</span><br><span class="line">.fs &#123;</span><br><span class="line">  background-color: blue;  &#x2F;&#x2F;蓝色</span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure>
-
-<p>4、图片懒加载 lazy-load 默认false  </p>
-<p>5、监听图片加载完成 bindload   </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">image.wxml</span><br><span class="line">&lt;image wx:for&#x3D;&quot;&#123;&#123;10&#125;&#125;&quot;   &#x2F;&#x2F;循环10次 </span><br><span class="line">src&#x3D;&quot;https:&#x2F;&#x2F;api.ixiaowai.cn&#x2F;api&#x2F;api.php&quot; &#x2F;&#x2F;插入一个图片api 二次元漫画 </span><br><span class="line">bindload&#x3D;&quot;cscs &quot; &#x2F;&#x2F;监听图片加载  &#x3D;&gt;.js </span><br><span class="line">show-menu-by-longpress</span><br><span class="line">lazy-load&#x2F;&gt; &#x2F;&#x2F;懒加载  也可以写成 lazy-load&#x3D;&quot;&#123;&#123;true&#125;&#125;&quot;</span><br><span class="line">&lt;&#x2F;view&gt;  </span><br><span class="line">image.js</span><br><span class="line">Page(&#123;</span><br><span class="line"></span><br><span class="line">  &#x2F;**</span><br><span class="line">   * 页面的初始数据</span><br><span class="line">   *&#x2F;</span><br><span class="line">  data: &#123;</span><br><span class="line">  &#125;,</span><br><span class="line">  cscs()&#123;</span><br><span class="line">    console.log(&#39;图片加载完成&#39;)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<p>6、show-menu-by-longpress 长按识别小程序码</p>
-<p>7、mode   缩放、剪裁模式   </p>
-<p>非常多的数值…………</p>
-<h3 id="input组件"><a href="#input组件" class="headerlink" title="input组件"></a>input组件</h3><p>input表单组件，接受用户输入   value： 显示默认文本    type  ：键盘类型    password ：明文暗文   ……</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;input&#x2F;&gt; &#x2F;&#x2F;基本用法 &lt;input value&#x3D;&quot;hahah&quot;&#x2F;&gt;&#x2F;&#x2F;输入框里 “hahah”   &lt;input password&#x2F;&gt; &#x2F;&#x2F;明文暗文</span><br><span class="line">渲染文本框 wxss </span><br><span class="line">&#x2F;* input&#x2F;input.wxss *&#x2F;</span><br><span class="line"> input &#123;     </span><br><span class="line">   border: 1px solid red;</span><br><span class="line">   margin: 10px 30px; </span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-
-<p>input绑定事件   事件监听</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;input bindinput&#x3D;&quot;han&quot;   &#x2F;&#x2F;键盘输入内容时触发</span><br><span class="line">      bindfocus&#x3D;&quot;zi&quot;  &#x2F;&#x2F;  输入框聚焦</span><br><span class="line">      bindblur&#x3D;&quot;shi&quot;  &#x2F;&#x2F; 失去焦点</span><br><span class="line">&#x2F;&gt;   &#x2F;&#x2F;在js中编辑逻辑 han\ zi \shi 自定义</span><br></pre></td></tr></table></figure>
-
-<h3 id="scroll-view组件"><a href="#scroll-view组件" class="headerlink" title="scroll-view组件"></a>scroll-view组件</h3><p>局部滚动   1、水平滚动   scroll-x   2、竖直滚动  scroll-y  </p>
-<scrooll-view class='da' scrooll-x>
-
-<view wx:for='10' class='xiao'>
-
-
-
-</view>
-
-</scroll-view>
-
-<p>wxss文件</p>
-<p>.da {</p>
-<p>…………</p>
-<p>}  //感觉不会用到  能用到之后在看</p>
-<h3 id="共同属性-wxml（组件）"><a href="#共同属性-wxml（组件）" class="headerlink" title="共同属性 wxml（组件）"></a>共同属性 wxml（组件）</h3><table>
-<thead>
-<tr>
-<th align="center">属性名</th>
-<th align="center">类型</th>
-<th align="center">描述</th>
-<th align="center">注解</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">id</td>
-<td align="center">String</td>
-<td align="center">组件唯一标识</td>
-<td align="center">整个页面唯一</td>
-</tr>
-<tr>
-<td align="center">class</td>
-<td align="center">String</td>
-<td align="center">组件样式类</td>
-<td align="center">在对应的wxss中定义的样式类</td>
-</tr>
-<tr>
-<td align="center">style</td>
-<td align="center">String</td>
-<td align="center">组件内联样式</td>
-<td align="center">可以动态设置的内联样式</td>
-</tr>
-<tr>
-<td align="center">hidden</td>
-<td align="center">Boolean</td>
-<td align="center">组件是否显示</td>
-<td align="center">所有组件默认显示</td>
-</tr>
-<tr>
-<td align="center">date-*</td>
-<td align="center">Any</td>
-<td align="center">自定义属性</td>
-<td align="center">组件上触发事件，会默认发送给事件处理函数</td>
-</tr>
-<tr>
-<td align="center">bind<em>/catch</em></td>
-<td align="center">EventHandler</td>
-<td align="center">组件的事件</td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<h2 id="样式的三种写法"><a href="#样式的三种写法" class="headerlink" title="样式的三种写法"></a>样式的三种写法</h2><p>wxss</p>
-<p>1、行内样式（内联样式） /<font color=red><strong>↑</strong> 上面的共同属性 </font>/  </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">eg: &lt;view style&#x3D;&#39;color: red; font-saze: 32px;&#39;&gt;hahah&lt;&#x2F;view&gt;</span><br></pre></td></tr></table></figure>
-
-<p>2、页内样式 </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;wxml文件</span><br><span class="line">&lt;view class&#x3D;&#39;yangshi&#39;&gt;</span><br><span class="line">heiheihie</span><br><span class="line">&lt;&#x2F;view&gt;</span><br><span class="line">&#x2F;&#x2F;wxss 文件</span><br><span class="line">.yanshi &#123;</span><br><span class="line">  background-color: darkseagreen;</span><br><span class="line">&#125;</span><br><span class="line">&#x2F;&#x2F;app.wxss  全局样式</span><br></pre></td></tr></table></figure>
-
-<p>3、全局样式 在app.wxss中编辑      行内样式优先级比较高&gt;页面样式&gt;全局样式 </p>
-]]></content>
-      <categories>
-        <category>小程序开发</category>
-      </categories>
-      <tags>
-        <tag>微信小程序</tag>
       </tags>
   </entry>
   <entry>
@@ -2647,89 +2543,6 @@
       </categories>
       <tags>
         <tag>魁拔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>罗杀</title>
-    <url>/2021/03/14/sanguo5/</url>
-    <content><![CDATA[<h1 id="luo杀"><a href="#luo杀" class="headerlink" title="luo杀"></a>luo杀</h1><p>美化包   武将去除  <a href="https://pan-yz.chaoxing.com/external/m/file/573109023584923648" target="_blank" rel="noopener">萝卜杀</a></p>
-]]></content>
-      <categories>
-        <category>给点氧气还有救</category>
-      </categories>
-      <tags>
-        <tag>三国杀</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无名杀全套教程</title>
-    <url>/2021/03/25/wuming/</url>
-    <content><![CDATA[<h1 id="无名杀全教程"><a href="#无名杀全教程" class="headerlink" title="无名杀全教程"></a>无名杀全教程</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>微信公众号 同名：给点氧气还有救</p>
-<p>哔哩哔哩UP猪:  <a href="https://space.bilibili.com/388527048" target="_blank" rel="noopener"><strong>给点氧气还有救</strong></a>    无名杀系列视频       <strong>注意!!!</strong> :下载后文件为 txt 后缀名文件的,要按照提示更改后缀名——一般情况,一个视频配一个资源.</p>
-
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=887181970&bvid=BV1KK4y1T78T&cid=310791533&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
- </div>
-
-
-   //[无名杀下载点击这里](https://pan-yz.chaoxing.com/external/m/file/565098870792687616)  下载完改成zip  
-
-<h2 id="基础美化"><a href="#基础美化" class="headerlink" title="基础美化"></a>基础美化</h2>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=887181970&bvid=BV1KK4y1T78T&cid=310795534&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
- </div>
-
-
-
- 
-
-<h2 id="十周年UI美化"><a href="#十周年UI美化" class="headerlink" title="十周年UI美化"></a>十周年UI美化</h2>
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=887181970&bvid=BV1KK4y1T78T&cid=310797747&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
- </div>
-
-
-
-
- 
-
-<p>//</p>
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/583023106744504320" target="_blank" rel="noopener">十周年UI下载点击</a>    (下载完后缀名改为zip)</p>
-<h2 id="动态皮肤及动态启动页面"><a href="#动态皮肤及动态启动页面" class="headerlink" title="动态皮肤及动态启动页面"></a>动态皮肤及动态启动页面</h2>
-
-
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=887181970&bvid=BV1KK4y1T78T&cid=310850115&page=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
- </div>
-
-
-
-
- 
-
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/562987018586685440?name=image.txt" target="_blank" rel="noopener">动态皮肤下载</a></p>
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/567974658749607936" target="_blank" rel="noopener">补充1包</a>  神甘什么的                                                                                                                                                                        </p>
-<h2 id="手杀UI安装"><a href="#手杀UI安装" class="headerlink" title="手杀UI安装"></a>手杀UI安装</h2>
-
-
-
- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=887181970&bvid=BV1KK4y1T78T&cid=319769901&page=11" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
- </div>
-
-
-
-
-
- 
-
-<p>//  </p>
-<p><a href="https://pan-yz.chaoxing.com/external/m/file/585598350408241152" target="_blank" rel="noopener">手杀UI下载点击</a></p>
-]]></content>
-      <categories>
-        <category>无名杀</category>
-      </categories>
-      <tags>
-        <tag>无名杀</tag>
       </tags>
   </entry>
 </search>
